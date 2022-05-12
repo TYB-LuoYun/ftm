@@ -50,7 +50,6 @@ public class RedisService {
 	 * 清空队列
 	* 
 	*@param key
-	*@param value
 	 */
     public void ltrim(String key) {
     	Jedis jedis = null;
