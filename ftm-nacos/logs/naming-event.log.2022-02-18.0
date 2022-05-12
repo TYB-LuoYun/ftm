@@ -1,0 +1,152 @@
+2022-02-18 06:26:40,329 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:7001@DEFAULT@DEFAULT_GROUP@@auth-server, region: unknown, msg: client timeout after 15000, last beat: 1645098023603
+
+2022-02-18 06:26:40,330 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:6001@DEFAULT@DEFAULT_GROUP@@gateway-server, region: unknown, msg: client timeout after 15000, last beat: 1645098023603
+
+2022-02-18 06:26:43,770 INFO service: DEFAULT_GROUP@@auth-server {POS} {IP-ENABLED} valid: 192.168.31.206:7001@DEFAULT, region: unknown, msg: client beat ok
+
+2022-02-18 06:26:45,272 INFO service: DEFAULT_GROUP@@gateway-server {POS} {IP-ENABLED} valid: 192.168.31.206:6001@DEFAULT, region: unknown, msg: client beat ok
+
+2022-02-18 06:26:45,391 INFO DEFAULT_GROUP@@gateway-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:6001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 06:26:45,391 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-server, ips: 
+
+2022-02-18 06:26:46,039 INFO DEFAULT_GROUP@@auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 06:26:46,039 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-server, ips: 
+
+2022-02-18 06:26:51,315 INFO DEFAULT_GROUP@@gateway-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:6001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 06:26:51,315 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-server, ips: 192.168.31.206:6001_true,
+
+2022-02-18 06:26:51,589 INFO DEFAULT_GROUP@@auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 06:26:51,589 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-server, ips: 192.168.31.206:7001_true,
+
+2022-02-18 12:47:54,152 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645159658181
+
+2022-02-18 12:48:09,247 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-18 12:48:09,247 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 
+
+2022-02-18 12:48:30,430 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 12:48:30,430 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_true,
+
+2022-02-18 12:54:50,459 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645160071812
+
+2022-02-18 12:55:05,658 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-18 12:55:05,658 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 
+
+2022-02-18 12:55:14,313 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 12:55:14,313 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_true,
+
+2022-02-18 13:01:41,970 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645160485523
+
+2022-02-18 13:01:57,143 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-18 13:01:57,143 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 
+
+2022-02-18 13:26:46,645 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 13:26:46,645 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_true,
+
+2022-02-18 15:34:15,776 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645169639207
+
+2022-02-18 15:34:31,102 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-18 15:34:31,102 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 
+
+2022-02-18 15:34:45,616 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 15:34:45,616 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_true,
+
+2022-02-18 15:40:31,749 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645170016694
+
+2022-02-18 15:40:46,780 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-18 15:40:46,780 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 
+
+2022-02-18 15:40:51,169 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 15:40:51,170 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_true,
+
+2022-02-18 15:43:52,177 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645170216813
+
+2022-02-18 15:44:07,252 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-18 15:44:07,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 
+
+2022-02-18 15:44:09,540 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 15:44:09,541 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_true,
+
+2022-02-18 15:48:57,894 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645170520352
+
+2022-02-18 15:49:12,915 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-18 15:49:12,915 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 
+
+2022-02-18 15:49:15,166 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 15:49:15,167 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_true,
+
+2022-02-18 16:11:35,873 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645171879419
+
+2022-02-18 16:11:50,906 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-18 16:11:50,906 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 
+
+2022-02-18 16:12:01,370 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 16:12:01,370 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_true,
+
+2022-02-18 17:07:53,041 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645175257062
+
+2022-02-18 17:08:08,081 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-18 17:08:08,081 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 
+
+2022-02-18 17:08:24,861 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 17:08:24,861 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_true,
+
+2022-02-18 17:10:58,509 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:7001@DEFAULT@DEFAULT_GROUP@@auth-server, region: unknown, msg: client timeout after 15000, last beat: 1645175442925
+
+2022-02-18 17:11:13,556 INFO DEFAULT_GROUP@@auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:7001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-18 17:11:13,581 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-server, ips: 
+
+2022-02-18 17:11:21,659 INFO DEFAULT_GROUP@@auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 17:11:21,659 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-server, ips: 192.168.31.206:7001_true,
+
+2022-02-18 17:16:49,376 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645175791326
+
+2022-02-18 17:17:00,720 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_false,
+
+2022-02-18 17:17:05,731 INFO service: DEFAULT_GROUP@@system-server {POS} {IP-ENABLED} valid: 192.168.31.206:8003@DEFAULT, region: unknown, msg: client beat ok
+
+2022-02-18 17:27:40,682 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645176442682
+
+2022-02-18 17:27:55,715 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-18 17:27:55,715 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 
+
+2022-02-18 17:27:56,180 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.206:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-18 17:27:56,180 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_true,
+
+2022-02-18 17:28:20,774 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645176481189
+
+2022-02-18 17:28:33,337 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_false,
+
+2022-02-18 17:28:38,164 INFO service: DEFAULT_GROUP@@system-server {POS} {IP-ENABLED} valid: 192.168.31.206:8003@DEFAULT, region: unknown, msg: client beat ok
+
+2022-02-18 17:32:16,322 INFO {POS} {IP-DISABLED} valid: 192.168.31.206:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1645176718856
+
+2022-02-18 17:32:24,256 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.31.206:8003_false,
+
+2022-02-18 17:32:29,248 INFO service: DEFAULT_GROUP@@system-server {POS} {IP-ENABLED} valid: 192.168.31.206:8003@DEFAULT, region: unknown, msg: client beat ok
+

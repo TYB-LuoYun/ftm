@@ -1,0 +1,30 @@
+2021-09-24 11:54:31,524 INFO DEFAULT_GROUP@@gateway-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.203.1:6001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-24 11:54:31,533 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-server, ips: 192.168.203.1:6001_true,
+
+2021-09-24 11:54:50,396 INFO DEFAULT_GROUP@@auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.203.1:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-24 11:54:50,396 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-server, ips: 192.168.203.1:7001_true,
+
+2021-09-24 11:55:12,623 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.203.1:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-24 11:55:12,623 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.203.1:8003_true,
+
+2021-09-24 12:57:09,441 INFO {POS} {IP-DISABLED} valid: 192.168.203.1:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1632459413399
+
+2021-09-24 12:57:11,888 INFO {POS} {IP-DISABLED} valid: 192.168.203.1:7001@DEFAULT@DEFAULT_GROUP@@auth-server, region: unknown, msg: client timeout after 15000, last beat: 1632459415066
+
+2021-09-24 12:57:13,024 INFO {POS} {IP-DISABLED} valid: 192.168.203.1:6001@DEFAULT@DEFAULT_GROUP@@gateway-server, region: unknown, msg: client timeout after 15000, last beat: 1632459416617
+
+2021-09-24 12:57:24,949 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.203.1:8003:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-24 12:57:24,949 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 
+
+2021-09-24 12:57:26,929 INFO DEFAULT_GROUP@@auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.203.1:7001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-24 12:57:26,929 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-server, ips: 
+
+2021-09-24 12:57:28,065 INFO DEFAULT_GROUP@@gateway-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.203.1:6001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-24 12:57:28,065 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-server, ips: 
+

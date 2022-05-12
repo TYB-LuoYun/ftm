@@ -1,0 +1,2184 @@
+2021-09-24 11:50:05,978 INFO Starting Nacos v1.2.1 on WIN-3DFGP6SS4I1 with PID 5312 (D:\1Anets.top\code\分布式认证-security-othur2\service\ftm\ftm-nacos\target\nacos-server.jar started by Administrator in D:\1Anets.top\code\分布式认证-security-othur2\service\ftm\ftm-nacos\bin)
+
+2021-09-24 11:50:05,993 INFO The following profiles are active: standalone
+
+2021-09-24 11:50:14,081 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$47895b0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-09-24 11:50:23,114 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-09-24 11:50:23,130 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2ab4bc72' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-09-24 11:50:23,163 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$6c5dfdbe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-09-24 11:50:23,190 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-09-24 11:50:30,560 INFO Tomcat initialized with port(s): 8848 (http)
+
+2021-09-24 11:50:30,620 INFO Starting service [Tomcat]
+
+2021-09-24 11:50:30,621 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2021-09-24 11:50:30,644 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\oracle11g\product\11.2.0\dbhome_1\bin;E:\xshell\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;D:\Develop\jdk1.8.0_191\bin;D:\Develop\jdk1.8.0_191\jre\bin;E:\nodeJsNew\;E:\Git\cmd;E:\maven\apache-maven-3.3.9\bin;E:\mysql5.7\mysql-5.7.30-winx64\bin;C:\Program Files\TortoiseSVN\bin;D:\Develop\python;D:\Develop\python\Scripts;C:\Program Files\OpenSSL-Win64\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\nodeJsNew\node_global;E:\VsCodeNew\bin;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;.]
+
+2021-09-24 11:50:30,845 INFO Initializing Spring embedded WebApplicationContext
+
+2021-09-24 11:50:30,845 INFO Root WebApplicationContext: initialization completed in 24650 ms
+
+2021-09-24 11:50:36,853 INFO Reflections took 106 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2021-09-24 11:50:36,972 INFO Reflections took 16 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2021-09-24 11:50:36,994 INFO Reflections took 15 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2021-09-24 11:50:45,151 INFO Use Mysql as the driver
+
+2021-09-24 11:50:46,315 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2021-09-24 11:50:46,769 INFO Adding welcome page: class path resource [static/index.html]
+
+2021-09-24 11:50:47,616 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2021-09-24 11:50:47,727 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ce33a58, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c37b5b, org.springframework.security.web.header.HeaderWriterFilter@4e28bdd1, org.springframework.security.web.csrf.CsrfFilter@650eab8, org.springframework.security.web.authentication.logout.LogoutFilter@3a62c01e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71b3bc45, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c435123, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78a287ed, org.springframework.security.web.session.SessionManagementFilter@24d4d7c9, org.springframework.security.web.access.ExceptionTranslationFilter@1e1d3956]
+
+2021-09-24 11:50:47,998 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2021-09-24 11:50:48,062 INFO Initializing ExecutorService 'taskScheduler'
+
+2021-09-24 11:50:48,306 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2021-09-24 11:50:48,323 INFO Started Nacos in 58.284 seconds (JVM running for 60.088)
+
+2021-09-24 11:50:48,323 INFO Nacos logs files: D:\1Anets.top\code\分布式认证-security-othur2\service\ftm\ftm-nacos\logs\
+
+2021-09-24 11:50:48,352 INFO Nacos conf files: D:\1Anets.top\code\分布式认证-security-othur2\service\ftm\ftm-nacos\conf\
+
+2021-09-24 11:50:48,355 INFO Nacos data files: D:\1Anets.top\code\分布式认证-security-othur2\service\ftm\ftm-nacos\data\
+
+2021-09-24 11:50:48,358 INFO Nacos started successfully in stand alone mode.
+
+2021-09-24 11:50:48,670 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2021-09-24 11:50:48,671 INFO Initializing Servlet 'dispatcherServlet'
+
+2021-09-24 11:50:48,692 INFO Completed initialization in 18 ms
+
+2021-09-24 11:54:31,622 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:54:31,648 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:54:31,811 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:54:31,811 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:55:01,375 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:55:01,375 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:55:03,318 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:55:03,319 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:55:03,519 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:55:03,519 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:55:23,966 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:55:23,967 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:55:24,162 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:55:24,163 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:55:30,897 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:55:30,898 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:55:33,028 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:55:33,029 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:55:53,687 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:55:53,687 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:56:00,407 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:56:00,408 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:56:02,553 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:56:02,554 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:56:23,238 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:56:23,239 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:56:29,922 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:56:29,922 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:56:32,061 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:56:32,061 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:56:52,751 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:56:52,751 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:56:59,430 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:56:59,431 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:57:01,598 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:57:01,600 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:57:22,270 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:57:22,270 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:57:28,958 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:57:28,958 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:57:31,110 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:57:31,110 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:57:51,804 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:57:51,804 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:57:58,485 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:57:58,486 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:58:00,617 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:58:00,617 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:58:21,319 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:58:21,319 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:58:27,990 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:58:27,990 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:58:30,127 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:58:30,127 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:58:50,829 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:58:50,830 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:58:57,500 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:58:57,500 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:58:59,647 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:58:59,648 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:59:20,346 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:59:20,346 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:59:27,021 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:59:27,021 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:59:29,163 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:59:29,163 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:59:49,855 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:59:49,855 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:59:56,525 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:59:56,526 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 11:59:58,679 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 11:59:58,679 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:00:19,390 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:00:19,390 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:00:26,038 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:00:26,038 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:00:28,199 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:00:28,199 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:00:44,310 INFO [capacityManagement] start correct usage
+
+2021-09-24 12:00:44,439 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-09-24 12:00:45,149 WARN clearConfigHistory start
+
+2021-09-24 12:00:45,288 WARN clearConfigHistory, getBeforeStamp:2021-08-25 12:00:45.0, totalCount:6, pageSize:1000, removeTime:1
+
+2021-09-24 12:00:45,672 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:208)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:941)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$cf9d6da9.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:100)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2021-09-24 12:00:49,202 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:00:49,202 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:00:55,546 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:00:55,546 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:00:57,711 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:00:57,711 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:01:18,710 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:01:18,711 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:01:25,056 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:01:25,057 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:01:27,223 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:01:27,224 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:01:48,218 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:01:48,219 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:01:54,571 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:01:54,571 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:01:56,736 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:01:56,736 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:02:17,732 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:02:17,732 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:02:24,087 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:02:24,087 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:02:26,245 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:02:26,245 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:02:47,246 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:02:47,246 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:02:53,600 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:02:53,600 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:02:55,755 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:02:55,756 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:03:16,759 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:03:16,759 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:03:23,117 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:03:23,117 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:03:25,273 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:03:25,273 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:03:46,275 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:03:46,276 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:03:52,639 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:03:52,640 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:03:54,780 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:03:54,780 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:04:15,792 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:04:15,792 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:04:22,160 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:04:22,161 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:04:24,299 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:04:24,300 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:04:45,313 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:04:45,313 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:04:51,679 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:04:51,680 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:04:53,806 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:04:53,807 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:05:14,833 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:05:14,833 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:05:21,187 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:05:21,187 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:05:23,323 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:05:23,324 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:05:44,349 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:05:44,350 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:05:50,703 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:05:50,703 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:05:52,844 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:05:52,844 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:06:13,869 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:06:13,869 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:06:20,215 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:06:20,216 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:06:22,355 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:06:22,355 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:06:43,389 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:06:43,390 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:06:49,731 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:06:49,732 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:06:51,865 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:06:51,865 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:07:12,902 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:07:12,903 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:07:19,249 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:07:19,249 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:07:21,376 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:07:21,376 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:07:42,410 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:07:42,411 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:07:48,764 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:07:48,764 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:07:50,888 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:07:50,888 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:08:11,922 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:08:11,922 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:08:18,274 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:08:18,274 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:08:20,394 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:08:20,394 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:08:41,432 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:08:41,432 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:08:47,792 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:08:47,793 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:08:49,899 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:08:49,899 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:09:10,946 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:09:10,947 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:09:17,303 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:09:17,303 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:09:19,421 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:09:19,422 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:09:40,455 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:09:40,455 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:09:46,810 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:09:46,811 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:09:48,930 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:09:48,931 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:10:09,964 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:10:09,965 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:10:16,328 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:10:16,329 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:10:18,447 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:10:18,447 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:10:39,479 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:10:39,480 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:10:44,449 INFO [capacityManagement] start correct usage
+
+2021-09-24 12:10:44,452 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-09-24 12:10:45,685 WARN clearConfigHistory start
+
+2021-09-24 12:10:45,690 WARN clearConfigHistory, getBeforeStamp:2021-08-25 12:10:45.0, totalCount:6, pageSize:1000, removeTime:1
+
+2021-09-24 12:10:45,696 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:208)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:941)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$cf9d6da9.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:100)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2021-09-24 12:10:45,843 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:10:45,843 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:10:47,966 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:10:47,966 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:11:08,997 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:11:08,998 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:11:15,353 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:11:15,353 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:11:17,471 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:11:17,471 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:11:38,509 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:11:38,510 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:11:44,868 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:11:44,869 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:11:46,985 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:11:46,986 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:12:08,023 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:12:08,023 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:12:14,375 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:12:14,375 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:12:16,502 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:12:16,503 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:12:37,530 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:12:37,530 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:12:43,890 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:12:43,890 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:12:46,016 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:12:46,016 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:13:07,052 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:13:07,052 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:13:13,406 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:13:13,407 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:13:15,535 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:13:15,535 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:13:36,576 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:13:36,576 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:13:42,927 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:13:42,928 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:13:45,056 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:13:45,057 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:14:06,088 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:14:06,088 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:14:12,448 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:14:12,449 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:14:14,569 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:14:14,569 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:14:35,594 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:14:35,594 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:14:41,968 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:14:41,969 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:14:44,087 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:14:44,087 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:15:05,119 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:15:05,119 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:15:11,490 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:15:11,490 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:15:13,603 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:15:13,603 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:15:34,625 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:15:34,625 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:15:40,995 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:15:40,995 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:15:43,113 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:15:43,114 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:16:04,142 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:16:04,143 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:16:10,511 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:16:10,511 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:16:12,623 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:16:12,624 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:16:33,660 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:16:33,660 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:16:40,027 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:16:40,027 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:16:42,136 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:16:42,136 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:17:03,178 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:17:03,179 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:17:09,543 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:17:09,544 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:17:11,647 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:17:11,648 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:17:32,691 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:17:32,692 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:17:39,060 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:17:39,060 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:17:41,162 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:17:41,163 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:18:02,207 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:18:02,207 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:18:08,577 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:18:08,577 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:18:10,682 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:18:10,683 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:18:31,728 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:18:31,729 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:18:38,100 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:18:38,101 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:18:40,201 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:18:40,201 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:19:01,245 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:19:01,245 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:19:07,613 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:19:07,613 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:19:09,717 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:19:09,718 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:19:30,760 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:19:30,760 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:19:37,128 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:19:37,129 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:19:39,227 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:19:39,227 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:20:00,279 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:20:00,279 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:20:06,647 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:20:06,647 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:20:08,745 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:20:08,746 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:20:29,796 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:20:29,797 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:20:36,165 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:20:36,166 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:20:38,258 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:20:38,258 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:20:44,459 INFO [capacityManagement] start correct usage
+
+2021-09-24 12:20:44,462 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-09-24 12:20:45,702 WARN clearConfigHistory start
+
+2021-09-24 12:20:45,705 WARN clearConfigHistory, getBeforeStamp:2021-08-25 12:20:45.0, totalCount:6, pageSize:1000, removeTime:1
+
+2021-09-24 12:20:45,714 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:208)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:941)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$cf9d6da9.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:100)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2021-09-24 12:20:59,310 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:20:59,310 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:21:05,681 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:21:05,681 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:21:07,770 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:21:07,771 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:21:28,824 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:21:28,825 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:21:35,204 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:21:35,204 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:21:37,278 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:21:37,278 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:21:58,335 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:21:58,335 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:22:04,714 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:22:04,715 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:22:06,787 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:22:06,788 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:22:27,851 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:22:27,851 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:22:34,227 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:22:34,227 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:22:36,296 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:22:36,297 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:22:57,369 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:22:57,370 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:23:03,742 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:23:03,743 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:23:05,806 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:23:05,806 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:23:26,888 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:23:26,888 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:23:33,261 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:23:33,261 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:23:35,315 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:23:35,316 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:23:56,406 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:23:56,406 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:24:02,780 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:24:02,781 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:24:04,838 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:24:04,838 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:24:25,917 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:24:25,917 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:24:32,301 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:24:32,301 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:24:34,355 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:24:34,355 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:24:55,434 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:24:55,434 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:25:01,820 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:25:01,820 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:25:03,869 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:25:03,870 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:25:24,958 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:25:24,959 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:25:31,329 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:25:31,330 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:25:33,383 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:25:33,384 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:25:54,468 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:25:54,468 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:26:00,846 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:26:00,846 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:26:02,902 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:26:02,902 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:26:23,977 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:26:23,977 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:26:30,356 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:26:30,356 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:26:32,415 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:26:32,415 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:26:53,495 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:26:53,496 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:26:59,873 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:26:59,873 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:27:01,919 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:27:01,919 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:27:23,012 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:27:23,012 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:27:29,391 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:27:29,391 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:27:31,438 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:27:31,438 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:27:52,517 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:27:52,518 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:27:58,902 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:27:58,902 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:28:00,947 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:28:00,947 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:28:22,027 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:28:22,027 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:28:28,421 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:28:28,421 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:28:30,462 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:28:30,463 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:28:51,541 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:28:51,541 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:28:57,929 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:28:57,929 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:28:59,978 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:28:59,978 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:29:21,052 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:29:21,052 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:29:27,448 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:29:27,448 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:29:29,490 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:29:29,490 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:29:50,566 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:29:50,566 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:29:56,967 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:29:56,967 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:29:59,007 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:29:59,007 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:30:20,079 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:30:20,079 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:30:26,481 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:30:26,481 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:30:28,515 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:30:28,515 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:30:44,463 INFO [capacityManagement] start correct usage
+
+2021-09-24 12:30:44,466 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-09-24 12:30:45,720 WARN clearConfigHistory start
+
+2021-09-24 12:30:45,723 WARN clearConfigHistory, getBeforeStamp:2021-08-25 12:30:45.0, totalCount:6, pageSize:1000, removeTime:1
+
+2021-09-24 12:30:45,727 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:208)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:941)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$cf9d6da9.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:100)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2021-09-24 12:30:49,588 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:30:49,588 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:30:55,994 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:30:55,995 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:30:58,025 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:30:58,025 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:31:19,107 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:31:19,107 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:31:25,515 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:31:25,516 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:31:27,539 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:31:27,539 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:31:48,620 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:31:48,620 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:31:55,026 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:31:55,027 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:31:57,045 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:31:57,046 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:32:18,131 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:32:18,132 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:32:24,543 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:32:24,543 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:32:26,563 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:32:26,563 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:32:47,645 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:32:47,645 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:32:54,059 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:32:54,060 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:32:56,079 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:32:56,079 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:33:17,159 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:33:17,160 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:33:23,572 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:33:23,573 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:33:25,593 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:33:25,594 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:33:46,671 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:33:46,671 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:33:53,091 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:33:53,091 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:33:55,103 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:33:55,103 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:34:16,190 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:34:16,190 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:34:22,605 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:34:22,605 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:34:24,614 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:34:24,614 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:34:45,705 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:34:45,706 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:34:52,115 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:34:52,116 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:34:54,126 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:34:54,127 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:35:15,223 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:35:15,223 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:35:21,625 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:35:21,625 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:35:23,630 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:35:23,631 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:35:44,739 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:35:44,740 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:35:51,145 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:35:51,145 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:35:53,141 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:35:53,141 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:36:14,248 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:36:14,249 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:36:20,656 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:36:20,656 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:36:22,651 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:36:22,651 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:36:43,757 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:36:43,757 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:36:50,173 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:36:50,173 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:36:52,160 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:36:52,160 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:37:13,278 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:37:13,279 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:37:19,688 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:37:19,689 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:37:21,677 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:37:21,678 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:37:42,799 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:37:42,800 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:37:49,195 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:37:49,195 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:37:51,187 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:37:51,188 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:38:12,319 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:38:12,319 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:38:18,709 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:38:18,709 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:38:20,706 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:38:20,707 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:38:41,834 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:38:41,835 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:38:48,228 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:38:48,229 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:38:50,226 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:38:50,226 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:39:11,340 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:39:11,341 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:39:17,737 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:39:17,737 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:39:19,735 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:39:19,736 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:39:40,844 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:39:40,844 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:39:47,245 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:39:47,245 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:39:49,245 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:39:49,245 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:40:10,362 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:40:10,363 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:40:16,760 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:40:16,760 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:40:18,759 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:40:18,759 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:40:39,875 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:40:39,875 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:40:44,476 INFO [capacityManagement] start correct usage
+
+2021-09-24 12:40:44,478 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-09-24 12:40:45,743 WARN clearConfigHistory start
+
+2021-09-24 12:40:45,746 WARN clearConfigHistory, getBeforeStamp:2021-08-25 12:40:45.0, totalCount:6, pageSize:1000, removeTime:1
+
+2021-09-24 12:40:45,752 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:208)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:941)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$cf9d6da9.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:100)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2021-09-24 12:40:46,280 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:40:46,280 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:40:48,281 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:40:48,281 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:41:09,394 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:41:09,394 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:41:15,801 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:41:15,802 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:41:17,798 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:41:17,798 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:41:38,902 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:41:38,902 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:41:45,317 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:41:45,317 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:41:47,317 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:41:47,317 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:42:08,413 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:42:08,413 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:42:14,834 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:42:14,835 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:42:16,829 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:42:16,829 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:42:37,924 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:42:37,925 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:42:44,345 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:42:44,345 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:42:46,344 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:42:46,345 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:43:07,434 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:43:07,434 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:43:13,852 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:43:13,852 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:43:15,862 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:43:15,862 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:43:36,948 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:43:36,949 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:43:43,370 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:43:43,370 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:43:45,377 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:43:45,377 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:44:06,455 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:44:06,455 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:44:12,882 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:44:12,884 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:44:14,881 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:44:14,882 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:44:35,970 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:44:35,970 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:44:42,402 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:44:42,402 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:44:44,393 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:44:44,394 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:45:05,482 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:45:05,482 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:45:11,918 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:45:11,918 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:45:13,905 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:45:13,905 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:45:34,995 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:45:34,996 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:45:41,423 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:45:41,423 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:45:43,421 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:45:43,421 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:46:04,518 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:46:04,519 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:46:10,928 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:46:10,928 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:46:12,938 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:46:12,938 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:46:34,036 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:46:34,036 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:46:40,439 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:46:40,440 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:46:42,444 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:46:42,445 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:47:03,551 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:47:03,552 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:47:09,953 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:47:09,954 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:47:11,948 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:47:11,948 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:47:33,066 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:47:33,066 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:47:39,462 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:47:39,462 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:47:41,453 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:47:41,453 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:48:02,575 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:48:02,575 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:48:08,972 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:48:08,972 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:48:10,968 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:48:10,968 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:48:32,087 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:48:32,087 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:48:38,480 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:48:38,481 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:48:40,477 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:48:40,478 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:49:01,598 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:49:01,598 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:49:07,990 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:49:07,990 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:49:09,990 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:49:09,991 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:49:31,105 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:49:31,106 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:49:37,508 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:49:37,508 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:49:39,494 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:49:39,494 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:50:00,613 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:50:00,613 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:50:07,023 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:50:07,023 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:50:09,005 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:50:09,005 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:50:30,126 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:50:30,126 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:50:36,545 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:50:36,546 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:50:38,522 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:50:38,522 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:50:44,487 INFO [capacityManagement] start correct usage
+
+2021-09-24 12:50:44,489 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-09-24 12:50:45,762 WARN clearConfigHistory start
+
+2021-09-24 12:50:45,766 WARN clearConfigHistory, getBeforeStamp:2021-08-25 12:50:45.0, totalCount:6, pageSize:1000, removeTime:1
+
+2021-09-24 12:50:45,772 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:208)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:941)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$cf9d6da9.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:100)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2021-09-24 12:50:59,634 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:50:59,635 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:51:06,063 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:51:06,063 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:51:08,041 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:51:08,041 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:51:29,143 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:51:29,144 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:51:35,579 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:51:35,579 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:51:37,554 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:51:37,554 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:51:58,658 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:51:58,659 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:52:05,088 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:52:05,088 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:52:07,068 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:52:07,069 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:52:28,182 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:52:28,182 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:52:34,602 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:52:34,602 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:52:36,587 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:52:36,587 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:52:57,685 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:52:57,685 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:53:04,122 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:53:04,122 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:53:06,102 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:53:06,102 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:53:27,196 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:53:27,196 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:53:33,637 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:53:33,638 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:53:35,611 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:53:35,612 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:53:56,708 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:53:56,709 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:54:03,157 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:54:03,157 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:54:05,123 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:54:05,123 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:54:26,214 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:54:26,214 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:54:32,675 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:54:32,675 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:54:34,631 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:54:34,631 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:54:55,729 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:54:55,729 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:55:02,189 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:55:02,189 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:55:04,147 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:55:04,148 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:55:25,243 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:55:25,243 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:55:31,695 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:55:31,696 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:55:33,659 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:55:33,659 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:55:54,754 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:55:54,754 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:56:01,210 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:56:01,211 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:56:03,176 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:56:03,176 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:56:24,272 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:56:24,272 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:56:30,725 INFO listen config id:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:56:30,726 INFO listen config id 2:gateway-serverDEFAULT_GROUPgateway-server.ymlDEFAULT_GROUPgateway-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:56:32,687 INFO listen config id:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:56:32,687 INFO listen config id 2:auth-server-dev.ymlDEFAULT_GROUPauth-server.ymlDEFAULT_GROUPauth-serverDEFAULT_GROUP
+
+2021-09-24 12:56:53,790 INFO listen config id:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 12:56:53,790 INFO listen config id 2:system-serverDEFAULT_GROUPsystem-server.ymlDEFAULT_GROUPsystem-server-dev.ymlDEFAULT_GROUP
+
+2021-09-24 13:00:44,490 INFO [capacityManagement] start correct usage
+
+2021-09-24 13:00:44,492 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-09-24 13:00:45,773 WARN clearConfigHistory start
+
+2021-09-24 13:00:45,776 WARN clearConfigHistory, getBeforeStamp:2021-08-25 13:00:45.0, totalCount:6, pageSize:1000, removeTime:1
+
+2021-09-24 13:00:45,780 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:208)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:941)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$cf9d6da9.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:100)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2021-09-24 13:10:44,506 INFO [capacityManagement] start correct usage
+
+2021-09-24 13:10:44,508 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-09-24 13:10:45,789 WARN clearConfigHistory start
+
+2021-09-24 13:10:45,791 WARN clearConfigHistory, getBeforeStamp:2021-08-25 13:10:45.0, totalCount:6, pageSize:1000, removeTime:1
+
+2021-09-24 13:10:45,795 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:208)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:941)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$cf9d6da9.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:100)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted

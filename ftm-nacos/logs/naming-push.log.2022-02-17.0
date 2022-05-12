@@ -1,0 +1,150 @@
+2022-02-17 06:48:21,946 INFO DEFAULT_GROUP@@system-server is changed, add it to push queue.
+
+2022-02-17 06:48:29,296 INFO DEFAULT_GROUP@@auth-server is changed, add it to push queue.
+
+2022-02-17 06:48:31,136 INFO DEFAULT_GROUP@@gateway-server is changed, add it to push queue.
+
+2022-02-17 06:48:40,762 INFO DEFAULT_GROUP@@auth-server is changed, add it to push queue.
+
+2022-02-17 06:48:40,763 INFO serviceName: DEFAULT_GROUP@@auth-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,259898424566400
+
+2022-02-17 06:48:40,763 INFO send udp packet: 192.168.31.206,60907,259898424566400
+
+2022-02-17 06:48:40,783 INFO DEFAULT_GROUP@@gateway-server is changed, add it to push queue.
+
+2022-02-17 06:48:40,783 INFO serviceName: DEFAULT_GROUP@@gateway-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,259898444860500
+
+2022-02-17 06:48:40,783 INFO send udp packet: 192.168.31.206,60907,259898444860500
+
+2022-02-17 06:48:40,783 INFO DEFAULT_GROUP@@system-server is changed, add it to push queue.
+
+2022-02-17 06:48:40,783 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,259898445273600
+
+2022-02-17 06:48:40,783 INFO send udp packet: 192.168.31.206,60907,259898445273600
+
+2022-02-17 06:48:40,784 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:49849, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,49849,259898445273600
+
+2022-02-17 06:48:40,784 INFO send udp packet: 192.168.31.206,49849,259898445273600
+
+2022-02-17 06:48:40,786 INFO received ack: {"type": "push-ack", "lastRefTime":"259898424566400", "data":""} from: 192.168.31.206:60907, cost: 23 ms, unacked: 3, total push: 4
+
+2022-02-17 06:48:40,786 INFO received ack: {"type": "push-ack", "lastRefTime":"259898444860500", "data":""} from: 192.168.31.206:60907, cost: 3 ms, unacked: 2, total push: 4
+
+2022-02-17 06:48:40,787 INFO received ack: {"type": "push-ack", "lastRefTime":"259898445273600", "data":""} from: 192.168.31.206:60907, cost: 4 ms, unacked: 1, total push: 4
+
+2022-02-17 06:48:40,790 INFO received ack: {"type": "push-ack", "lastRefTime":"259898445273600", "data":""} from: 192.168.31.206:49849, cost: 6 ms, unacked: 0, total push: 4
+
+2022-02-17 06:48:43,168 INFO DEFAULT_GROUP@@auth-server is changed, add it to push queue.
+
+2022-02-17 06:48:43,169 INFO serviceName: DEFAULT_GROUP@@auth-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,259900830383700
+
+2022-02-17 06:48:43,169 INFO send udp packet: 192.168.31.206,60907,259900830383700
+
+2022-02-17 06:48:43,173 INFO received ack: {"type": "push-ack", "lastRefTime":"259900830383700", "data":""} from: 192.168.31.206:60907, cost: 3 ms, unacked: 0, total push: 5
+
+2022-02-17 06:48:44,283 INFO DEFAULT_GROUP@@gateway-server is changed, add it to push queue.
+
+2022-02-17 06:48:44,283 INFO serviceName: DEFAULT_GROUP@@gateway-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,259901945218500
+
+2022-02-17 06:48:44,284 INFO send udp packet: 192.168.31.206,60907,259901945218500
+
+2022-02-17 06:48:44,289 INFO received ack: {"type": "push-ack", "lastRefTime":"259901945218500", "data":""} from: 192.168.31.206:60907, cost: 5 ms, unacked: 0, total push: 6
+
+2022-02-17 06:48:44,616 INFO DEFAULT_GROUP@@system-server is changed, add it to push queue.
+
+2022-02-17 06:48:44,616 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,259902277322700
+
+2022-02-17 06:48:44,616 INFO send udp packet: 192.168.31.206,60907,259902277322700
+
+2022-02-17 06:48:44,616 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:49849, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,49849,259902277322700
+
+2022-02-17 06:48:44,616 INFO send udp packet: 192.168.31.206,49849,259902277322700
+
+2022-02-17 06:48:44,626 INFO received ack: {"type": "push-ack", "lastRefTime":"259902277322700", "data":""} from: 192.168.31.206:60907, cost: 10 ms, unacked: 1, total push: 8
+
+2022-02-17 06:48:44,627 INFO received ack: {"type": "push-ack", "lastRefTime":"259902277322700", "data":""} from: 192.168.31.206:49849, cost: 11 ms, unacked: 0, total push: 8
+
+2022-02-17 13:51:11,315 INFO DEFAULT_GROUP@@system-server is changed, add it to push queue.
+
+2022-02-17 13:51:11,342 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,285248843426300
+
+2022-02-17 13:51:11,342 INFO send udp packet: 192.168.31.206,60907,285248843426300
+
+2022-02-17 13:51:11,343 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:49849, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,49849,285248843426300
+
+2022-02-17 13:51:11,343 INFO send udp packet: 192.168.31.206,49849,285248843426300
+
+2022-02-17 13:51:11,351 INFO received ack: {"type": "push-ack", "lastRefTime":"285248843426300", "data":""} from: 192.168.31.206:60907, cost: 9 ms, unacked: 1, total push: 10
+
+2022-02-17 13:51:11,351 INFO received ack: {"type": "push-ack", "lastRefTime":"285248843426300", "data":""} from: 192.168.31.206:49849, cost: 8 ms, unacked: 0, total push: 10
+
+2022-02-17 13:51:26,376 INFO DEFAULT_GROUP@@system-server is changed, add it to push queue.
+
+2022-02-17 13:51:26,377 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,285263903045200
+
+2022-02-17 13:51:26,377 INFO send udp packet: 192.168.31.206,60907,285263903045200
+
+2022-02-17 13:51:26,380 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:49849, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,49849,285263903045200
+
+2022-02-17 13:51:26,382 INFO send udp packet: 192.168.31.206,49849,285263903045200
+
+2022-02-17 13:51:26,392 INFO received ack: {"type": "push-ack", "lastRefTime":"285263903045200", "data":""} from: 192.168.31.206:60907, cost: 15 ms, unacked: 1, total push: 12
+
+2022-02-17 13:51:26,392 INFO received ack: {"type": "push-ack", "lastRefTime":"285263903045200", "data":""} from: 192.168.31.206:49849, cost: 10 ms, unacked: 0, total push: 12
+
+2022-02-17 13:52:12,546 INFO DEFAULT_GROUP@@system-server is changed, add it to push queue.
+
+2022-02-17 13:52:12,548 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,285310074306700
+
+2022-02-17 13:52:12,548 INFO send udp packet: 192.168.31.206,60907,285310074306700
+
+2022-02-17 13:52:12,548 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:49849, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,49849,285310074306700
+
+2022-02-17 13:52:12,548 INFO send udp packet: 192.168.31.206,49849,285310074306700
+
+2022-02-17 13:52:12,617 INFO received ack: {"type": "push-ack", "lastRefTime":"285310074306700", "data":""} from: 192.168.31.206:60907, cost: 4 ms, unacked: 1, total push: 14
+
+2022-02-17 13:52:12,617 INFO received ack: {"type": "push-ack", "lastRefTime":"285310074306700", "data":""} from: 192.168.31.206:49849, cost: 69 ms, unacked: 0, total push: 14
+
+2022-02-17 16:43:35,500 INFO DEFAULT_GROUP@@system-server is changed, add it to push queue.
+
+2022-02-17 16:43:35,502 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,295592707793700
+
+2022-02-17 16:43:35,502 INFO send udp packet: 192.168.31.206,60907,295592707793700
+
+2022-02-17 16:43:35,503 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:49849, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,49849,295592707793700
+
+2022-02-17 16:43:35,503 INFO send udp packet: 192.168.31.206,49849,295592707793700
+
+2022-02-17 16:43:35,506 INFO received ack: {"type": "push-ack", "lastRefTime":"295592707793700", "data":""} from: 192.168.31.206:60907, cost: 4 ms, unacked: 1, total push: 16
+
+2022-02-17 16:43:35,506 INFO received ack: {"type": "push-ack", "lastRefTime":"295592707793700", "data":""} from: 192.168.31.206:49849, cost: 3 ms, unacked: 0, total push: 16
+
+2022-02-17 16:43:50,545 INFO DEFAULT_GROUP@@system-server is changed, add it to push queue.
+
+2022-02-17 16:43:50,545 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,295607751301500
+
+2022-02-17 16:43:50,546 INFO send udp packet: 192.168.31.206,60907,295607751301500
+
+2022-02-17 16:43:50,546 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:49849, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,49849,295607751301500
+
+2022-02-17 16:43:50,547 INFO send udp packet: 192.168.31.206,49849,295607751301500
+
+2022-02-17 16:43:50,551 INFO received ack: {"type": "push-ack", "lastRefTime":"295607751301500", "data":""} from: 192.168.31.206:60907, cost: 5 ms, unacked: 1, total push: 18
+
+2022-02-17 16:43:50,613 INFO received ack: {"type": "push-ack", "lastRefTime":"295607751301500", "data":""} from: 192.168.31.206:49849, cost: 66 ms, unacked: 0, total push: 18
+
+2022-02-17 16:43:59,963 INFO DEFAULT_GROUP@@system-server is changed, add it to push queue.
+
+2022-02-17 16:43:59,964 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:60907, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,60907,295617168141900
+
+2022-02-17 16:43:59,964 INFO send udp packet: 192.168.31.206,60907,295617168141900
+
+2022-02-17 16:43:59,964 INFO serviceName: DEFAULT_GROUP@@system-server changed, schedule push for: 192.168.31.206:49849, agent: Nacos-Java-Client:v1.2.1, key: 192.168.31.206,49849,295617168141900
+
+2022-02-17 16:43:59,965 INFO send udp packet: 192.168.31.206,49849,295617168141900
+
+2022-02-17 16:43:59,968 INFO received ack: {"type": "push-ack", "lastRefTime":"295617168141900", "data":""} from: 192.168.31.206:49849, cost: 3 ms, unacked: 1, total push: 20
+
+2022-02-17 16:44:00,033 INFO received ack: {"type": "push-ack", "lastRefTime":"295617168141900", "data":""} from: 192.168.31.206:60907, cost: 69 ms, unacked: 0, total push: 20
+

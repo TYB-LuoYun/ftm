@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.anets.system.mapper.CompanyMapper">
+    <select id="queryOne"  resultType="top.anets.entity.system.Company">
+        SELECT
+        *
+        FROM company
+        WHERE  id   = #{id}
+    </select>
+
+
+    <select id="queryListIn" resultType="top.anets.entity.system.Company">
+        SELECT
+        *
+        FROM company
+        WHERE  id   in
+        <foreach item="item" index="index" collection="array"
+                 open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+
+
+
+    <resultMap id="BaseResultMap" type="top.anets.entity.system.Company" >
+    </resultMap>
+
+    <sql id="Base_Column_List" >
+    *
+    </sql>
+
+    <select id="querys" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM company
+        WHERE 1=1
+        <if test="id != null and id != ''">
+            and id = #{id}
+        </if>
+        <if test="parentId != null and parentId != ''">
+            and parent_id = #{parentId}
+        </if>
+
+    </select>
+
+</mapper>

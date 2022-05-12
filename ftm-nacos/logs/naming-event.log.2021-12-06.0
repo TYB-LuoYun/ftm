@@ -1,0 +1,16 @@
+2021-12-06 11:32:46,852 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.203.1:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-06 11:32:46,858 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.203.1:8003_true,
+
+2021-12-06 11:33:23,731 INFO DEFAULT_GROUP@@gateway-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.203.1:6001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-06 11:33:23,731 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-server, ips: 192.168.203.1:6001_true,
+
+2021-12-06 11:34:47,928 INFO DEFAULT_GROUP@@auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.203.1:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-06 11:34:47,928 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-server, ips: 192.168.203.1:7001_true,
+
+2021-12-06 23:11:29,892 INFO {POS} {IP-DISABLED} valid: 192.168.203.1:8003@DEFAULT@DEFAULT_GROUP@@system-server, region: unknown, msg: client timeout after 15000, last beat: 1638803472432
+
+2021-12-06 23:11:35,004 INFO {POS} {IP-DISABLED} valid: 192.168.203.1:6001@DEFAULT@DEFAULT_GROUP@@gateway-server, region: unknown, msg: client timeout after 15000, last beat: 1638803475989
+

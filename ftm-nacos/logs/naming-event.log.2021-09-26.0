@@ -1,0 +1,12 @@
+2021-09-26 09:42:05,229 INFO DEFAULT_GROUP@@gateway-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.200.51:6001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-26 09:42:05,249 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway-server, ips: 192.168.200.51:6001_true,
+
+2021-09-26 09:42:29,449 INFO DEFAULT_GROUP@@system-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.200.51:8003:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-26 09:42:29,450 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@system-server, ips: 192.168.200.51:8003_true,
+
+2021-09-26 09:42:49,069 INFO DEFAULT_GROUP@@auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.200.51:7001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-26 09:42:49,069 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-server, ips: 192.168.200.51:7001_true,
+
