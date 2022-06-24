@@ -31,4 +31,17 @@ hs_err_pid*
 rebel.xml
 *.class
 **/logs/**
+.DS_Store 
+*.dat
+*.dat
+*.dat 
+*.dat
+
+
+**/target/**
+/.idea/
+*.iml
+rebel.xml
+*.class
+**/logs/**
 .DS_Store
