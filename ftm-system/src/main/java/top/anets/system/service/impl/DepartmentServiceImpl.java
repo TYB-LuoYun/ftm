@@ -1,9 +1,8 @@
 package top.anets.system.service.impl;
 
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import top.anets.entity.system.Department;
+import top.anets.system.entity.Department;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 import top.anets.system.mapper.DepartmentMapper;

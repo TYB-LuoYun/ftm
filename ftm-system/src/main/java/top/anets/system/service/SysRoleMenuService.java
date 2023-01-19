@@ -1,7 +1,10 @@
 package top.anets.system.service;
 
-import top.anets.entity.system.SysRoleMenu;
+import top.anets.system.entity.SysRoleMenu;
 import com.baomidou.mybatisplus.extension.service.IService;
+import top.anets.system.model.ResourceRoles;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +16,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface SysRoleMenuService extends IService<SysRoleMenu> {
 
+    List<ResourceRoles> loadResourceRoles();
 }

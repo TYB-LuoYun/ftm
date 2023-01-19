@@ -1,6 +1,6 @@
 package top.anets.system.service;
 
-import top.anets.entity.system.SysRole;
+import top.anets.system.entity.SysRole;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -12,5 +12,4 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2022-02-14
  */
 public interface SysRoleService extends IService<SysRole> {
-
 }

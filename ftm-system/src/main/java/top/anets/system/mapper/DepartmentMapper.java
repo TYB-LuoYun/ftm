@@ -1,6 +1,6 @@
 package top.anets.system.mapper;
 
-import top.anets.entity.system.Department;
+import top.anets.system.entity.Department;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

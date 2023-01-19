@@ -1,7 +1,7 @@
 package top.anets.system.mapper;
 
 import org.apache.ibatis.annotations.Param;
-import top.anets.entity.system.SysMenu;
+import top.anets.system.entity.SysMenu;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 import java.util.List;

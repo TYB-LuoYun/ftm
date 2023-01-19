@@ -1,7 +1,9 @@
 package top.anets.system.service;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import org.springframework.web.bind.annotation.RequestMapping;
-import top.anets.entity.system.SysMenu;
+import top.anets.system.entity.SysMenu;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;
@@ -25,4 +27,7 @@ public interface SysMenuService extends IService<SysMenu> {
     List<SysMenu> findByUserId(String userId);
 
     List<SysMenu> getRouterAllList();
+
+
+    IPage pages(QueryWrapper querys, IPage page);
 }

@@ -1,9 +1,9 @@
 package top.anets.system.mapper;
 
-import top.anets.entity.system.Company;
+import top.anets.system.entity.Company;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import top.anets.entity.system.SysUser;
-import top.anets.vo.system.CompanyVo;
+import top.anets.system.entity.SysUser;
+import top.anets.system.vo.CompanyVo;
 
 import java.util.List;
 

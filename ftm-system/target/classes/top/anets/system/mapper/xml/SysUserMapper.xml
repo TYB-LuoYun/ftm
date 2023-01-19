@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="top.anets.system.mapper.SysUserMapper">
-    <resultMap id="BaseResultMap" type="top.anets.entity.system.SysUser" >
+    <resultMap id="BaseResultMap" type="top.anets.system.entity.SysUser" >
     </resultMap>
 
     <sql id="Base_Column_List" >
@@ -29,7 +29,7 @@
 
 
 
-    <select id="queryOne"  resultType="top.anets.entity.system.SysUser">
+    <select id="queryOne"  resultType="top.anets.system.entity.SysUser">
         SELECT
         <include refid="Base_Column_List"/>
         FROM sys_user

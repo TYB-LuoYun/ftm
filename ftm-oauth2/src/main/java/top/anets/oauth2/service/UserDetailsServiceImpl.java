@@ -11,8 +11,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import top.anets.entity.system.SysMenu;
-import top.anets.entity.system.SysUser;
+import top.anets.system.entity.SysMenu;
+import top.anets.system.entity.SysUser;
 import top.anets.ifeign.system.IFeignSystem;
 
 import java.util.ArrayList;
@@ -47,16 +47,20 @@ public class UserDetailsServiceImpl implements UserDetailsService {
                 IFeignSystem.findByUserId(sysUser.getId());
 
         // 4. 封装权限信息（权限标识符code）
-        log.info("封装权限信息（权限标识符code）");
+        log.info("封装角色信息");
         List<GrantedAuthority> authorities = null;
         if(CollectionUtils.isNotEmpty(menuList)) {
             authorities = new ArrayList<>();
             for(SysMenu menu: menuList) {
                 // 权限标识
                 String code = menu.getCode();
+                log.info("角色："+code);
                 authorities.add(new SimpleGrantedAuthority(code));
             }
+        }else{
+            log.info("无角色信息");
         }
+
         log.info("user对象转移");
         JwtUser jwtUser = new JwtUser();
         BeanUtils.copyProperties(sysUser, jwtUser);

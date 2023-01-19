@@ -1,9 +1,8 @@
 package top.anets.system.service;
 
-import top.anets.entity.system.Company;
+import top.anets.system.entity.Company;
 import com.baomidou.mybatisplus.extension.service.IService;
-import top.anets.entity.system.SysUser;
-import top.anets.vo.system.CompanyVo;
+import top.anets.system.vo.CompanyVo;
 
 import java.util.List;
 

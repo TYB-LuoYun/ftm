@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
-import top.anets.entity.system.Company;
-import top.anets.entity.system.SysUser;
+import top.anets.system.entity.Company;
+import top.anets.system.entity.SysUser;
 import top.anets.system.config.AuthUtil;
 import top.anets.system.service.CompanyService;
 import top.anets.utils.base.Result;
-import top.anets.vo.system.CompanyVo;
+import top.anets.system.vo.CompanyVo;
 
 import java.util.List;
 

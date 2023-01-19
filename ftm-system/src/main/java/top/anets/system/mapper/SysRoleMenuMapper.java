@@ -1,6 +1,6 @@
 package top.anets.system.mapper;
 
-import top.anets.entity.system.SysRoleMenu;
+import top.anets.system.entity.SysRoleMenu;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

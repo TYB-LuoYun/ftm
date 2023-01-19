@@ -2,7 +2,8 @@
 SQLyog Ultimate v8.32 
 MySQL - 5.7.30 : Database - ftm-system
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -85,7 +86,7 @@ CREATE TABLE `sys_menu` (
 
 /*Data for the table `sys_menu` */
 
-insert  into `sys_menu`(`id`,`parent_id`,`name`,`path`,`url`,`component`,`type`,`code`,`icon`,`sort`,`meta_title`,`meta_icon`,`meta_breadcrumb_hidden`,`meta_no_closable`,`remark`,`create_date`,`update_date`) values ('1',NULL,'Root','/',NULL,'Layout',1,NULL,NULL,1,'首页','home-2-line',1,NULL,NULL,'2022-02-16 16:10:12','2022-02-16 16:10:12'),('2','1','Index','index',NULL,'@/views/index',1,NULL,NULL,1,'首页','home-2-line',NULL,1,NULL,'2022-02-16 16:11:14','2022-02-16 16:11:14'),('3','1','Dashboard','dashboard',NULL,'@/views/index/dashboard',1,NULL,NULL,1,'看板','dashboard-line',NULL,NULL,NULL,'2022-02-16 16:11:48','2022-02-16 16:11:48'),('4','1','System','system',NULL,'@/views/system',1,NULL,NULL,1,'系统中心','home-2-line',NULL,NULL,NULL,'2022-02-17 12:58:15','2022-02-17 12:58:15'),('5','4','User','user',NULL,'@/views/system/user/index',1,NULL,NULL,1,'用户管理','dashboard-line',NULL,NULL,NULL,'2022-02-17 12:59:22','2022-02-17 12:59:22'),('6','4','Company','company',NULL,'@/views/system/company/index',1,NULL,NULL,1,'组织管理','dashboard-line',NULL,NULL,NULL,'2022-02-18 13:39:52','2022-02-18 13:39:52'),('7','4','Department','dept',NULL,'@/views/system/dept/index',1,NULL,NULL,1,'部门管理','dashboard-line',NULL,NULL,NULL,'2022-02-18 13:41:07','2022-02-18 13:41:07');
+insert  into `sys_menu`(`id`,`parent_id`,`name`,`path`,`url`,`component`,`type`,`code`,`icon`,`sort`,`meta_title`,`meta_icon`,`meta_breadcrumb_hidden`,`meta_no_closable`,`remark`,`create_date`,`update_date`) values ('1',NULL,'Root','/',NULL,'Layout',1,NULL,NULL,1,'首页','home-2-line',1,NULL,NULL,'2022-02-16 16:10:12','2022-02-16 16:10:12'),('2','1','Index','index',NULL,'@/views/index',1,NULL,NULL,1,'首页','home-2-line',NULL,1,NULL,'2022-02-16 16:11:14','2022-02-16 16:11:14'),('3','1','Dashboard','dashboard',NULL,'@/views/index/dashboard',1,NULL,NULL,1,'看板','dashboard-line',NULL,NULL,NULL,'2022-02-16 16:11:48','2022-02-16 16:11:48'),('4','1','System','system',NULL,'@/views/system',1,NULL,NULL,1,'系统中心','home-2-line',NULL,NULL,NULL,'2022-02-17 12:58:15','2022-02-17 12:58:15'),('5','4','User','sysUser',NULL,'@/views/system/sysUser/index',1,NULL,NULL,1,'用户管理','dashboard-line',NULL,NULL,NULL,'2022-02-17 12:59:22','2022-02-17 12:59:22'),('6','4','Company','company',NULL,'@/views/system/company/index',1,NULL,NULL,1,'组织管理','dashboard-line',NULL,NULL,NULL,'2022-02-18 13:39:52','2022-02-18 13:39:52'),('7','4','Department','dept',NULL,'@/views/system/dept/index',1,NULL,NULL,1,'部门管理','dashboard-line',NULL,NULL,NULL,'2022-02-18 13:41:07','2022-02-18 13:41:07');
 
 /*Table structure for table `sys_role` */
 

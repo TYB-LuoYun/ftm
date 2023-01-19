@@ -12,6 +12,7 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 import org.springframework.security.oauth2.provider.token.store.KeyStoreKeyFactory;
 
 import javax.annotation.Resource;
+import java.security.KeyPair;
 import java.util.concurrent.TimeUnit;
 
 @Configuration
@@ -26,13 +27,31 @@ public class JwtTokenStoreConfig {
         JwtAccessTokenConverter converter =
                 new JwtAccessTokenConverter();
         // 采用非对称加密文件
-        KeyStoreKeyFactory factory = new KeyStoreKeyFactory(
-                new ClassPathResource("oauth2.jks"), "oauth2".toCharArray());
-        converter.setKeyPair( factory.getKeyPair("oauth2") );
+//        KeyStoreKeyFactory factory = new KeyStoreKeyFactory(
+//                new ClassPathResource("oauth2.jks"), "oauth2".toCharArray());
+//        converter.setKeyPair( factory.getKeyPair("oauth2") );
+        converter.setKeyPair( keyPair() );
         return converter;
     }
 
-    @Bean public TokenStore tokenStore() {
+
+
+    @Bean
+    public KeyPair keyPair() {
+        // 从classpath下的证书中获取秘钥对
+        String password = "oauth2";
+        KeyStoreKeyFactory keyStoreKeyFactory = new KeyStoreKeyFactory(new ClassPathResource("oauth2.jks"), password.toCharArray());
+//        return keyStoreKeyFactory.getKeyPair("jwt", password.toCharArray());
+        return keyStoreKeyFactory.getKeyPair("oauth2", password.toCharArray());
+    }
+
+
+    /**
+     * 主要作用token的增删改查
+     * @return
+     */
+    @Bean
+    public TokenStore tokenStore() {
         // Jwt管理令牌========================
 //        return new JwtTokenStore(jwtAccessTokenConverter());
 

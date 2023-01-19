@@ -1,11 +1,12 @@
 server:
   port: 8003
-  servlet:
-    context-path: /system
-
 spring:
   application:
     name: system-server # 应用名
+  # 日期返回格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
   # 数据源配置
   datasource:
     username: root
@@ -21,13 +22,19 @@ spring:
     timeBetweenEvictionRunsMillis: 60000
     minEvictableIdleTimeMillis: 300000
     validationQuery: SELECT 1 FROM DUAL
+  #熔断
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+
 
 
 
 mybatis-plus:
-  type-aliases-package: top.anets.entity
+  type-aliases-package: top.anets.entity.system
   # xxxMapper.xml 路径
-  mapper-locations: classpath*:top/anets/system/mapper/**/*.xml
+  mapper-locations: classpath*:top/anets/system/mapper/xml/*.xml
 
 
 #pageHelper插件配置
@@ -35,9 +42,8 @@ pagehelper:
   helper-dialect: mysql    #数据库连接 oracle
   reasonable: true        #分页合理化参数
 
-# 日志级别，会打印sql语句
-logging:
-  level:
-    com.mengxuegu.blog.system.mapper: debug
 
+#日志
+logging:
+  config: classpath:logback-spring.xml
 

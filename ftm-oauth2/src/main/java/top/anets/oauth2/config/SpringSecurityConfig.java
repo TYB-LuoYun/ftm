@@ -1,6 +1,7 @@
 package top.anets.oauth2.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -60,6 +61,9 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
         // 关闭csrf攻击
 //        http.csrf().disable();
 //        登录功能配置=============================================S
+
+
+
         http.formLogin()
                 // 成功处理器
                 .successHandler(customAuthenticationSuccessHandler())
@@ -72,6 +76,15 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 //        登录功能配置=============================================E
 
 
+//        允许获取公钥接口的访问；
+        http.authorizeRequests()
+                .requestMatchers(EndpointRequest.toAnyEndpoint()).permitAll()
+                .antMatchers("/rsa/publicKey").permitAll()
+//               健康检查
+                .antMatchers("/assets/**").permitAll()
+                .antMatchers(  "/instances/**").permitAll()
+                .antMatchers(  "/actuator/**").permitAll()
+                .anyRequest().authenticated();
 
 
 ////        模拟

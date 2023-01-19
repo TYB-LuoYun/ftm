@@ -6,11 +6,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationDetails;
-import top.anets.entity.system.Company;
-import top.anets.entity.system.SysUser;
+import top.anets.system.entity.SysUser;
 
 import java.util.Map;
-import java.util.Set;
+
 @Slf4j
 public class AuthUtil {
 

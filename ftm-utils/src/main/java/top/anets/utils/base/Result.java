@@ -60,6 +60,9 @@ public final class Result implements Serializable {
         return new Result(true,ResultEnum.SUCCESS.getCode(), ResultEnum.SUCCESS.getDesc(), data);
     }
 
+    public static Result Success(Object data) {
+        return new Result(true,ResultEnum.SUCCESS.getCode(), ResultEnum.SUCCESS.getDesc(), data);
+    }
     public static Result success(String message, Object data) {
         return new Result(true,ResultEnum.SUCCESS.getCode(), message, data);
     }
@@ -81,6 +84,20 @@ public final class Result implements Serializable {
         return new Result(false,ResultEnum.ERROR.getCode(), message, null);
     }
 
+
+    public static Result Error(String message, Object data) {
+        return new Result(false,ResultEnum.ERROR.getCode(), message, data);
+    }
+    public static Result Error(String code,String message, Object data) {
+        return new Result(false,code, message, data);
+    }
+
+
+    public static Result Error(String message) {
+        logger.debug("返回错误：code={}, message={}", ResultEnum.ERROR.getCode(), message);
+        return new Result(false,ResultEnum.ERROR.getCode(), message, null);
+    }
+
     public static Result build(String code, String message) {
         logger.debug("返回结果：code={}, message={}", code, message);
         return new Result(null,code, message, null);
@@ -89,6 +106,11 @@ public final class Result implements Serializable {
     public static Result build(ResultEnum resultEnum) {
         logger.debug("返回结果：code={}, message={}", resultEnum.getCode(), resultEnum.getDesc());
         return new Result(null,resultEnum.getCode(), resultEnum.getDesc(), null);
+    }
+
+    public static Result build(ResultEnum resultEnum,boolean isSuccess) {
+        logger.debug("返回结果：code={}, message={}", resultEnum.getCode(), resultEnum.getDesc());
+        return new Result(isSuccess,resultEnum.getCode(), resultEnum.getDesc(), null);
     }
 
     public String toJsonString() {

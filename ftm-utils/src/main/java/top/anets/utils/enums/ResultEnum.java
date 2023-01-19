@@ -11,7 +11,12 @@ public enum ResultEnum {
 
     ERROR("999", "错误"),
 
-    UNAUTHENTICATED("401", "请先通过身份认证"), AUTH_FAIL("1400", "认证失败"),
+
+    UN_AUTHENTICATED("401", "身份认证失败(no authentication)"),
+
+    UN_AUTHORIZATION("401", "授权失败，没有权限访问(no authorization)"),
+
+    AUTH_FAIL("1400", "认证失败"),
 
     // token异常
     TOKEN_PAST("1401", "身份过期，请求重新登录！"), TOKEN_ERROR("1402", "令牌错误"),

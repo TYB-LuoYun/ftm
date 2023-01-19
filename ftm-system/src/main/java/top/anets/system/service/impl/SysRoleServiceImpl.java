@@ -1,6 +1,6 @@
 package top.anets.system.service.impl;
 
-import top.anets.entity.system.SysRole;
+import top.anets.system.entity.SysRole;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 import top.anets.system.mapper.SysRoleMapper;
@@ -16,5 +16,7 @@ import top.anets.system.service.SysRoleService;
  */
 @Service
 public class SysRoleServiceImpl extends ServiceImpl<SysRoleMapper, SysRole> implements SysRoleService {
+
+
 
 }

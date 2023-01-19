@@ -1,8 +1,10 @@
 # Compiled class file
 *.class
-
+*.iml
+*.iml
 # Log file
 *.log
+*.log.*
 
 # BlueJ files
 *.ctxt
@@ -18,6 +20,28 @@
 *.zip
 *.tar.gz
 *.rar
-
+/.idea/
+*/target/*
+/logs/
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+hs_err_pid* 
+**/target/**
+/.idea/
+
+rebel.xml
+*.class
+**/logs/**
+.DS_Store 
+*.dat
+*.dat
+*.dat 
+*.dat
+
+
+**/target/**
+/.idea/
+*.iml
+rebel.xml
+*.class
+**/logs/**
+.DS_Store

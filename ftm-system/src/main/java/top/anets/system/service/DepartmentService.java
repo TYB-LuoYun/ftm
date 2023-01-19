@@ -1,6 +1,6 @@
 package top.anets.system.service;
 
-import top.anets.entity.system.Department;
+import top.anets.system.entity.Department;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

@@ -10,3 +10,15 @@ spring:
         file-extension: yml # 配置中心的配置格式
   profiles:
     active: dev # 指定环境
+
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:9002
+
+# 暴露我们的所有监控信息
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

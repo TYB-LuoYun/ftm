@@ -5,20 +5,14 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.collections.CollectionUtils;
-import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
-import top.anets.entity.system.Company;
-import top.anets.entity.system.SysUser;
-import top.anets.entity.system.UserCompany;
-import top.anets.entity.system.UserDept;
+import top.anets.system.entity.Company;
+import top.anets.system.entity.SysUser;
 import top.anets.system.mapper.*;
 import top.anets.system.service.SysUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import top.anets.system.service.UserCompanyService;
-import top.anets.vo.system.SysUserCondition;
-import top.anets.vo.system.UserCompanyCondition;
+import top.anets.system.vo.SysUserCondition;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,8 +28,7 @@ import java.util.List;
 @RestController
 @Slf4j
 public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> implements SysUserService {
-    @Autowired
-    private UserCompanyService userCompanyService;
+
 
     @Autowired
     private SysUserMapper sysUserMapper;
@@ -48,14 +41,10 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
 //    @Autowired
 //    private DepartmentMapper departmentMapper;
 
-    @Autowired
-    private UserDeptMapper userDeptMapper;
 
     @Autowired
     private SysUserService userService;
 
-    @Autowired
-    private UserCompanyMapper userCompanyMapper;
 
     /**
      * 通过用户名查询用户信息
@@ -94,29 +83,10 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
 
 
 //      绑定用户与公司的管理
-        QueryWrapper<UserCompany> queryWrapper = new QueryWrapper<>();
-        queryWrapper.eq("company_id", user.getCompanyId());
-        queryWrapper.eq("uid", user.getId());
-        List<UserCompany> userCompanies = userCompanyMapper.selectList(queryWrapper);
-        if(CollectionUtils.isEmpty(userCompanies)){//说明还没有被添加
-            UserCompany userCompany = new UserCompany();
-            userCompany.setUid(user.getId());
-            userCompany.setCompanyId(user.getCompanyId());
-            int insert = userCompanyMapper.insert(userCompany);
-        }
+
 
 //      绑定用户和部门的关系
-        QueryWrapper<UserDept> wrapper = new QueryWrapper<>();
-        wrapper.eq("dept_id", user.getDeptId());
-        wrapper.eq("uid", user.getId());
-        wrapper.eq("company_id", user.getCompanyId());
-        userDeptMapper.delete(wrapper);
 
-        UserDept userDept = new UserDept();
-        userDept.setUid(user.getId());
-        userDept.setDeptId(user.getDeptId());
-        userDept.setCompanyId(user.getCompanyId());
-        int insert = userDeptMapper.insert(userDept);
     }
 
     @Override

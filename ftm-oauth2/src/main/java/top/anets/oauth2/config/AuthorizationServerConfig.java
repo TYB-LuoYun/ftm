@@ -3,6 +3,7 @@ package top.anets.oauth2.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
@@ -16,9 +17,11 @@ import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import org.springframework.security.oauth2.provider.token.TokenEnhancerChain;
 import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
+import org.springframework.security.oauth2.provider.token.store.KeyStoreKeyFactory;
 
 import javax.annotation.Resource;
 import javax.sql.DataSource;
+import java.security.KeyPair;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -87,7 +90,6 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
         // 添加增强器,扩展器（客户端需要其他用户信息，则可以进行扩展）E============================
 
 
-
 //      授权模式配置自定义授权的接受入口
         endpoints.pathMapping("/oauth/confirm_access","/custom/confirm_access");
     }
@@ -96,9 +98,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
         // /oauth/check_token 解析令牌，默认情况 下拒绝访问
         security.checkTokenAccess("permitAll()");
-
     }
-
 
 
 }

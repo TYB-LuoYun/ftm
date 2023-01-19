@@ -10,10 +10,16 @@
         <module name="ftm-api" />
         <module name="ftm-file" />
         <module name="ftm-gateway" />
+        <module name="ftm-monitor" />
         <module name="ftm-oauth2" />
+        <module name="ftm-search" />
         <module name="ftm-system" />
         <module name="ftm-utils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ftm-common" target="1.8" />
+      <module name="ftm-security" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,6 +1,6 @@
 package top.anets.system.service;
 
-import top.anets.entity.system.SysUserRole;
+import top.anets.system.entity.SysUserRole;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

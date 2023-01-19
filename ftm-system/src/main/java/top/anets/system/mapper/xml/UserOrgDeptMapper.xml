@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.anets.system.mapper.UserOrgDeptMapper">
+
+        <!-- 通用查询映射结果 -->
+        <resultMap id="BaseResultMap" type="top.anets.system.entity.UserOrgDept">
+                    <id column="id" property="id"/>
+                    <result column="uid" property="uid"/>
+                    <result column="org_id" property="orgId"/>
+                    <result column="dept_id" property="deptId"/>
+                    <result column="is_enable" property="isEnable"/>
+                    <result column="create_date" property="createDate"/>
+                    <result column="update_date" property="updateDate"/>
+        </resultMap>
+
+        <!-- 通用查询结果列 -->
+        <sql id="Base_Column_List">
+            id, uid, org_id, dept_id, is_enable, create_date, update_date
+        </sql>
+
+
+
+
+    <!--关联查询开始=========================================================-->
+    <resultMap id="AssociateMap" type="java.util.Map" >
+        <!--<association property="associate" select="selectAssociate" column="Status" javaType="String" ></association>-->
+    </resultMap>
+    <select id="selectAssociate" resultType="String"  >
+        <!--select DictionaryValue as StatusName from  t_dictionary where  DicCategroyCode = 'DoctorCheckStatus'-->
+        <!--and  DictionaryCode = # {Status}-->
+    </select>
+    <!-- 自定义关联查询left join  -->
+    <select id="pagesAssociate" resultMap="AssociateMap">
+        select * from  sys_user_org_dept
+    </select>
+    <!--关联查询结束=========================================================-->
+
+
+
+
+</mapper>

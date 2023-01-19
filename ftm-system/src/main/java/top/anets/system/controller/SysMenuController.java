@@ -1,15 +1,21 @@
 package top.anets.system.controller;
 
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
-import org.springframework.web.bind.annotation.RestController;
-import top.anets.entity.system.SysMenu;
+import top.anets.base.PageQuery;
+import top.anets.base.WrapperQuery;
+import top.anets.system.entity.SysMenu;
 import top.anets.system.service.SysMenuService;
+import top.anets.system.vo.SysMenuVo;
 import top.anets.utils.base.Result;
 
+import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -69,5 +75,61 @@ public class SysMenuController {
        return Result.success(menus);
 
    }
+
+
+    @ApiOperation(value = "新增/更新")
+    @PostMapping("saveOrUpdate")
+    public void saveOrUpdate(@RequestBody SysMenu sysMenu){
+        sysMenuService.saveOrUpdate(sysMenu);
+    }
+
+    @ApiOperation(value = "新增/更新")
+    @PostMapping("addOrModify")
+    public void addOrModify(@RequestBody SysMenuVo sysMenuVo){
+        //todo yourself
+        sysMenuService.saveOrUpdate(WrapperQuery.from(sysMenuVo, SysMenu.class));
+    }
+
+
+
+    @ApiOperation(value = "删除")
+    @RequestMapping("deletes")
+    public void deletes(String... ids){
+        sysMenuService.removeByIds(Arrays.asList(ids));
+    }
+
+    @ApiOperation(value = "Id查询")
+    @GetMapping("/detail/{id}")
+    public SysMenu findById(@PathVariable Long id){
+        return sysMenuService.getById(id);
+    }
+
+
+
+
+    @ApiOperation(value = "查询-分页-查询和返回不处理")
+    @RequestMapping("pages")
+    public IPage pages(@RequestParam(required = false) Map<String,Object> params, PageQuery query){
+        return sysMenuService.pages(WrapperQuery.query(params), query.Page());
+    }
+
+
+    @ApiOperation(value = "查询-分页-查询和返回新增字段或特殊处理")
+    @RequestMapping("lists")
+    public IPage lists(  SysMenuVo sysMenuVo, PageQuery query){
+        IPage  pages = sysMenuService.pages(WrapperQuery.query(sysMenuVo), query.Page());
+        WrapperQuery.ipage(pages,SysMenuVo.class).getRecords().forEach(item->{
+            //         todo    item.get...
+
+        });
+        return pages;
+    }
+
+
+
+
+
+
+
 }
 

@@ -1,0 +1,24 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: monitor # 应用名
+  # 安全认证
+  security:
+    user:
+      # 账号
+      name: admin
+      # 密码
+      password: 123456
+  boot:
+    admin:
+      ui:
+        # 网页标题
+        title: Idell服务监控
+# 日志级别，会打印sql语句
+logging:
+  level:
+    com.mengxuegu.blog.system.mapper: debug
+
+

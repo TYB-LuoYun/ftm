@@ -1,8 +1,8 @@
 package top.anets.system.mapper;
 
-import top.anets.entity.system.SysUser;
+import top.anets.system.entity.SysUser;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import top.anets.vo.system.SysUserCondition;
+import top.anets.system.vo.SysUserCondition;
 
 import java.util.List;
 

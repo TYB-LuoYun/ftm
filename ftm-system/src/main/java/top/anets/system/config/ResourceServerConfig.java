@@ -43,7 +43,11 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
                 .antMatchers("/feign/**").permitAll()
                 // 放行 公共api
                 .antMatchers("/api/**","/sys-user/login").permitAll()
-
+                .antMatchers("/api/**","/login").permitAll()
+                .antMatchers("/assets/**").permitAll()
+                .antMatchers(   "/login" ).permitAll()
+                .antMatchers(  "/instances/**").permitAll()
+                .antMatchers(  "/actuator/**").permitAll()
                 // 所有请求都要有all范围权限
                 .antMatchers("/**").access("#oauth2.hasScope('all')")
                 // 其他请求都要通过身份认证

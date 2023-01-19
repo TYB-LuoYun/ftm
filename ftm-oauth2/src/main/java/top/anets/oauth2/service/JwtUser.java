@@ -5,7 +5,7 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import top.anets.entity.system.SysUser;
+import top.anets.system.entity.SysUser;
 
 import java.util.List;
 
@@ -53,7 +53,6 @@ public class JwtUser extends SysUser implements UserDetails {
     /**
      * 封装用户拥有的菜单权限标识
      */
-    @JSONField(serialize = false) // 忽略转json
     private List<GrantedAuthority> authorities;
 
     public JwtUser(){

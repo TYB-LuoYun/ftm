@@ -2,6 +2,11 @@ server:
   port: 6001
 
 spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://127.0.0.1:7001/rsa/publicKey  #配置RSA的公钥访问地址
   application:
     name: gateway-server # 应用名
     redis:
@@ -19,70 +24,8 @@ spring:
           # true 开启以服务名称调用目标服务
           enabled: true
       routes:
-         # 路由唯一标识
-        - id: blog-article
-          # 目标服务地址
-          # uri: http://localhost:8001
-          # 目标微服务名称 lb://目标服务名
-          uri: lb://article-server
-          # 断言，路由条件
-          predicates:
-            # 匹配访问路由，以 /article开头的请求代理到
-            # 访问 http://localhost:6001/article/api/article/1 代理到 http://localhost:8001/article/api/article/1
-            - Path=/article/**
-          filters:
-            # 代理转发去掉路径， /article/** ，会将 每个 /article 在过滤器中截取掉
-            # - StripPrefix=1
-            # 开启限流
-            - name: RequestRateLimiter
-              args:
-                # 限制过滤器bean名称
-                key-resolver: '#{@uriKeyResolver}'
-                # 希望每个用户每秒执行多少个请求。令牌桶填充的速率
-                redis-rate-limiter.replenishRate: 2
-                # 允许用户在一秒种内完成最大请求数。令牌桶最多可以容纳的令牌数量 。如果设置为0将阻止所有请求
-                redis-rate-limiter.burstCapacity: 4
-
         # 路由唯一标识
-        - id: blog-question
-          # 目标微服务名称 lb://目标服务名
-          uri: lb://question-server
-          # 断言，路由条件
-          predicates:
-            # 匹配访问路由，以 /question 开头的请求代理到
-            - Path=/question/**
-          filters:
-            # 开启限流
-            - name: RequestRateLimiter
-              args:
-                # 限制过滤器bean名称
-                key-resolver: '#{@uriKeyResolver}'
-                # 希望每个用户每秒执行多少个请求。令牌桶填充的速率
-                redis-rate-limiter.replenishRate: 2
-                # 允许用户在一秒种内完成最大请求数。令牌桶最多可以容纳的令牌数量 。如果设置为0将阻止所有请求
-                redis-rate-limiter.burstCapacity: 4
-
-        # 路由唯一标识
-        - id: blog-system
-          # 目标微服务名称 lb://目标服务名
-          uri: lb://system-server
-          # 断言，路由条件
-          predicates:
-            # 匹配访问路由，以 /system 开头的请求代理到
-            - Path=/system/**
-          filters:
-            # 开启限流
-            - name: RequestRateLimiter
-              args:
-                # 限制过滤器bean名称
-                key-resolver: '#{@uriKeyResolver}'
-                # 希望每个用户每秒执行多少个请求。令牌桶填充的速率
-                redis-rate-limiter.replenishRate: 2
-                # 允许用户在一秒种内完成最大请求数。令牌桶最多可以容纳的令牌数量 。如果设置为0将阻止所有请求
-                redis-rate-limiter.burstCapacity: 4
-
-        # 路由唯一标识
-        - id: blog-auth
+        - id: auth
           # 目标微服务名称 lb://目标服务名
           uri: lb://auth-server
           # 断言，路由条件
@@ -90,6 +33,8 @@ spring:
             # 匹配访问路由，以 /auth 开头的请求代理到
             - Path=/auth/**
           filters:
+            #去掉auth
+            - StripPrefix=1
             # 开启限流
             - name: RequestRateLimiter
               args:
@@ -99,3 +44,86 @@ spring:
                 redis-rate-limiter.replenishRate: 2
                 # 允许用户在一秒种内完成最大请求数。令牌桶最多可以容纳的令牌数量 。如果设置为0将阻止所有请求
                 redis-rate-limiter.burstCapacity: 4
+      # 路由唯一标识
+        - id: system
+          # 目标微服务名称 lb://目标服务名
+          uri: lb://system-server
+          # 断言，路由条件
+          predicates:
+          # 匹配访问路由，以 /auth 开头的请求代理到
+          - Path=/system/**
+          filters:
+          #去掉system
+          - StripPrefix=1
+          # 开启限流
+          - name: RequestRateLimiter
+            args:
+              # 限制过滤器bean名称
+              key-resolver: '#{@uriKeyResolver}'
+              # 希望每个用户每秒执行多少个请求。令牌桶填充的速率
+              redis-rate-limiter.replenishRate: 2
+              # 允许用户在一秒种内完成最大请求数。令牌桶最多可以容纳的令牌数量 。如果设置为0将阻止所有请求
+              redis-rate-limiter.burstCapacity: 4
+      # 路由唯一标识
+        - id: monitor
+          # 目标微服务名称 lb://目标服务名
+          uri: lb://monitor
+          # 断言，路由条件
+          predicates:
+          # 匹配访问路由，以 /auth 开头的请求代理到
+          - Path=/monitor/**
+          filters:
+          # 开启限流
+          - name: RequestRateLimiter
+            args:
+              # 限制过滤器bean名称
+              key-resolver: '#{@uriKeyResolver}'
+              # 希望每个用户每秒执行多少个请求。令牌桶填充的速率
+              redis-rate-limiter.replenishRate: 2
+              # 允许用户在一秒种内完成最大请求数。令牌桶最多可以容纳的令牌数量 。如果设置为0将阻止所有请求
+              redis-rate-limiter.burstCapacity: 4
+      # 路由唯一标识
+        - id: search
+          # 目标微服务名称 lb://目标服务名
+          uri: lb://search
+          # 断言，路由条件
+          predicates:
+          # 匹配访问路由，以 /auth 开头的请求代理到
+          - Path=/search/**
+          filters:
+          # 开启限流
+          - name: RequestRateLimiter
+            args:
+              # 限制过滤器bean名称
+              key-resolver: '#{@uriKeyResolver}'
+              # 希望每个用户每秒执行多少个请求。令牌桶填充的速率
+              redis-rate-limiter.replenishRate: 2
+              # 允许用户在一秒种内完成最大请求数。令牌桶最多可以容纳的令牌数量 。如果设置为0将阻止所有请求
+              redis-rate-limiter.burstCapacity: 4
+      # 路由唯一标识
+        - id: design
+          # 目标微服务名称 lb://目标服务名
+          uri: lb://design
+          # 断言，路由条件
+          predicates:
+          # 匹配访问路由，以 /auth 开头的请求代理到
+          - Path=/design/**
+          filters:
+          # 开启限流
+          - name: RequestRateLimiter
+            args:
+              # 限制过滤器bean名称
+              key-resolver: '#{@uriKeyResolver}'
+              # 希望每个用户每秒执行多少个请求。令牌桶填充的速率
+              redis-rate-limiter.replenishRate: 2
+              # 允许用户在一秒种内完成最大请求数。令牌桶最多可以容纳的令牌数量 。如果设置为0将阻止所有请求
+              redis-rate-limiter.burstCapacity: 4
+
+secure:
+  ignore:
+    urls: #配置白名单路径
+    - "/actuator/**"
+    - "/auth/oauth/token"
+    - "/system/sys-user/login"
+    - "/monitor/**"
+    - "/design/**"

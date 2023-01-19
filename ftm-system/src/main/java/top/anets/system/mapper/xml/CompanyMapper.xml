@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="top.anets.system.mapper.CompanyMapper">
-    <select id="queryOne"  resultType="top.anets.entity.system.Company">
+    <select id="queryOne"  resultType="top.anets.system.entity.Company">
         SELECT
         *
         FROM company
@@ -9,7 +9,7 @@
     </select>
 
 
-    <select id="queryListIn" resultType="top.anets.entity.system.Company">
+    <select id="queryListIn" resultType="top.anets.system.entity.Company">
         SELECT
         *
         FROM company
@@ -22,7 +22,7 @@
 
 
 
-    <resultMap id="BaseResultMap" type="top.anets.entity.system.Company" >
+    <resultMap id="BaseResultMap" type="top.anets.system.entity.Company" >
     </resultMap>
 
     <sql id="Base_Column_List" >

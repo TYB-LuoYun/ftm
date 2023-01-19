@@ -4,14 +4,12 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
-import top.anets.entity.system.Company;
+import top.anets.system.entity.Company;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
-import top.anets.entity.system.SysUser;
-import top.anets.entity.system.UserCompany;
 import top.anets.system.mapper.CompanyMapper;
 import top.anets.system.service.CompanyService;
-import top.anets.vo.system.CompanyVo;
+import top.anets.system.vo.CompanyVo;
 
 import java.util.ArrayList;
 import java.util.List;

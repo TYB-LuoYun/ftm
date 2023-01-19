@@ -1,8 +1,8 @@
 package top.anets.system.service;
 
-import top.anets.entity.system.SysUser;
+import top.anets.system.entity.SysUser;
 import com.baomidou.mybatisplus.extension.service.IService;
-import top.anets.vo.system.SysUserCondition;
+import top.anets.system.vo.SysUserCondition;
 
 /**
  * <p>

@@ -1,7 +1,6 @@
 server:
   port: 7001
-  servlet:
-    context-path: /auth
+
 spring: # 注意追加在配置文件中已经有 spring 前缀的后面
   application:
     name: auth-server

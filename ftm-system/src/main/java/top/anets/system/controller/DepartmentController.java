@@ -6,10 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
-import top.anets.entity.system.Company;
-import top.anets.entity.system.Department;
-import top.anets.entity.system.SysUser;
-import top.anets.system.config.AuthUtil;
+import top.anets.system.entity.Department;
 import top.anets.system.service.DepartmentService;
 import top.anets.utils.base.Result;
 

@@ -1,11 +1,12 @@
 package top.anets.system.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
-import top.anets.entity.system.Meta;
-import top.anets.entity.system.SysMenu;
+import top.anets.system.entity.Meta;
+import top.anets.system.entity.SysMenu;
 import top.anets.system.mapper.SysMenuMapper;
 import top.anets.system.service.SysMenuService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -23,7 +24,10 @@ import java.util.List;
 @RestController
 public class SysMenuServiceImpl extends ServiceImpl<SysMenuMapper, SysMenu> implements SysMenuService {
 
-
+    @Override
+    public IPage pages(QueryWrapper  querys, IPage page) {
+        return baseMapper.selectPage(page,querys );
+    }
 
     @Autowired
     private SysMenuMapper sysMenuMapper;
@@ -57,6 +61,7 @@ public class SysMenuServiceImpl extends ServiceImpl<SysMenuMapper, SysMenu> impl
         }else{
             sysMenuQueryWrapper.eq("parent_id", id);
         }
+        sysMenuQueryWrapper.eq("type", 1);
         List<SysMenu> sysMenus = sysMenuMapper.selectList(sysMenuQueryWrapper);
         if(CollectionUtils.isEmpty(sysMenus)){
             return null;

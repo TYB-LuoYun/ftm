@@ -1,6 +1,6 @@
 package top.anets.system.service.impl;
 
-import top.anets.entity.system.SysUserRole;
+import top.anets.system.entity.SysUserRole;
 import top.anets.system.mapper.SysUserRoleMapper;
 import top.anets.system.service.SysUserRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
