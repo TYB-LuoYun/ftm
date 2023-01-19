@@ -2,132 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c861a214-e4d8-4d42-830e-196c3b11f978" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/base/Fields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/base/PageQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/base/WrapperQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/mybatisplus/LocalDateTimeSerializerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/mybatisplus/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/mybatisplus/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/Dict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/OrgDeptRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/UserOrgDept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/vo/DictVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/vo/OrgDeptRoleVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/vo/SysMenuVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/vo/UserOrgDeptVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-article/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-article/src/main/java/top/anets/ArticleApllication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-article/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-article/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-article/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-article/src/main/resources/public.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/authorization/AuthorizationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/component/RestAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/component/RestfulAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/config/IgnoreUrlsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/config/ResourceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/IgnoreUrlsRemoveJwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-gateway/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-monitor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-monitor/src/main/java/top/anets/monitor/MonitorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-monitor/src/main/java/top/anets/monitor/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-monitor/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-monitor/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-monitor/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/KeyPairController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/customOauth/Oauth2Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/filter/FilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/filter/MyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-search/src/main/java/top/anets/search/SearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-search/src/main/java/top/anets/search/top/anets/search/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-search/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-search/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-search/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-search/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/SecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/config/JWTAuthenticationEntryPointOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/config/SecurityConfigOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/entity/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/entity/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/interceptorOld/JWTAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/interceptorOld/JWTAuthorizationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/utils/JwtTokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/utils/JwtTokenUtilOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/utils/SecurityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-security/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/DictController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/OrgDeptRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/UserOrgDeptController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/init/AfterRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/DictMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/OrgDeptRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/UserOrgDeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/OrgDeptRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/UserOrgDeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/model/ResourceRoles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/DictService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/IOrgDeptRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/IUserOrgDeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/DictServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/OrgDeptRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/UserOrgDeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/resources/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-system/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/common/AuthConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/redis/RedisConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/Meta.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/Meta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/SysMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/SysMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/SysRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/SysRoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/SysRoleMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/SysUserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/UserCompany.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/UserDept.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/IFeignSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/IFeignSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/vo/system/CompanyVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/vo/CompanyVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/vo/system/SysUserCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/vo/SysUserCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/vo/system/UserCompanyCondition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/vo/system/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Logs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/vo/system/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AccessTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AccessTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-gateway/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/conf/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/conf/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/conf/application.properties.example" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/conf/application.properties.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/conf/nacos-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/conf/nacos-mysql.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/conf/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/conf/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-api/ftm-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/ftm-file.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisPoolConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Logs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-gateway/ftm-gateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/GatewayServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/GatewayServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/log/log1.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c101.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c121.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c2d0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c2d0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c2e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c2e1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c31.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c41.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c490.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4a1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4b1.dat" afterDir="false" />
@@ -136,93 +31,18 @@
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4e1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4f0.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c501.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c501.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c51.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c511.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c511.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c521.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c521.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c531.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c531.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c700.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c700.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c71.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c711.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c711.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c721.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c721.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c731.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c731.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c740.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c740.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c760.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c760.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c81.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/ca1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/cf0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/d880.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/JwtTokenStoreConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/JwtTokenStoreConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/JwtUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/JwtUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/ConvertUpMoney.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/ifeign/system/SystemFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/ifeign/system/SystemFeignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/config/AuthUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/config/AuthUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/config/ResourceServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/CompanyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/DepartmentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/SysMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/SysMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/UserCompanyController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/CompanyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/CompanyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/DepartmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/DepartmentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/SysMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/SysMenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/SysRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/SysRoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/SysRoleMenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/SysUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/SysUserRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/UserCompanyMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/UserDeptMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/CompanyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/CompanyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/SysMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/UserCompanyMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/UserDeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/DictMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/CompanyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysMenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysRoleMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysRoleMenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysUserRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/UserCompanyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/UserDeptService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/CompanyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/DepartmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/UserCompanyServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/UserDeptServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/target/classes/top/anets/system/mapper/xml/CompanyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/target/classes/top/anets/system/mapper/xml/CompanyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/target/classes/top/anets/system/mapper/xml/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/target/classes/top/anets/system/mapper/xml/SysMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/target/classes/top/anets/system/mapper/xml/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/target/classes/top/anets/system/mapper/xml/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/target/classes/top/anets/system/mapper/xml/UserCompanyMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/target/classes/top/anets/system/mapper/xml/UserDeptMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/HttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/enums/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/enums/ResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/ftm-system.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/ftm-system.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/mxg_blog_system.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/mxg_blog_system.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/ftm-oauth2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-system/ftm-system.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-utils/ftm-utils.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -466,8 +286,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="83" column="42" lean-forward="true" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+            <state relative-caret-position="295">
+              <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -631,7 +451,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1939" />
@@ -714,6 +534,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -744,7 +565,7 @@
     <property name="SearchEverywhereHistoryKey" value="AuthorizationServerTokenServices&#9;FILE&#9;jar://E:/maven/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/AuthorizationServerTokenServices.java&#10;t&#9;FILE&#9;file://D:/1Anets.top/code/分布式认证-security-othur2/service/ftm/ftm-file/src/main/java/top/anets/semaphore/res/SemaphoreWithResource.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1674008463983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1674120416092" />
     <property name="last_opened_file_path" value="D:/1work/ry/MiniApp_Custom_Api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1028,12 +849,12 @@
       <workItem from="1669689731382" duration="757000" />
       <workItem from="1669785438514" duration="803000" />
       <workItem from="1673946251166" duration="3300000" />
-      <workItem from="1674119106570" duration="532000" />
+      <workItem from="1674119106570" duration="1298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="736123000" />
+    <option name="totallyTimeSpent" value="736889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1482,8 +1303,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="83" column="42" lean-forward="true" selection-start-line="83" selection-start-column="42" selection-end-line="83" selection-end-column="42" />
+        <state relative-caret-position="295">
+          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
         </state>
       </provider>
     </entry>
