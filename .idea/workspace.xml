@@ -1,61 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c861a214-e4d8-4d42-830e-196c3b11f978" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="36850090-ecc8-4b34-83c4-83ccb9a747be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-authorize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/ftm-api.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/ftm-file.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisPoolConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Logs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-gateway/ftm-gateway.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/GatewayServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/GatewayServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c490.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c490.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4a1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4a1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4b1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4b1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4c1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4c1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4d1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4d1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4e1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4e1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c4f0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c501.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c501.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c511.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c511.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c521.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c521.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c531.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c531.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c740.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c740.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c760.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c760.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c81.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/data/derby-data/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/ftm-oauth2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/ftm-system.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/ftm-utils.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/PasswordEncoderConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/BootGrantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/BootGrantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomLogoutSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomLogoutSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-system/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/ftm-api/target/" />
-    <ignored path="$PROJECT_DIR$/ftm-utils/target/" />
-    <ignored path="$PROJECT_DIR$/ftm-file/target/" />
-    <ignored path="$PROJECT_DIR$/ftm-oauth2/target/" />
-    <ignored path="$PROJECT_DIR$/ftm-system/target/" />
-    <ignored path="$PROJECT_DIR$/ftm-gateway/target/" />
-    <ignored path="$PROJECT_DIR$/ftm-common/target/" />
     <ignored path="$PROJECT_DIR$/ftm-monitor/target/" />
+    <ignored path="$PROJECT_DIR$/ftm-file/target/" />
+    <ignored path="$PROJECT_DIR$/ftm-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/ftm-utils/target/" />
     <ignored path="$PROJECT_DIR$/ftm-search/target/" />
-    <ignored path="$PROJECT_DIR$/ftm-security/target/" />
+    <ignored path="$PROJECT_DIR$/ftm-api/target/" />
+    <ignored path="$PROJECT_DIR$/ftm-oauth2/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/ftm-system/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,146 +41,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1594945341">
+    <session id="-1786584545">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="70" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.101" value="1" />
-          <entry key="project.open.time.106" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.110" value="1" />
-          <entry key="project.open.time.111" value="1" />
-          <entry key="project.open.time.113" value="1" />
-          <entry key="project.open.time.114" value="2" />
-          <entry key="project.open.time.115" value="2" />
-          <entry key="project.open.time.118" value="1" />
-          <entry key="project.open.time.119" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.120" value="2" />
-          <entry key="project.open.time.124" value="1" />
-          <entry key="project.open.time.129" value="1" />
-          <entry key="project.open.time.13" value="5" />
-          <entry key="project.open.time.130" value="1" />
-          <entry key="project.open.time.131" value="1" />
-          <entry key="project.open.time.133" value="2" />
-          <entry key="project.open.time.137" value="2" />
-          <entry key="project.open.time.139" value="1" />
-          <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.140" value="2" />
-          <entry key="project.open.time.141" value="2" />
-          <entry key="project.open.time.142" value="1" />
-          <entry key="project.open.time.145" value="3" />
-          <entry key="project.open.time.147" value="1" />
-          <entry key="project.open.time.148" value="1" />
-          <entry key="project.open.time.15" value="3" />
-          <entry key="project.open.time.150" value="1" />
-          <entry key="project.open.time.151" value="1" />
-          <entry key="project.open.time.154" value="1" />
-          <entry key="project.open.time.159" value="2" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.165" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.170" value="2" />
-          <entry key="project.open.time.175" value="1" />
-          <entry key="project.open.time.176" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.180" value="1" />
-          <entry key="project.open.time.184" value="1" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.203" value="1" />
-          <entry key="project.open.time.212" value="1" />
-          <entry key="project.open.time.213" value="1" />
-          <entry key="project.open.time.217" value="1" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.220" value="1" />
-          <entry key="project.open.time.224" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.247" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.27" value="2" />
-          <entry key="project.open.time.284" value="1" />
-          <entry key="project.open.time.295" value="1" />
-          <entry key="project.open.time.30" value="2" />
-          <entry key="project.open.time.306" value="1" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.355" value="1" />
-          <entry key="project.open.time.358" value="1" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.372" value="1" />
-          <entry key="project.open.time.38" value="2" />
-          <entry key="project.open.time.385" value="1" />
-          <entry key="project.open.time.391" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.459" value="1" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.51" value="1" />
-          <entry key="project.open.time.52" value="3" />
-          <entry key="project.open.time.53" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.60" value="1" />
-          <entry key="project.open.time.67" value="1" />
-          <entry key="project.open.time.69" value="1" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.70" value="1" />
-          <entry key="project.open.time.71" value="3" />
-          <entry key="project.open.time.74" value="1" />
-          <entry key="project.open.time.75" value="2" />
-          <entry key="project.open.time.76" value="1" />
-          <entry key="project.open.time.78" value="1" />
-          <entry key="project.open.time.79" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.82" value="1" />
-          <entry key="project.open.time.84" value="1" />
-          <entry key="project.open.time.88" value="1" />
-          <entry key="project.open.time.92" value="1" />
-          <entry key="project.open.time.96" value="1" />
-          <entry key="project.open.time.97" value="1" />
-          <entry key="project.opened" value="136" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="dummy" value="56" />
-          <entry key="java" value="19400" />
-          <entry key="txt" value="5" />
-          <entry key="xml" value="699" />
-          <entry key="yml" value="498" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="19400" />
-          <entry key="PLAIN_TEXT" value="61" />
-          <entry key="SQL" value="7" />
-          <entry key="XML" value="692" />
-          <entry key="YAML" value="498" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="24" />
-          <entry key="java" value="1136" />
-          <entry key="jks" value="1" />
-          <entry key="txt" value="13" />
-          <entry key="xml" value="152" />
-          <entry key="yml" value="134" />
+          <entry key="class" value="3" />
+          <entry key="html" value="2" />
+          <entry key="java" value="40" />
+          <entry key="xml" value="1" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="24" />
-          <entry key="JAVA" value="1136" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="XML" value="152" />
-          <entry key="YAML" value="134" />
+          <entry key="CLASS" value="3" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="40" />
+          <entry key="XML" value="1" />
+          <entry key="YAML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="67" />
+          <entry key="yml" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="67" />
+          <entry key="YAML" value="19" />
         </counts>
       </usages-collector>
     </session>
@@ -210,28 +85,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
-              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/KeyPairController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/BootGrantController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state relative-caret-position="306">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -239,64 +96,91 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/customOauth/Oauth2Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2963">
+            <state relative-caret-position="-281">
+              <caret line="168" selection-start-line="168" selection-end-line="169" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/HttpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/ViewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
-                <element signature="e#0#10826#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/filter/FilterConfig.java">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/BootGrantController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/filter/MyFilter.java">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/AuthService.java">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomLogoutSuccessHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/JwtUser.java">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+            <state relative-caret-position="552">
+              <caret line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#0#1379#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationSuccessHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+            <state relative-caret-position="314">
+              <caret line="94" column="73" selection-end-line="108" />
             </state>
           </provider>
         </entry>
@@ -306,108 +190,51 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>toJ</find>
-      <find>com.nimbusds</find>
-      <find>nimbus-jose-jwt.version</find>
-      <find>nimbus-jose-jwt</find>
-      <find>spring-boot-admin-starter-server</find>
-      <find>cloud-alibaba.version</find>
-      <find>nacos</find>
-      <find>getL</find>
-      <find>OAuth2AccessToken getAccessToken(OAuth2Authentication auth</find>
-      <find>ut</find>
-      <find>lo</find>
-      <find>fas</find>
-      <find>JwtTokenUtils</find>
-      <find>getAuthenticationeFromToken</find>
-      <find>generateToken</find>
-      <find>&quot;您未登录，没有访问权限&quot;</find>
-      <find>createToken</find>
-      <find>sw</find>
-      <find>加载角色资源开始</find>
-      <find>UN_AUTHENTICATED</find>
-      <find>org.springframework.boot</find>
-      <find>getChildrenAll</find>
-      <find>save</find>
-      <find>mybatis-plus</find>
-      <find>myba</find>
-      <find>page</find>
-      <find>com.alibaba.cloud</find>
-      <find>redis</find>
-      <find>lang</find>
-      <find>org.apache.commons</find>
+      <find>oauth/token</find>
+      <find>findByUsername</find>
+      <find>TokenEndpoint</find>
+      <find>UN_AUTHENTICATE</find>
+      <find>身份认证失败</find>
+      <find>thymeleaf</find>
+      <find>dataSource</find>
+      <find>authenticationManagerBean</find>
+      <find>post</find>
     </findStrings>
-    <replaceStrings>
-      <replace>sysUserFeign</replace>
-      <replace>findByUsername</replace>
-      <replace>SystemFeign</replace>
-      <replace>JwtTokenUtil</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/1Anets.top/code/gitproject/wechatpay-java" value="PREVIEW" />
+        <entry key="D:/cg/api" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysRoleMenuService.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysRoleMenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/init/AfterRunner.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/CompanyServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AuthGlobalFilter.java" />
-        <option value="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/config/ResourceServerConfig.java" />
-        <option value="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/IgnoreUrlsRemoveJwtFilter.java" />
-        <option value="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/authorization/AuthorizationManager.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/DictService.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/OrgDeptRoleController.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/UserOrgDeptController.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/DictServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/DictController.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/base/WrapperQuery.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/vo/system/DictVo.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/mybatisplus/MyMetaObjectHandler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/mybatisplus/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/mybatisplus/LocalDateTimeSerializerConfig.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/Company.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/Department.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/SysUser.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/SysUserRole.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/SysMenu.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/SysRole.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/SysRoleMenu.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/mybatisplus/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/system/CompanyVo.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/vo/UserOrgDeptVo.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/vo/CompanyVo.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/vo/SysUserCondition.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/IFeignSystem.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/vo/system/CompanyVo.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/vo/system/SysUserCondition.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/vo/system/UserOrgDeptVo.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mybatisplus/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/config/mybatisplus/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ftm-api/pom.xml" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/resources/logback-spring.xml" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/entity/system/Dict.java" />
         <option value="$PROJECT_DIR$/ftm-system/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/config/mybatisplus/LocalDateTimeSerializerConfig.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/vo/system/SysMenuVo.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/vo/SysMenuVo.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/SysMenuService.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysMenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/SysMenuController.java" />
-        <option value="$PROJECT_DIR$/ftm-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/SysMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-login.html" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/pom.xml" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/BootGrantController.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-authorize.html" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/ViewController.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ftm-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomLogoutSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -420,38 +247,13 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\maven\repository" />
-        <option name="mavenHome" value="E:/maven/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="E:\maven\apache-maven-3.3.9\conf\settings.xml" />
+        <option name="localRepository" value="D:\develop-env\repository" />
+        <option name="mavenHome" value="D:/develop-env/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\develop-env\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ftm-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ftm-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ftm-system" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1939" />
@@ -463,74 +265,30 @@
         <expanded-state>
           <State />
           <State>
-            <id>Class structureJava</id>
+            <id>Android</id>
           </State>
           <State>
-            <id>Code maturityJava</id>
+            <id>CorrectnessLintAndroid</id>
           </State>
           <State>
-            <id>CodeSpring CoreSpring</id>
+            <id>Gradle</id>
           </State>
           <State>
-            <id>Google Web Toolkit</id>
+            <id>Kotlin</id>
           </State>
           <State>
-            <id>JUnitJava</id>
+            <id>LintAndroid</id>
           </State>
           <State>
-            <id>Java</id>
+            <id>Maven</id>
           </State>
           <State>
-            <id>Java 5Java language level migration aidsJava</id>
+            <id>OSGi</id>
           </State>
           <State>
-            <id>Java 7Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 8Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>JavadocJava</id>
-          </State>
-          <State>
-            <id>Numeric issuesJava</id>
-          </State>
-          <State>
-            <id>PerformanceJava</id>
-          </State>
-          <State>
-            <id>SetupSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring AOPSpring</id>
-          </State>
-          <State>
-            <id>Spring BootSpring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-          <State>
-            <id>TestNGJava</id>
-          </State>
-          <State>
-            <id>Threading issuesJava</id>
-          </State>
-          <State>
-            <id>XMLSpring CoreSpring</id>
+            <id>Probable bugsGradle</id>
           </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>SpringJavaInjectionPointsAutowiringInspection</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -540,7 +298,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -550,48 +307,108 @@
               <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="anets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="anets" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="anets" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="anets" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="customOauth" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="AuthorizationServerTokenServices&#9;FILE&#9;jar://E:/maven/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/AuthorizationServerTokenServices.java&#10;t&#9;FILE&#9;file://D:/1Anets.top/code/分布式认证-security-othur2/service/ftm/ftm-file/src/main/java/top/anets/semaphore/res/SemaphoreWithResource.java" />
+    <property name="SearchEverywhereHistoryKey" value="Htt&#9;PSI&#9;JAVA://top.anets.utils.base.HttpUtils&#10;customLogoutSuccessHandler&#9;PSI&#9;JAVA://top.antes.oauth2.handle.CustomLogoutSuccessHandler&#10;customAuthenticationFailureHandler&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1674120416092" />
-    <property name="last_opened_file_path" value="D:/1work/ry/MiniApp_Custom_Api" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1692349967077" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="top.anets.system.entity" />
-      <recent name="top.anets.vo.system" />
-      <recent name="top.anets.security" />
-      <recent name="top.anets.top.anets.gateway.filter" />
-      <recent name="top.anets.top.anets.gateway.config" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\1Anets.top\code\分布式认证-security-othur2\service\ftm\ftm-system\src\main\resources" />
-      <recent name="D:\1Anets.top\code\分布式认证-security-othur2\service\ftm\ftm-api\src\main\java\top\anets" />
-      <recent name="D:\1Anets.top\code\分布式认证-security-othur2\service\ftm\ftm-system\src\main\java\top\anets" />
-      <recent name="D:\1Anets.top\code\分布式认证-security-othur2\service\ftm\ftm-system\src\main\java\top\anets\system\service\impl" />
-      <recent name="D:\1Anets.top\code\分布式认证-security-othur2\service\ftm\ftm-system\src\main\java\top\anets\system\service" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -605,20 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SystemApllication">
-    <configuration name="DictController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.anets.system.controller.DictController" />
-      <module name="ftm-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.anets.system.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.AuthServerApplication">
     <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ftm-oauth2" />
       <extension name="coverage">
@@ -628,8 +432,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.anets.AuthServerApplication" />
-      <option name="VM_PARAMETERS" value="-javaagent:$PROJECT_DIR$/../../../../springCloudTools/skywalking/apache-skywalking-apm-bin/agent/skywalking-agent.jar -Dskywalking.agent.service_name=auth -Dskywalking.collector.backend_service=localhost:11800" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -637,36 +439,6 @@
     <configuration name="GatewayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ftm-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.anets.GatewayServerApplication" />
-      <option name="VM_PARAMETERS" value="-javaagent:$PROJECT_DIR$/../../../../springCloudTools/skywalking/apache-skywalking-apm-bin/agent/skywalking-agent.jar -Dskywalking.agent.service_name=gateway -Dskywalking.collector.backend_service=localhost:11800" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ftm-monitor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.anets.monitor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.anets.monitor.MonitorApplication" />
-      <option name="VM_PARAMETERS" value="-javaagent:$PROJECT_DIR$/../../../../springCloudTools/skywalking/apache-skywalking-apm-bin/agent/skywalking-agent.jar -Dskywalking.agent.service_name=monior -Dskywalking.collector.backend_service=localhost:11800" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ftm-security" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.anets.security.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.anets.security.SecurityApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -680,27 +452,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.anets.SystemApllication" />
-      <option name="VM_PARAMETERS" value="-javaagent:$PROJECT_DIR$/../../../../springCloudTools/skywalking/apache-skywalking-apm-bin/agent/skywalking-agent.jar -Dskywalking.agent.service_name=system -Dskywalking.collector.backend_service=localhost:11800" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Spring Boot.GatewayServerApplication" />
-      <item itemvalue="Spring Boot.SystemApllication" />
       <item itemvalue="Spring Boot.AuthServerApplication" />
-      <item itemvalue="Spring Boot.MonitorApplication" />
-      <item itemvalue="Spring Boot.SecurityApplication" />
-      <item itemvalue="Application.DictController" />
+      <item itemvalue="Spring Boot.SystemApllication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SystemApllication" />
         <item itemvalue="Spring Boot.AuthServerApplication" />
-        <item itemvalue="Application.DictController" />
-        <item itemvalue="Spring Boot.SecurityApplication" />
-        <item itemvalue="Spring Boot.MonitorApplication" />
+        <item itemvalue="Spring Boot.SystemApllication" />
       </list>
     </recent_temporary>
   </component>
@@ -709,167 +473,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c861a214-e4d8-4d42-830e-196c3b11f978" name="Default Changelist" comment="" />
-      <created>1625638114691</created>
+      <changelist id="36850090-ecc8-4b34-83c4-83ccb9a747be" name="Default Changelist" comment="" />
+      <created>1692326691737</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1625638114691</updated>
-      <workItem from="1625638139491" duration="16429000" />
-      <workItem from="1625706710172" duration="533000" />
-      <workItem from="1625794348911" duration="1202000" />
-      <workItem from="1625883551416" duration="584000" />
-      <workItem from="1625930974185" duration="116000" />
-      <workItem from="1626014340443" duration="3693000" />
-      <workItem from="1626051852235" duration="1541000" />
-      <workItem from="1626054869930" duration="1254000" />
-      <workItem from="1626099812229" duration="1399000" />
-      <workItem from="1626137608169" duration="1945000" />
-      <workItem from="1626162666760" duration="556000" />
-      <workItem from="1626186623182" duration="3993000" />
-      <workItem from="1626224523781" duration="1153000" />
-      <workItem from="1626272461047" duration="931000" />
-      <workItem from="1626311474082" duration="980000" />
-      <workItem from="1626352079121" duration="606000" />
-      <workItem from="1626397404686" duration="871000" />
-      <workItem from="1626443728938" duration="1306000" />
-      <workItem from="1626493761557" duration="695000" />
-      <workItem from="1626525032091" duration="1184000" />
-      <workItem from="1626599649636" duration="598000" />
-      <workItem from="1626656753808" duration="563000" />
-      <workItem from="1626746733560" duration="3502000" />
-      <workItem from="1626789548023" duration="578000" />
-      <workItem from="1626829158875" duration="1418000" />
-      <workItem from="1626873023393" duration="1657000" />
-      <workItem from="1626926096195" duration="1412000" />
-      <workItem from="1626939628337" duration="1580000" />
-      <workItem from="1627002866487" duration="156000" />
-      <workItem from="1627103187925" duration="33753000" />
-      <workItem from="1627481663979" duration="1202000" />
-      <workItem from="1627531859099" duration="590000" />
-      <workItem from="1627567130099" duration="579000" />
-      <workItem from="1627608505217" duration="13351000" />
-      <workItem from="1628518311695" duration="1914000" />
-      <workItem from="1630996261779" duration="23710000" />
-      <workItem from="1631081694702" duration="27328000" />
-      <workItem from="1631236848367" duration="10676000" />
-      <workItem from="1631587872157" duration="551000" />
-      <workItem from="1631629329346" duration="476000" />
-      <workItem from="1631673405739" duration="4042000" />
-      <workItem from="1631901224120" duration="24100000" />
-      <workItem from="1632219553238" duration="579000" />
-      <workItem from="1632274592488" duration="1099000" />
-      <workItem from="1632359903237" duration="764000" />
-      <workItem from="1632446908035" duration="3863000" />
-      <workItem from="1632619644846" duration="1422000" />
-      <workItem from="1632625517480" duration="4056000" />
-      <workItem from="1632965686471" duration="3317000" />
-      <workItem from="1633426761285" duration="713000" />
-      <workItem from="1633435927859" duration="640000" />
-      <workItem from="1633608828084" duration="1973000" />
-      <workItem from="1633656573328" duration="14879000" />
-      <workItem from="1633743549681" duration="31849000" />
-      <workItem from="1633837806288" duration="2672000" />
-      <workItem from="1633841570422" duration="1724000" />
-      <workItem from="1633914786861" duration="2794000" />
-      <workItem from="1634088513946" duration="806000" />
-      <workItem from="1634195616271" duration="1478000" />
-      <workItem from="1634200230170" duration="29000" />
-      <workItem from="1638760886406" duration="7810000" />
-      <workItem from="1638837768502" duration="1044000" />
-      <workItem from="1638840597441" duration="206000" />
-      <workItem from="1639446149221" duration="43000" />
-      <workItem from="1644280631914" duration="8938000" />
-      <workItem from="1644369375784" duration="7496000" />
-      <workItem from="1644387426365" duration="10010000" />
-      <workItem from="1644453962473" duration="11217000" />
-      <workItem from="1644566921302" duration="4974000" />
-      <workItem from="1644815376389" duration="51785000" />
-      <workItem from="1645404946752" duration="22099000" />
-      <workItem from="1645495939250" duration="13058000" />
-      <workItem from="1645600881453" duration="1313000" />
-      <workItem from="1646050846601" duration="8954000" />
-      <workItem from="1652342489139" duration="460000" />
-      <workItem from="1652345713163" duration="2126000" />
-      <workItem from="1652753971151" duration="7077000" />
-      <workItem from="1657696739000" duration="7237000" />
-      <workItem from="1657860516663" duration="685000" />
-      <workItem from="1658109321244" duration="2551000" />
-      <workItem from="1658122838242" duration="3477000" />
-      <workItem from="1658233790496" duration="586000" />
-      <workItem from="1658971326859" duration="4191000" />
-      <workItem from="1659001269015" duration="1329000" />
-      <workItem from="1659056786568" duration="2339000" />
-      <workItem from="1659257711991" duration="2086000" />
-      <workItem from="1659337800003" duration="19108000" />
-      <workItem from="1659403466258" duration="25361000" />
-      <workItem from="1659510126703" duration="18324000" />
-      <workItem from="1659662869947" duration="5880000" />
-      <workItem from="1659921921294" duration="5237000" />
-      <workItem from="1659947033521" duration="2985000" />
-      <workItem from="1660008086215" duration="10116000" />
-      <workItem from="1660095085947" duration="7960000" />
-      <workItem from="1660185253144" duration="19926000" />
-      <workItem from="1660267670947" duration="4000" />
-      <workItem from="1660270403482" duration="16389000" />
-      <workItem from="1660379295176" duration="342000" />
-      <workItem from="1660379804153" duration="313000" />
-      <workItem from="1660380885156" duration="1364000" />
-      <workItem from="1660527074614" duration="22346000" />
-      <workItem from="1662432077075" duration="23757000" />
-      <workItem from="1662542421359" duration="4569000" />
-      <workItem from="1662549098385" duration="67000" />
-      <workItem from="1662606729287" duration="8863000" />
-      <workItem from="1663051909174" duration="1422000" />
-      <workItem from="1663055720676" duration="9086000" />
-      <workItem from="1663219325372" duration="2202000" />
-      <workItem from="1663225390452" duration="1618000" />
-      <workItem from="1663291883072" duration="557000" />
-      <workItem from="1664266410855" duration="1108000" />
-      <workItem from="1664328782642" duration="17559000" />
-      <workItem from="1665197577677" duration="4138000" />
-      <workItem from="1665278647005" duration="3365000" />
-      <workItem from="1665365695776" duration="10925000" />
-      <workItem from="1665450796690" duration="11126000" />
-      <workItem from="1665482492748" duration="3293000" />
-      <workItem from="1665625407126" duration="930000" />
-      <workItem from="1665710698059" duration="489000" />
-      <workItem from="1665970451082" duration="996000" />
-      <workItem from="1666748645068" duration="1946000" />
-      <workItem from="1666839953946" duration="469000" />
-      <workItem from="1666867320982" duration="699000" />
-      <workItem from="1666920405381" duration="1552000" />
-      <workItem from="1667128899403" duration="3115000" />
-      <workItem from="1667191709242" duration="586000" />
-      <workItem from="1667373264104" duration="806000" />
-      <workItem from="1667378314517" duration="1170000" />
-      <workItem from="1667441932554" duration="2332000" />
-      <workItem from="1668068599933" duration="1658000" />
-      <workItem from="1668129638612" duration="1095000" />
-      <workItem from="1668268097450" duration="1123000" />
-      <workItem from="1669689731382" duration="757000" />
-      <workItem from="1669785438514" duration="803000" />
-      <workItem from="1673946251166" duration="3300000" />
-      <workItem from="1674119106570" duration="1298000" />
+      <updated>1692326691737</updated>
+      <workItem from="1692326699761" duration="4227000" />
+      <workItem from="1692336834123" duration="9612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="736889000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="13839000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45238096" visible="true" weight="0.2298177" />
-      <window_info id="Structure" order="1" sideWeight="0.25653207" side_tool="true" weight="0.23293173" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -877,30 +499,29 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.3111979" weight="0.47412586" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32867134" />
-      <window_info anchor="bottom" auto_hide="true" x="0" y="239" width="1536" height="355" id="Debug" order="6" sideWeight="0.68880206" weight="0.3916084" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32867134" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979852" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29586425" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.45594406" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32867134" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50066936" side_tool="true" weight="0.32971507" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32867134" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32979852" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.1484375" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="沸点" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -913,428 +534,304 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-oauth2-jose/5.3.3.RELEASE/spring-security-oauth2-jose-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/jwt/NimbusReactiveJwtDecoder.class</url>
+          <url>file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationSuccessHandler.java</url>
+          <line>55</line>
           <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/IgnoreUrlsRemoveJwtFilter.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/component/RestfulAccessDeniedHandler.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java</url>
-          <line>103</line>
-          <properties />
-          <option name="timeStamp" value="39" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
+    <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>new LinkedHashMap(parsedJwt.getHeader().toJSONObject())</expression-string>
+        <expression-string>EndpointRequest.toAnyEndpoint()</expression-string>
         <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>parsedJwt.getHeader().toJSONObject()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>parsedJwt.getHeader()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/GatewayServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="153">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/resources/bootstrap.yml">
+    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/SystemApllication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/SecurityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/IgnoreUrlsRemoveJwtFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/config/IgnoreUrlsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" selection-start-line="17" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/component/RestAuthenticationEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/component/RestfulAccessDeniedHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/authorization/AuthorizationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="41" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/config/ResourceServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/UriKeyResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AuthGlobalFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AccessTokenFilter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/ifeign/system/SystemFeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/CompanyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/DictMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="65" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/OrgDeptRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="68" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/SysRoleMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/SysRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/CompanyMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/xml/SysMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/mapper/DictMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="187">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/entity/SysRole.java">
+    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/controller/SysUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/entity/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/interceptorOld/JWTAuthorizationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/service/impl/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/utils/JwtTokenUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/utils/SecurityUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="103" column="59" selection-start-line="103" selection-start-column="59" selection-end-line="103" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/AuthServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="221">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/interceptorOld/JWTAuthenticationFilter.java">
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+        <state relative-caret-position="323">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/config/JWTAuthenticationEntryPointOld.java">
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/filter/MyFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="255">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/IFeignSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-core/5.3.3.RELEASE/spring-security-core-5.3.3.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-core/5.3.3.RELEASE/spring-security-core-5.3.3.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/ifeign/system/SystemFeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/enums/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/JwtTokenEnhancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-web/5.3.3.RELEASE/spring-security-web-5.3.3.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationSuccessHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/JwtTokenStoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/component/RestAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/ReloadMessageConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-authorize.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding>
-            <element signature="e#0#893#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/PasswordEncoderConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-security/src/main/java/top/anets/security/config/SecurityConfigOld.java">
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        <state relative-caret-position="510">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1388">
+          <caret line="121" column="7" lean-forward="true" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+          <folding>
+            <element signature="e#2681#2682#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomLogoutSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthUtil.java">
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="314">
+          <caret line="94" column="73" selection-end-line="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/JwtTokenEnhancer.java">
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/JwtTokenStoreConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/KeyPairController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="552">
+          <caret line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#1379#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/BootGrantController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state relative-caret-position="289">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/KeyPairController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/customOauth/Oauth2Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2963">
-          <folding>
-            <element signature="e#0#10826#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-281">
+          <caret line="168" selection-start-line="168" selection-end-line="169" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/filter/FilterConfig.java">
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="433">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/filter/MyFilter.java">
+    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/JwtUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        <state>
+          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -1358,22 +855,9 @@
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>ftm-system</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1385,7 +869,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

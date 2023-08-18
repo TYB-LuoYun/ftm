@@ -18,8 +18,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ftm-common" target="1.8" />
-      <module name="ftm-security" target="1.8" />
+      <module name="ftm" target="1.8" />
+      <module name="ftm-api" target="1.8" />
+      <module name="ftm-file" target="1.8" />
+      <module name="ftm-gateway" target="1.8" />
+      <module name="ftm-monitor" target="1.8" />
+      <module name="ftm-oauth2" target="1.8" />
+      <module name="ftm-search" target="1.8" />
+      <module name="ftm-system" target="1.8" />
+      <module name="ftm-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

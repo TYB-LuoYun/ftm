@@ -4,6 +4,8 @@ server:
 spring: # 注意追加在配置文件中已经有 spring 前缀的后面
   application:
     name: auth-server
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
 
   cloud:
   nacos:
@@ -13,7 +15,7 @@ spring: # 注意追加在配置文件中已经有 spring 前缀的后面
   #数据库连接信息
   datasource:
     username: root
-    password: tyb
+    password: root
     url: jdbc:mysql://127.0.0.1:3306/ftm-auth?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
     #mysql8版本以上驱动包指定新的驱动类
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -31,4 +33,5 @@ spring: # 注意追加在配置文件中已经有 spring 前缀的后面
     port: 6379 # Redis服务器连接端口
     password: # Redis服务器连接密码（默认为空）,redis 不需要用户名的
 
-
+  thymeleaf:
+    cache: false

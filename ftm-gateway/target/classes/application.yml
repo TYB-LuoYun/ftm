@@ -123,7 +123,7 @@ secure:
   ignore:
     urls: #配置白名单路径
     - "/actuator/**"
-    - "/auth/oauth/token"
+    - "/auth/oauth/**"
     - "/system/sys-user/login"
     - "/monitor/**"
     - "/design/**"

@@ -15,9 +15,16 @@ public class BootGrantController {
 
     @RequestMapping("/custom/confirm_access")
     public ModelAndView getAccessConfirmation(Map<String, Object> model, HttpServletRequest request) throws Exception {
+//        AuthorizationRequest authorizationRequest = (AuthorizationRequest) model.get("authorizationRequest");
+//        ModelAndView view = new ModelAndView();
+//        view.setViewName("base-grant");
+//        view.addObject("clientId", authorizationRequest.getClientId());
+//        view.addObject("scopes",authorizationRequest.getScope());
+//        return view;
+
         AuthorizationRequest authorizationRequest = (AuthorizationRequest) model.get("authorizationRequest");
         ModelAndView view = new ModelAndView();
-        view.setViewName("base-grant");
+        view.setViewName("oauth-authorize");
         view.addObject("clientId", authorizationRequest.getClientId());
         view.addObject("scopes",authorizationRequest.getScope());
         return view;
