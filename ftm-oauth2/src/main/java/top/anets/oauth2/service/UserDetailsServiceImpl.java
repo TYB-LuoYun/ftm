@@ -78,4 +78,17 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         log.info("jwtuser:"+jwtUser.toString());
         return jwtUser;
     }
+
+    public UserDetails loadUserByMobile(String mobile) {
+        log.info("手机号模式查询用户信息");
+        SysUser sysUser = new SysUser( );
+        if (sysUser == null) {
+            throw new UsernameNotFoundException("not found mobile user:" + mobile);
+        }
+        JwtUser userDetail = new JwtUser();
+        BeanUtils.copyProperties(sysUser, userDetail);
+        BeanUtils.copyProperties(sysUser,userDetail);
+        userDetail.setAuthorities(new ArrayList<>());
+        return userDetail;
+    }
 }

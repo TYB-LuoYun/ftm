@@ -3,6 +3,7 @@ package top.anets.oauth2.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest;
 import org.springframework.context.annotation.Bean;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -10,6 +11,9 @@ import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import top.anets.oauth2.mobileGrant.MobileCodeAuthenticationProvider;
+import top.anets.oauth2.service.UserDetailsServiceImpl;
 
 /**
  * 安全配置类
@@ -18,14 +22,17 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    private UserDetailsService userDetailsService;
-
+    private UserDetailsServiceImpl userDetailsService;
+    @Autowired
+    private StringRedisTemplate stringRedisTemplate;
 
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         // 指定使用自定义查询用户信息来完成身份认证
-        auth.userDetailsService(userDetailsService);
+        auth.authenticationProvider(provider())
+                .userDetailsService(userDetailsService);
+//                .passwordEncoder(new BCryptPasswordEncoder()); //这个在别的地方配置了
     }
 
     @Bean // 使用 password模块时需要此bean
@@ -119,7 +126,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
                 .requestMatchers(EndpointRequest.toAnyEndpoint()).permitAll()
-                .antMatchers("/view/**", "/user/**").permitAll()
+                .antMatchers("/view/**", "/user/**","/oauth/getToken").permitAll()
                 .anyRequest().authenticated();
 
         http.formLogin()
@@ -137,7 +144,19 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .csrf().disable().httpBasic();
     }
-
+    /**
+     * 自定义手机验证码认证提供者
+     *
+     * @return
+     */
+    @Bean
+    public MobileCodeAuthenticationProvider provider() {
+        MobileCodeAuthenticationProvider provider = new MobileCodeAuthenticationProvider();
+        provider.setStringRedisTemplate(stringRedisTemplate);
+        provider.setHideUserNotFoundExceptions(false);
+        provider.setUserDetailsService(userDetailsService);
+        return provider;
+    }
 
 
 
