@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36850090-ecc8-4b34-83c4-83ccb9a747be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/exception/AuthExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeAuthenticationProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeAuthenticationToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeTokenGranter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/customAuthCodeService/RedisAuthorizationCodeServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/customClient/ClientDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/customClient/SysClientDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/login-authorize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/MyRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/ServletUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/redis/RedisConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/redis/RedisConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ftm-monitor/target/" />
     <ignored path="$PROJECT_DIR$/ftm-file/target/" />
@@ -47,33 +40,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="8" />
+          <entry key="AuthorizationEndpoint" value="2" />
+          <entry key="class" value="41" />
           <entry key="css" value="1" />
-          <entry key="html" value="3" />
-          <entry key="java" value="76" />
-          <entry key="xml" value="1" />
+          <entry key="html" value="13" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="105" />
+          <entry key="xml" value="3" />
+          <entry key="xsd" value="1" />
           <entry key="yml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="8" />
+          <entry key="CLASS" value="41" />
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="3" />
-          <entry key="JAVA" value="76" />
-          <entry key="XML" value="1" />
+          <entry key="HTML" value="13" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="105" />
+          <entry key="UML" value="2" />
+          <entry key="XML" value="4" />
           <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="532" />
+          <entry key="html" value="130" />
+          <entry key="java" value="1144" />
           <entry key="yml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="532" />
+          <entry key="HTML" value="130" />
+          <entry key="JAVA" value="1144" />
           <entry key="YAML" value="19" />
         </counts>
       </usages-collector>
@@ -82,14 +82,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="138" column="67" selection-start-line="138" selection-start-column="67" selection-end-line="138" selection-end-column="67" />
-              <folding>
-                <element signature="e#2261#2262#0" expanded="true" />
-                <element signature="e#2324#2325#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2091">
+              <caret line="175" column="14" lean-forward="true" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -97,83 +93,89 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/customOauth/Oauth2Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1461">
-              <caret line="116" column="51" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
+            <state relative-caret-position="374">
+              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeAuthenticationProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="79" column="61" lean-forward="true" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/filter/MyFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/code/AuthorizationCodeTokenGranter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/exception/ServiceException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/exception/GlobalExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/exception/AuthExceptionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="251">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/code/AuthorizationCodeServices.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="73" column="86" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/approval/UserApprovalHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/approval/ApprovalStoreUserApprovalHandler.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/login-authorize.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-authorize.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -189,11 +191,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>oauth/token</find>
-      <find>findByUsername</find>
-      <find>TokenEndpoint</find>
-      <find>UN_AUTHENTICATE</find>
-      <find>身份认证失败</find>
       <find>thymeleaf</find>
       <find>dataSource</find>
       <find>authenticationManagerBean</find>
@@ -202,7 +199,28 @@
       <find>endpoints.tokenGranter</find>
       <find>BCryptPasswordEncoder</find>
       <find>参数username</find>
+      <find>afterPropertiesSet</find>
       <find>passwordEncoder()</find>
+      <find>token&quot;</find>
+      <find>/oauth/token</find>
+      <find>There is no client authentication. Try adding an appropri</find>
+      <find>oauth2RequestValidator</find>
+      <find>TokenGranter</find>
+      <find>/oauth/authorize</find>
+      <find>createAuthorizationCode</find>
+      <find>authorizationServerSecurityFilterChain</find>
+      <find>append</find>
+      <find>authorizationCodeServices</find>
+      <find>setAuthorizationCodeServices</find>
+      <find>generateCode</find>
+      <find>getSuccessfulRedirect</find>
+      <find>isAuthorizationRequestModified</find>
+      <find>getAuthorizationCodeResponse</find>
+      <find>getImplicitGrantResponse</find>
+      <find>appendAccessToken</find>
+      <find>implicitLock</find>
+      <find>redirectResolver</find>
+      <find>getAccessTokenForImplicitGrant</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -229,7 +247,6 @@
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationSuccessHandler.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomLogoutSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-login.html" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/customClient/ClientDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/customAuthCodeService/RedisAuthorizationCodeServices.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/customClient/SysClientDetailService.java" />
@@ -239,10 +256,17 @@
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeAuthenticationToken.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeTokenGranter.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthenticationController.java" />
-        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java" />
         <option value="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/exception/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/exception/AuthExceptionHandler.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/OauthController.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/utils/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/HttpClientUtil.java" />
+        <option value="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/MyRequestWrapper.java" />
+        <option value="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/ServletUtil.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-login.html" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/login-authorize.html" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java" />
       </list>
     </option>
@@ -262,9 +286,29 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ftm-oauth2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ftm-utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ftm-utils" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1939" />
     <option name="height" value="1060" />
   </component>
@@ -380,25 +424,124 @@
               <item name="top" type="462c0819:PsiDirectoryNode" />
               <item name="anets" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="anets" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="customOauth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="anets" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileGrant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ftm" type="462c0819:PsiDirectoryNode" />
+              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-starter-oauth2:2.2.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-starter-oauth2:2.2.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-starter-oauth2-2.2.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-starter-oauth2:2.2.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-starter-oauth2-2.2.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-starter-oauth2:2.2.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-starter-oauth2-2.2.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-starter-oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-oauth2-client:5.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-oauth2-client:5.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-client-5.3.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-oauth2-resource-server:5.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-oauth2-resource-server:5.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-resource-server-5.3.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-oauth2-resource-server:5.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-resource-server-5.3.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-oauth2-resource-server:5.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-resource-server-5.3.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-oauth2-resource-server:5.3.3.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-oauth2-resource-server-5.3.3.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -414,10 +557,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="Htt&#9;PSI&#9;JAVA://top.anets.utils.base.HttpUtils&#10;customLogoutSuccessHandler&#9;PSI&#9;JAVA://top.antes.oauth2.handle.CustomLogoutSuccessHandler&#10;customAuthenticationFailureHandler&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" />
+    <property name="SearchEverywhereHistoryKey" value=".AuthorizationEndpoint&#9;FILE&#9;uml://JAVA/org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint&#10;authorizationRequest&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2AuthorizationCodeGrantRequestEntityConverter.class&#10;authorizationRequestConverter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.client.endpoint.OAuth2AuthorizationCodeGrantRequestEntityConverter&#10; Authorization Endpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationEndpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationCodeTokenGranter&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/code/AuthorizationCodeTokenGranter.class&#10;Htt&#9;PSI&#9;JAVA://top.anets.utils.base.HttpUtils&#10;customLogoutSuccessHandler&#9;PSI&#9;JAVA://top.antes.oauth2.handle.CustomLogoutSuccessHandler&#10;customAuthenticationFailureHandler&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1692694830436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1692856034237" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud-oauth2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -431,11 +574,14 @@
       <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\resources\static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.anets.utils.base" />
+      <recent name="top.anets.oauth2.utils" />
       <recent name="top.anets.oauth2.controller" />
       <recent name="top.anets.oauth2.mobileGrant" />
       <recent name="top.anets.oauth2.service.customAuthCodeService" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\resources\templates" />
       <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\java\top\anets\oauth2\mobileGrant" />
       <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\java\top\anets\oauth2\service\customClient" />
       <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\resources" />
@@ -453,7 +599,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SystemApllication">
+  <component name="RunManager" selected="Spring Boot.AuthServerApplication">
     <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ftm-oauth2" />
       <extension name="coverage">
@@ -512,18 +658,18 @@
       <workItem from="1692326699761" duration="4227000" />
       <workItem from="1692336834123" duration="9630000" />
       <workItem from="1692589713048" duration="1209000" />
-      <workItem from="1692676872564" duration="14363000" />
+      <workItem from="1692676872564" duration="48369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29429000" />
+    <option name="totallyTimeSpent" value="63435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18385416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.265625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -534,7 +680,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32979852" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4231177" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2916225" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -550,7 +696,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.18541667" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -573,16 +719,87 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java</url>
-          <line>98</line>
+          <url>jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2AuthorizationCodeGrantRequestEntityConverter.class</url>
+          <line>32</line>
           <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2AuthorizationCodeGrantRequestEntityConverter.class</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class</url>
+          <line>268</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>authenticationManager.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>authentication.getPrincipal()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ServletUtil.getRootUrl(request) +&quot;/oauth/authorize&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getRequestURL()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getRequestURI()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request.getRequestURI()+&quot;/oauth/authorize&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>EndpointRequest.toAnyEndpoint()</expression-string>
         <language-id>JAVA</language-id>
@@ -591,268 +808,80 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-core/5.3.3.RELEASE/spring-security-core-5.3.3.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-core/5.3.3.RELEASE/spring-security-core-5.3.3.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/ifeign/system/SystemFeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-system/src/main/resources/application.yml">
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/web/AuthenticatedPrincipalOAuth2AuthorizedClientRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="36" />
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/enums/ResultEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-web/5.3.3.RELEASE/spring-security-web-5.3.3.RELEASE.jar!/org/springframework/security/web/authentication/AuthenticationSuccessHandler.class">
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/web/DefaultOAuth2AuthorizationRequestResolver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <caret line="31" selection-start-line="31" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/component/RestAuthenticationEntryPoint.java">
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/web/OAuth2AuthorizedClientRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-authorize.html">
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/web/HttpSessionOAuth2AuthorizedClientRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="391">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/PasswordEncoderConfig.java" />
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/pom.xml">
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/AbstractOAuth2AuthorizationGrantRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="74" selection-end-column="21" />
+        <state relative-caret-position="102">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-gateway/src/main/resources/application.yml">
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/AbstractWebClientReactiveOAuth2AccessTokenResponseClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1388">
-          <caret line="121" column="7" lean-forward="true" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+        <state relative-caret-position="238">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomLogoutSuccessHandler.java">
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/DefaultPasswordTokenResponseClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java">
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2AuthorizationCodeGrantRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#1379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="94" column="73" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/AuthServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/css/signin.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="35" column="42" lean-forward="true" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/JwtTokenStoreConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/JwtTokenEnhancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/store/JwtAccessTokenConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/customAuthCodeService/RedisAuthorizationCodeServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/AbstractTokenGranter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/customClient/SysClientDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="55" column="38" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/customClient/ClientDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" selection-start-line="20" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/redis/RedisConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/system/entity/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/JwtUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-          <folding>
-            <element signature="e#1680#1681#0" expanded="true" />
-            <element signature="e#1703#1704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeAuthenticationToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="102">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeTokenGranter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="109" column="50" selection-start-line="109" selection-start-column="50" selection-end-line="109" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthenticationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/ReloadMessageConfig.java">
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2ClientCredentialsGrantRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2PasswordGrantRequestEntityConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/KeyPairController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" selection-start-line="27" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -866,104 +895,337 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/KeyPairController.java">
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/JwtTokenEnhancer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="85">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeAuthenticationToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeTokenGranter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/BootGrantController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="30" selection-start-line="30" selection-end-line="31" />
+        <state relative-caret-position="357">
+          <caret line="28" column="65" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthenticationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="139" column="26" selection-start-line="139" selection-start-column="26" selection-end-line="139" selection-end-column="26" />
+        <state relative-caret-position="1700">
+          <caret line="139" column="7" selection-start-line="139" selection-start-column="7" selection-end-line="139" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/exception/ServiceException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/exception/GlobalExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/AuthServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="21" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java">
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/utils/SecurityUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="138" column="67" selection-start-line="138" selection-start-column="67" selection-end-line="138" selection-end-column="67" />
-          <folding>
-            <element signature="e#2261#2262#0" expanded="true" />
-            <element signature="e#2324#2325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/exception/AuthExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="312">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="20" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/HttpClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="159" column="23" lean-forward="true" selection-start-line="159" selection-start-column="23" selection-end-line="159" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/common/exceptions/UnsupportedResponseTypeException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="167" column="36" lean-forward="true" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/RequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/ServletUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="7" selection-start-line="7" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/TokenEndpoint.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        <state relative-caret-position="119">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/filter/MyFilter.java">
+    <entry file="jar://D:/develop-env/repository/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar!/org/springframework/web/bind/support/SessionStatus.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/customOauth/Oauth2Controller.java">
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/token/AbstractTokenGranter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1461">
-          <caret line="116" column="51" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
+        <state relative-caret-position="34">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/MyRequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AbstractEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/code/AuthorizationCodeTokenGranter.class">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1014">
+          <caret line="82" column="58" selection-start-line="81" selection-start-column="3" selection-end-line="82" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-config/5.3.3.RELEASE/spring-security-config-5.3.3.RELEASE.jar!/org/springframework/security/config/annotation/authentication/configuration/AuthenticationConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="258" column="30" selection-start-line="258" selection-start-column="30" selection-end-line="258" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-core/5.3.3.RELEASE/spring-security-core-5.3.3.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2AuthorizationCodeGrantRequestEntityConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="21" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-utils/ftm-utils.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/code/RandomValueAuthorizationCodeServices.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/AuthorizationRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1326">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/spring-security-core/5.3.3.RELEASE/spring-security-core-5.3.3.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <caret line="23" column="51" lean-forward="true" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/approval/ApprovalStoreUserApprovalHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint</OriginalElement>
+          <nodes>
+            <node x="168.0" y="80.0">org.springframework.web.bind.annotation.SessionAttributes</node>
+            <node x="0.0" y="80.0">org.springframework.security.oauth2.provider.endpoint.AbstractEndpoint</node>
+            <node x="153.5" y="160.0">org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint</node>
+            <node x="336.0" y="80.0">org.springframework.security.oauth2.provider.endpoint.FrameworkEndpoint</node>
+            <node x="6.5" y="0.0">org.springframework.beans.factory.InitializingBean</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.security.oauth2.provider.endpoint.AbstractEndpoint" target="org.springframework.beans.factory.InitializingBean">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint" target="org.springframework.security.oauth2.provider.endpoint.FrameworkEndpoint">
+              <point x="59.0" y="-15.0" />
+              <point x="301.0" y="135.0" />
+              <point x="418.5" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint" target="org.springframework.security.oauth2.provider.endpoint.AbstractEndpoint">
+              <point x="-59.0" y="-15.0" />
+              <point x="183.0" y="135.0" />
+              <point x="74.0" y="135.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint" target="org.springframework.web.bind.annotation.SessionAttributes">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-96.0" y="108.5" />
+          <SelectedNodes>
+            <node>org.springframework.security.oauth2.provider.endpoint.FrameworkEndpoint</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-authorize.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/login-authorize.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/approval/UserApprovalHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/code/AuthorizationCodeServices.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="73" column="86" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="86" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="79" column="61" lean-forward="true" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
+        <state relative-caret-position="2091">
+          <caret line="175" column="14" lean-forward="true" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/customOauth/Oauth2Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/mobileGrant/MobileCodeAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,6 +1268,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
