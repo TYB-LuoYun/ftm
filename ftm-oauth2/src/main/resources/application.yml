@@ -8,9 +8,61 @@ spring: # 注意追加在配置文件中已经有 spring 前缀的后面
     date-format: yyyy-MM-dd HH:mm:ss
 
   cloud:
-  nacos:
-    discovery:
-      server-addr: localhost:8848 # 服务注册中心地址
+    nacos:
+      discovery:
+        server-addr: localhost:8848 # 服务注册中心地址
+    sentinel:  ## 流控
+      log:
+        dir: /logs
+        switch-pid: true
+      transport:
+        # sentinel dashboard的地址(sentinel的地址--8080监控当前8500微服务)
+        dashboard: localhost:8080
+        clientIp: 127.0.0.1
+        # 为应用开启额外的端口，上报监控信息
+        # 默认为8719端口，加入被占用将会自动从8719开始+1扫描，直至找到未被占用的端口地址
+        port: 8725
+      datasource:
+        flow: #流控规则
+          nacos:
+            namespace: public
+            server-addr: 127.0.0.1:8848
+            dataId: ${spring.application.name}-flow-rules
+            groupId: SENTINEL_GROUP
+            data-type: json
+            rule-type: flow
+        degrade: #熔断规则
+          nacos:
+            namespace: public
+            server-addr: 127.0.0.1:8848
+            dataId: ${spring.application.name}-degrade-rules
+            groupId: SENTINEL_GROUP
+            data-type: json
+            rule-type: degrade
+        system: #系统规则
+          nacos:
+            namespace: public
+            server-addr: 127.0.0.1:8848
+            dataId: ${spring.application.name}-system-rules
+            groupId: SENTINEL_GROUP
+            data-type: json
+            rule-type: system
+        authority: #授权规则
+          nacos:
+            namespace: public
+            server-addr: 127.0.0.1:8848
+            dataId: ${spring.application.name}-authority-rules
+            groupId: SENTINEL_GROUP
+            data-type: json
+            rule-type: authority
+        param-flow: #热点参数规则
+          nacos:
+            namespace: public
+            server-addr: 127.0.0.1:8848
+            dataId: ${spring.application.name}-param-flow-rules
+            groupId: SENTINEL_GROUP
+            data-type: json
+            rule-type: param-flow
 
   #数据库连接信息
   datasource:
@@ -35,3 +87,32 @@ spring: # 注意追加在配置文件中已经有 spring 前缀的后面
 
   thymeleaf:
     cache: false
+
+
+
+ribbon:
+  #连接超时时间(ms)
+  ConnectTimeout: 5000
+  ## 业务逻辑等待超时时间（当服务的返回时间大于ribbon的超时时间，会触发重试或断开触发 Fallback，超时时间默认1s）
+  #  该配置是让Hystrix的超时时间改为5秒，为了确保Ribbon重试的时候不被熔断，我们就需要让Hystrix的超时时间大于Ribbon的超时时间，否则Hystrix命令超时后，该命令直接熔断，重试机制就没有任何意义了
+  #  hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+  ReadTimeout: 5000
+  #同一台实例最大重试次数,不包括首次调用（对当前实例的重试次数）
+  MaxAutoRetries: 1
+  #重试负载均衡其他的实例最大重试次数,不包括首次调用（切换实例的重试次数）
+  MaxAutoRetriesNextServer: 1
+  #重试的次数  （MaxAutoRetries+1）* （MaxAutoRetriesNextServer+1）- 1 即重试3次 则一共产生4次调用。
+
+  #是否所有操作都重试,
+  # false：get请求中，连接超时，读取超时都会重试，其他请求(put,post)连接超时重试，读取超时不重试。
+  # true：get请求中，连接超时，读取超时都会重试，其他请求(put,post)连接超时重试，读取超时重试。
+  # 当OkToRetryOnAllOperations设置为false时，只会对get请求进行重试。如果设置为true，便会对所有的请求进行重试，如果是put或post等写操作，如果服务器接口没做幂等性，会产生不好的结果，所以OkToRetryOnAllOperations慎用。
+  ribbon.OkToRetryOnAllOperations: false
+
+feign:
+  sentinel: #当服务的返回时间大于ribbon的超时时间，会触发重试或断开触发 Fallback.所以降级超时时间配置ribbon重试时间就可以了
+    enabled: true # 开启feign对sentinel的支持
+
+
+
+

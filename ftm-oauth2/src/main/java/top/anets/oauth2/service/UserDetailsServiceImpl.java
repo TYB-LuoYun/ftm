@@ -1,4 +1,5 @@
 package top.anets.oauth2.service;
+import com.netflix.client.ClientException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;

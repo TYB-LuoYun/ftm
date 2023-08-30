@@ -4,10 +4,12 @@
 package top.anets.utils.exception;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindException;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import top.anets.utils.base.Result;
 
@@ -20,6 +22,7 @@ import java.io.StringWriter;
  */
 @RestControllerAdvice
 @Slf4j
+@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
 public class GlobalExceptionHandler {
 //	未知异常
 	@ExceptionHandler(value = Exception.class)
@@ -27,6 +30,10 @@ public class GlobalExceptionHandler {
 		StringWriter sw = new StringWriter();
         e.printStackTrace(new PrintWriter(sw, true));
         String trace = sw.toString();
+        Throwable lastCause = getLastCause(e.getCause());
+        if(lastCause !=null && lastCause instanceof ServiceException){
+           return doServiceException((ServiceException) lastCause);
+        }
         log.info(trace);
         log.error(trace);
     	return Result.error("未知异常:"+e.getMessage(), "||detail:"+trace);
@@ -37,6 +44,13 @@ public class GlobalExceptionHandler {
     public Result doServiceException(ServiceException e) {
     	log.info(e.getMessage());
     	return Result.error(e.getCode(), e.getMessage(), null);
+    }
+
+    public Throwable  getLastCause(Throwable cause){
+	    if(cause.getCause()!=null){
+	        return this.getLastCause(cause.getCause());
+        }
+        return cause;
     }
 
 

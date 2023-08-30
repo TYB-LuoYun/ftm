@@ -7,6 +7,7 @@ import top.anets.system.entity.SysMenu;
 import top.anets.system.entity.SysUser;
 import top.anets.system.service.CompanyService;
 import top.anets.system.service.SysUserService;
+import top.anets.utils.exception.ServiceException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,6 +24,7 @@ public class SystemFeignController implements  IFeignSystem{
     private CompanyService companyService;
     @Override
     public SysUser findByUsername(String username) {
+
         SysUser byUsername = sysUserService.findByUsername(username);
 
 

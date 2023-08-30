@@ -17,7 +17,6 @@
         <module>ftm-gateway</module>
         <module>ftm-monitor</module>
         <module>ftm-search</module>
-        <module>ftm-security</module>
     </modules>
 
 
@@ -31,11 +30,11 @@
     <!--依赖版本管理-->
     <properties>
         <spring-cloud.version>Hoxton.SR7</spring-cloud.version>
-        <cloud-alibaba.version>2.2.1.RELEASE</cloud-alibaba.version>
+        <cloud-alibaba.version>2.2.9.RELEASE</cloud-alibaba.version>
         <mybatis-plus.version>3.5.1</mybatis-plus.version>
         <druid.version>1.1.21</druid.version>
         <kaptcha.version>2.3.2</kaptcha.version>
-        <fastjson.version>1.2.8</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <commons-lang.version>2.6</commons-lang.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <commons-io.version>2.6</commons-io.version>

@@ -2,3 +2,8 @@ mybatis-plus:
   type-aliases-package: com.mtst.module.**.entity ,com.mtst.models.**
   # xxxMapper.xml 路径
   mapper-locations: classpath*:com/mtst/mappers/*.xml,com/mtst/mappers/**/*.xml,classpath*:com/mtst/module/**/mapper/xml/*Mapper.xml
+
+
+feign:
+  sentinel:
+    enabled: true
