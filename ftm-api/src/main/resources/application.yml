@@ -7,3 +7,5 @@ mybatis-plus:
 feign:
   sentinel:
     enabled: true
+
+ 

@@ -25,8 +25,6 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Autowired
     private IFeignSystem iFeignSystem;
 
-    @Autowired
-    private IFeignSystem IFeignSystem;
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
@@ -45,7 +43,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         // 3. 通过用户id去查询数据库的拥有的权限信息
         log.info("通过用户id去查询数据库的拥有的权限信息:"+sysUser.getId());
         List<SysMenu> menuList =
-                IFeignSystem.findByUserId(sysUser.getId());
+                iFeignSystem.findByUserId(sysUser.getId());
 
         // 4. 封装权限信息（权限标识符code）
         log.info("封装角色信息");

@@ -2,6 +2,7 @@ package top.anets.config.feign;
 
 import com.alibaba.cloud.sentinel.feign.SentinelContractHolder;
 import com.alibaba.cloud.sentinel.feign.SentinelInvocationHandler;
+import com.alibaba.cloud.sentinel.feign.SentinelTargeterAspect;
 import feign.Contract;
 import feign.Feign;
 import feign.InvocationHandlerFactory;
@@ -54,7 +55,8 @@ public class CustomSentinelFeign {
             super.invocationHandlerFactory(new InvocationHandlerFactory() {
                 @SneakyThrows
                 public InvocationHandler create(Target target, Map<Method, MethodHandler> dispatch) {
-                    Object feignClientFactoryBean = CustomSentinelFeign.Builder.this.applicationContext.getBean("&" + target.type().getName());
+                    Object feignClientFactoryBean = SentinelTargeterAspect.getFeignClientFactoryBean();
+//                    Object feignClientFactoryBean = CustomSentinelFeign.Builder.this.applicationContext.getBean("&" + target.type().getName());
                     Class fallback = (Class) CustomSentinelFeign.Builder.this.getFieldValue(feignClientFactoryBean, "fallback");
                     Class fallbackFactory = (Class) CustomSentinelFeign.Builder.this.getFieldValue(feignClientFactoryBean, "fallbackFactory");
                     String beanName = (String) CustomSentinelFeign.Builder.this.getFieldValue(feignClientFactoryBean, "contextId");

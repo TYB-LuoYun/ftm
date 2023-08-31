@@ -41,6 +41,13 @@ import org.springframework.context.annotation.Scope;
  * 到达以上阀值，断路器将会开启
  * 当开启的时候，所有请求都不会进行转发
  * 一段时间之后(默认是5秒) ，这个时候断路器是半开状态，会让其中一个请求进行转发如果成功，断路器会关闭，若失败，继续开启。
+ *
+ *
+ *
+ *
+ *
+ * 熔断规则：
+ * 慢掉用:在一个统计时长内，如果请求数目大于最小请求数目，并且被判定为慢调用的请求比例已经超过阈值，将触发熔断
  */
 @Configuration
 public class FeignConfiguration {

@@ -53,9 +53,9 @@ public class FeignSentinelSupportConfig implements ApplicationRunner, Environmen
 
     @Value("${spring.application.name:}")
     private String appName;
-    @Value("${spring.cloud.sentinel.transport.clientIp}")
+    @Value("${spring.cloud.sentinel.transport.clientIp:127.0.0.1}")
     private String IP;
-    @Value("${spring.cloud.sentinel.transport.port}")
+    @Value("${spring.cloud.sentinel.transport.port:8725}")
     private Integer PORT;
 
     private Class<?> deduceMainApplicationClass() {

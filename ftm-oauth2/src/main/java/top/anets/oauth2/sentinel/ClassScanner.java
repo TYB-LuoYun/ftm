@@ -30,7 +30,7 @@ import java.util.Set;
 
 public class ClassScanner implements ResourceLoaderAware {
 
-    private static final Logger log = LoggerFactory.getLogger(FeignSentinelSupportConfig.class);
+    private static final Logger log = LoggerFactory.getLogger(ClassScanner.class);
 
     private ResourcePatternResolver resourcePatternResolver = new PathMatchingResourcePatternResolver();
     private MetadataReaderFactory metadataReaderFactory = new CachingMetadataReaderFactory(this.resourcePatternResolver);

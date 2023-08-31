@@ -1,59 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="36850090-ecc8-4b34-83c4-83ccb9a747be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/CustomSentinelFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FeignConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FeignErrorDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/GlobalFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/GlobalFeignFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/old/GeneralFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/fallback/SystemFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/XdclassBlockExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/ClassScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/CommonConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/DefaultRuleNacosManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/EnableFeignDegrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/FeignSentinelSupportConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SentinelInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SpringBeanUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/IFeignSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/IFeignSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/CustomSentinelFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/CustomSentinelFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FeignConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FeignConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Logs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Logs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/AuthServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/AuthServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/ClassScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/ClassScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/FeignSentinelSupportConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/FeignSentinelSupportConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SentinelInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SentinelInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ftm-oauth2/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/ifeign/system/SystemFeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/ifeign/system/SystemFeignController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-utils/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard-nacos/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/.idea/dictionaries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard-nacos/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/.idea/fastRequest/fastRequestCollection.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/.idea/fastRequest/fastRequestCurrentProjectLocalConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard-nacos/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/dist/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/dist/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/dist/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/dist/js/app.vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/dist/js/app.vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/npm-shrinkwrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/npm-shrinkwrap.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ftm-monitor/target/" />
     <ignored path="$PROJECT_DIR$/ftm-file/target/" />
@@ -173,44 +140,45 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AuthorizationEndpoint" value="2" />
-          <entry key="class" value="68" />
+          <entry key="class" value="71" />
           <entry key="css" value="1" />
           <entry key="html" value="13" />
           <entry key="iml" value="3" />
-          <entry key="java" value="241" />
-          <entry key="xml" value="27" />
+          <entry key="java" value="264" />
+          <entry key="pom" value="2" />
+          <entry key="xml" value="38" />
           <entry key="xsd" value="1" />
-          <entry key="yml" value="19" />
+          <entry key="yml" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="68" />
+          <entry key="CLASS" value="71" />
           <entry key="CSS" value="1" />
           <entry key="HTML" value="13" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="241" />
+          <entry key="JAVA" value="264" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="28" />
-          <entry key="YAML" value="19" />
+          <entry key="XML" value="41" />
+          <entry key="YAML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="26" />
           <entry key="html" value="130" />
-          <entry key="java" value="4119" />
-          <entry key="xml" value="94" />
-          <entry key="yml" value="299" />
+          <entry key="java" value="4170" />
+          <entry key="xml" value="129" />
+          <entry key="yml" value="361" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="130" />
-          <entry key="JAVA" value="4119" />
+          <entry key="JAVA" value="4170" />
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="XML" value="94" />
-          <entry key="YAML" value="299" />
+          <entry key="XML" value="129" />
+          <entry key="YAML" value="361" />
         </counts>
       </usages-collector>
     </session>
@@ -218,10 +186,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SentinelInit.java">
+        <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/CustomSentinelFeign.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="42" selection-start-line="42" selection-end-line="43" />
+            <state relative-caret-position="339">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -230,10 +198,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/DefaultRuleNacosManager.java">
+        <entry file="jar://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.7.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.7.RELEASE.jar!/com/alibaba/cloud/sentinel/feign/SentinelFeign.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="238">
+              <caret line="53" column="103" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/IFeignSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -242,50 +219,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/CommonConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/develop-env/repository/com/alibaba/csp/sentinel-core/1.8.5/sentinel-core-1.8.5.jar!/com/alibaba/csp/sentinel/slots/block/degrade/DegradeRuleManager.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/develop-env/repository/com/alibaba/csp/sentinel-core/1.8.5/sentinel-core-1.8.5.jar!/com/alibaba/csp/sentinel/slots/block/degrade/DegradeRule.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-              <folding>
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/NacosDegradeRule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="33">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -294,10 +231,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/develop-env/repository/com/alibaba/csp/sentinel-core/1.8.5/sentinel-core-1.8.5.jar!/com/alibaba/csp/sentinel/slots/block/AbstractRule.class">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="374">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -305,11 +260,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/FeignSentinelSupportConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="205" column="33" selection-start-line="205" selection-start-column="33" selection-end-line="205" selection-end-column="33" />
+            <state relative-caret-position="265">
+              <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#12933#12934#0" expanded="true" />
+                <element signature="e#12979#12980#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="240" column="21" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -326,8 +301,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getImplicitGrantResponse</find>
-      <find>appendAccessToken</find>
       <find>implicitLock</find>
       <find>getAccessTokenForImplicitGrant</find>
       <find>redirectResolver</find>
@@ -356,6 +329,8 @@
       <find>SENTINEL_GROUP</find>
       <find>6418d084-aba6-4548-8130-60e6a47c5c94</find>
       <find>proess</find>
+      <find>entinel-datasource-nacos</find>
+      <find>Hoxton.SR7</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -382,8 +357,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/utils/SecurityUtils.java" />
-        <option value="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/HttpClientUtil.java" />
         <option value="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/MyRequestWrapper.java" />
         <option value="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/base/ServletUtil.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/resources/templates/oauth-login.html" />
@@ -399,7 +372,6 @@
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/XdclassBlockExceptionHandler.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/XdclassBlockExceptionHandler.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/pom.xml" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/GeneralFallbackFactory.java" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FunFeignFallbackConfiguration.java" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/old/FeignErrorDecoder.java" />
@@ -412,27 +384,30 @@
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/sentinel/SpringBeanUtil.java" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/sentinel/FeignSentinelSupportConfig.java" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/sentinel/EnableFeignDegrade.java" />
-        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/ClassScanner.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/DefaultRuleNacosManager.java" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FunSentinelFeign.java" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FunFallbackFactory.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/IFeignSystem.java" />
-        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SentinelInit.java" />
         <option value="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/ftm-api/pom.xml" />
         <option value="$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/exception/GlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FunFeignFallback.java" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/GlobalFallbackFactory.java" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/GlobalSentinelFeign.java" />
         <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/GlobalFeignFallback.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/CustomSentinelFeign.java" />
-        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FeignConfiguration.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/CommonConstant.java" />
-        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/FeignSentinelSupportConfig.java" />
         <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/NacosDegradeRule.java" />
+        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FeignConfiguration.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SentinelInit.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/ClassScanner.java" />
+        <option value="$PROJECT_DIR$/ftm-api/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/CustomSentinelFeign.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/FeignSentinelSupportConfig.java" />
+        <option value="$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -460,6 +435,11 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ftm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ftm-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -480,7 +460,7 @@
       <path value="$PROJECT_DIR$/sentinel-dashboard-nacos/target/classes/resources/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1939" />
@@ -537,11 +517,6 @@
             <path>
               <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
               <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -594,30 +569,6 @@
               <item name="top" type="462c0819:PsiDirectoryNode" />
               <item name="anets" type="462c0819:PsiDirectoryNode" />
               <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
-              <item name="sentinel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
@@ -641,24 +592,22 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="User&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java&#10;wR&#9;PSI&#9;JAVA://top.anets.base.WrapperQuery&#10;SentinelFeign&#9;PSI&#9;JAVA://com.alibaba.cloud.sentinel.feign.SentinelFeign&#10;.AuthorizationEndpoint&#9;FILE&#9;uml://JAVA/org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint&#10;authorizationRequest&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2AuthorizationCodeGrantRequestEntityConverter.class&#10;authorizationRequestConverter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.client.endpoint.OAuth2AuthorizationCodeGrantRequestEntityConverter&#10; Authorization Endpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationEndpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationCodeTokenGranter&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/code/AuthorizationCodeTokenGranter.class&#10;Htt&#9;PSI&#9;JAVA://top.anets.utils.base.HttpUtils&#10;customLogoutSuccessHandler&#9;PSI&#9;JAVA://top.antes.oauth2.handle.CustomLogoutSuccessHandler&#10;customAuthenticationFailureHandler&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.7.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.7.RELEASE.jar!/com/alibaba/cloud/sentinel/feign/SentinelFeign.class&#10;SentinelFeign&#9;FILE&#9;jar://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.7.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.7.RELEASE.jar!/com/alibaba/cloud/sentinel/feign/SentinelFeign.class&#10;User&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java&#10;wR&#9;PSI&#9;JAVA://top.anets.base.WrapperQuery&#10;.AuthorizationEndpoint&#9;FILE&#9;uml://JAVA/org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint&#10;authorizationRequest&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2AuthorizationCodeGrantRequestEntityConverter.class&#10;authorizationRequestConverter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.client.endpoint.OAuth2AuthorizationCodeGrantRequestEntityConverter&#10; Authorization Endpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationEndpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationCodeTokenGranter&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/code/AuthorizationCodeTokenGranter.class&#10;Htt&#9;PSI&#9;JAVA://top.anets.utils.base.HttpUtils&#10;customLogoutSuccessHandler&#9;PSI&#9;JAVA://top.antes.oauth2.handle.CustomLogoutSuccessHandler&#10;customAuthenticationFailureHandler&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1693387345572" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1693468881424" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sentinel-dashboard-nacos" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\resources\templates" />
-      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\java\top\anets\oauth2\mobileGrant" />
-      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\java\top\anets\oauth2\service\customClient" />
-      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\old" />
+      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\resources\static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="top.anets.oauth2.config" />
@@ -667,9 +616,11 @@
       <recent name="top.anets.oauth2.utils" />
       <recent name="top.anets.oauth2.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\old" />
-      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\resources\static" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\resources" />
+      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\resources\templates" />
+      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\java\top\anets\oauth2\mobileGrant" />
+      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\java\top\anets\oauth2\service\customClient" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -745,18 +696,18 @@
       <workItem from="1692589713048" duration="1209000" />
       <workItem from="1692676872564" duration="54229000" />
       <workItem from="1692864986488" duration="52887000" />
-      <workItem from="1693216967072" duration="40878000" />
+      <workItem from="1693216967072" duration="59644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163060000" />
+    <option name="totallyTimeSpent" value="181826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24270834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25104168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -767,7 +718,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32873806" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3319194" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22163309" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -866,12 +817,6 @@
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SentinelInit.java</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ftm-utils/src/main/java/top/anets/utils/exception/GlobalExceptionHandler.java</url>
           <line>38</line>
           <properties />
@@ -933,80 +878,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/old/GeneralFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/base/WrapperQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/repository/org/springframework/spring-core/5.2.8.RELEASE/spring-core-5.2.8.RELEASE.jar!/org/springframework/cglib/proxy/MethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/repository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.1.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.1.RELEASE.jar!/com/alibaba/cloud/sentinel/feign/SentinelInvocationHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/repository/com/alibaba/csp/sentinel-core/1.7.1/sentinel-core-1.7.1.jar!/com/alibaba/csp/sentinel/annotation/SentinelResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/repository/com/alibaba/csp/sentinel-core/1.7.1/sentinel-core-1.7.1.jar!/com/alibaba/csp/sentinel/slots/block/RuleConstant.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/fallback/SystemFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/sentinel/DegradeRuleInitializer.java" />
-    <entry file="jar://D:/develop-env/repository/com/alibaba/nacos/nacos-client/1.2.1/nacos-client-1.2.1.jar!/com/alibaba/nacos/client/config/NacosConfigService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/repository/com/alibaba/nacos/nacos-api/1.2.1/nacos-api-1.2.1.jar!/com/alibaba/nacos/api/config/ConfigService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/develop-env/repository/com/alibaba/csp/sentinel-core/1.7.1/sentinel-core-1.7.1.jar!/com/alibaba/csp/sentinel/slots/block/degrade/DegradeRuleManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1021,18 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/ClassScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="159" selection-start-line="159" selection-end-line="160" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2172#2173#0" expanded="true" />
-            <element signature="e#2229#2230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/AuthorizationServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1040,24 +899,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/develop-env/repository/org/springframework/spring-beans/5.2.8.RELEASE/spring-beans-5.2.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1072,16 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SpringBeanUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,13 +937,6 @@
     <entry file="file://$PROJECT_DIR$/ftm-oauth2/ftm-oauth2.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="279" selection-start-line="279" selection-end-line="279" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/develop-env/repository/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0.jar!/com/netflix/client/ClientException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1120,23 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="71" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" column="21" selection-start-line="32" selection-start-column="7" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/IFeignSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,16 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1178,103 +979,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/GlobalFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" selection-start-line="23" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FeignErrorDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/CustomSentinelFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/GlobalFeignFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2000#2001#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sentinel-1.8.6/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FeignConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/CommonConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/DefaultRuleNacosManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SentinelInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="42" selection-start-line="42" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1310,16 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/FeignSentinelSupportConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="205" column="33" selection-start-line="205" selection-start-column="33" selection-end-line="205" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/NacosDegradeRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1327,6 +1025,254 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/CommonConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SpringBeanUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/DefaultRuleNacosManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="195" column="54" selection-start-line="195" selection-start-column="54" selection-end-line="195" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/old/GeneralFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/develop-env/repository/com/alibaba/csp/sentinel-datasource-nacos/1.8.5/sentinel-datasource-nacos-1.8.5.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.9.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.9.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/jdk1.8.0_191/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="271" column="41" selection-start-line="271" selection-start-column="41" selection-end-line="271" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SentinelInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/ClassScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2229#2230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/GlobalFeignFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/fallback/SystemFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FeignConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/FeignErrorDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/org/springframework/spring-aop/5.2.15.RELEASE/spring-aop-5.2.15.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="425" selection-start-line="425" selection-end-line="425" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/GlobalFallbackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/SpringSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/ifeign/system/IFeignSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.7.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.7.RELEASE.jar!/com/alibaba/cloud/sentinel/feign/SentinelFeign.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="53" column="103" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-api/src/main/java/top/anets/config/feign/CustomSentinelFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="240" column="21" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/FeignSentinelSupportConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12933#12934#0" expanded="true" />
+            <element signature="e#12979#12980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>

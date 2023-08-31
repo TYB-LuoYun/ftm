@@ -6,13 +6,13 @@ D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\ifeign\file\FileFeign.j
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\vo\SysUserCondition.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\ifeign\system\fallback\SystemFallback.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\vo\DictVo.java
+D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\CustomSentinelFeign.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\base\PageQuery.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\mybatisplus\MyMetaObjectHandler.java
-D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\FunFallbackFactory.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\Dict.java
-D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\FunFeignFallback.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\vo\CompanyVo.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\SysRoleMenu.java
+D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\GlobalFeignFallback.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\Department.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\base\WrapperQuery.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\OrgDeptRole.java
@@ -20,9 +20,9 @@ D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\old\Genera
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\UserOrgDept.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\Meta.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\SysUser.java
+D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\GlobalFallbackFactory.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\FeignConfiguration.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\ifeign\system\IFeignSystem.java
-D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\FunSentinelFeign.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\base\Fields.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\FeignErrorDecoder.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\SysMenu.java
