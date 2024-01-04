@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+top.anets.common.base.starter.BaseAutoConfiguration

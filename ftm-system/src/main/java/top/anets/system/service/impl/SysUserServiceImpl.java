@@ -55,14 +55,14 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
      */
     @Override
     public SysUser findByUsername(String username) {
-        try {
-            Thread.sleep(53000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        if(true){
-            throw new ServiceException("错误---未知异常");
-        }
+//        try {
+//            Thread.sleep(53000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//        if(true){
+//            throw new ServiceException("错误---未知异常");
+//        }
         QueryWrapper<SysUser> wrapper = new QueryWrapper<>();
         wrapper.eq("username", username);
         return baseMapper.selectOne(wrapper);

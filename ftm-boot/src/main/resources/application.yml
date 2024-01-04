@@ -1,0 +1,25 @@
+server:
+  port: 2398
+
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 200MB
+      max-request-size: 200MB
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/ftm-system?useSSL=false&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+
+
+
+
+
+mybatis-plus:
+  mapper-scan-package: top.anets.modules.mapper
+  type-aliases-package: top.anets.modules.**.entity
+  # xxxMapper.xml 路径
+  mapper-locations: classpath*:top/anets/modules/**/mapper/**/*.xml

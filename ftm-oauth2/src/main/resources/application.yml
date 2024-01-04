@@ -25,54 +25,50 @@ spring: # 注意追加在配置文件中已经有 spring 前缀的后面
       datasource:
         flow: #流控规则
           nacos:
-            namespace: public
+#            namespace: 这个很害人 ，必须填写id才行，要么不填,否则，nacos更新后内存无法更新规则
             server-addr: 127.0.0.1:8848
             dataId: ${spring.application.name}-flow-rules
             groupId: SENTINEL_GROUP
             data-type: json
             rule-type: flow
-            username: nacos #高版本的nacos中，不管是进行discover还是config配置都是需要配置username和password的
-            password: nacos
+#            username: nacos #高版本的nacos中，不管是进行discover还是config配置都是需要配置username和password的
+#            password: nacos
         degrade: #熔断规则
           nacos:
-            namespace: public
             server-addr: 127.0.0.1:8848
             dataId: ${spring.application.name}-degrade-rules
             groupId: SENTINEL_GROUP
             data-type: json
             rule-type: degrade
-            username: nacos
-            password: nacos
+#            username: nacos
+#            password: nacos
         system: #系统规则
           nacos:
-            namespace: public
             server-addr: 127.0.0.1:8848
             dataId: ${spring.application.name}-system-rules
             groupId: SENTINEL_GROUP
             data-type: json
             rule-type: system
-            username: nacos
-            password: nacos
+#            username: nacos
+#            password: nacos
         authority: #授权规则
           nacos:
-            namespace: public
             server-addr: 127.0.0.1:8848
             dataId: ${spring.application.name}-authority-rules
             groupId: SENTINEL_GROUP
             data-type: json
             rule-type: authority
-            username: nacos
-            password: nacos
+#            username: nacos
+#            password: nacos
         param-flow: #热点参数规则
           nacos:
-            namespace: public
             server-addr: 127.0.0.1:8848
             dataId: ${spring.application.name}-param-flow-rules
             groupId: SENTINEL_GROUP
             data-type: json
             rule-type: param-flow
-            username: nacos
-            password: nacos
+#            username: nacos
+#            password: nacos
 
   #数据库连接信息
   datasource:

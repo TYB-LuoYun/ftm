@@ -17,6 +17,10 @@
         <module>ftm-gateway</module>
         <module>ftm-monitor</module>
         <module>ftm-search</module>
+
+        <module>cloud-support</module>
+        <module>ftm-im</module>
+        <module>ftm-boot</module>
     </modules>
 
 
@@ -30,7 +34,7 @@
     <!--依赖版本管理-->
     <properties>
         <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
-        <cloud-alibaba.version>2.2.9.RELEASE</cloud-alibaba.version>
+        <cloud-alibaba.version>2.2.7.RELEASE</cloud-alibaba.version>
         <mybatis-plus.version>3.5.1</mybatis-plus.version>
         <druid.version>1.1.21</druid.version>
         <kaptcha.version>2.3.2</kaptcha.version>

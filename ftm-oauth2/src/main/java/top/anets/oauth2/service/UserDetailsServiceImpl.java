@@ -1,4 +1,6 @@
 package top.anets.oauth2.service;
+import com.alibaba.csp.sentinel.slots.block.degrade.DegradeRule;
+import com.alibaba.csp.sentinel.slots.block.degrade.DegradeRuleManager;
 import com.netflix.client.ClientException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.CollectionUtils;
@@ -34,6 +36,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         }
         log.info("参数username："+username);
         // 2. 通过用户名查询数据库中的用户信息
+        List<DegradeRule> rules = DegradeRuleManager.getRules();
         SysUser sysUser = iFeignSystem.findByUsername(username);
         log.info(sysUser.toString());
         if(sysUser == null) {

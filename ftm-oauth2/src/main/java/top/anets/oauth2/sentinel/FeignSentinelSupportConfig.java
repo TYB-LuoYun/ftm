@@ -157,12 +157,7 @@ public class FeignSentinelSupportConfig implements ApplicationRunner, Environmen
         for (Method method : methods) {
             degradeRuleList.add(buildDegradeRule(getResourceName(classRequestMappingUrl, baseUrl, method, httpFlag)));
         }
-        List<DegradeRule> collect = degradeRuleList.stream().map(e -> {
-            DegradeRule degradeRule = new DegradeRule();
-            BeanUtils.copyProperties(e, degradeRule);
-            return degradeRule;
-        }).collect(Collectors.toList());
-        DegradeRuleManager.loadRules(collect);
+
         return degradeRuleList;
 
     }
@@ -179,17 +174,28 @@ public class FeignSentinelSupportConfig implements ApplicationRunner, Environmen
             List<NacosDegradeRule> rules = initRules(clientClass);
             localDegradeRuleList.addAll(rules);
         }
-
         NacosConfigManager nacosConfigManager = SpringBeanUtil.getBean("nacosConfigManager", NacosConfigManager.class);
         List<NacosDegradeRule> remoteDegradeRuleList = this.fetchRemoteRules(nacosConfigManager);
         //远程nacos没有规则，那就直接利用本地规则
         if (remoteDegradeRuleList == null || remoteDegradeRuleList.isEmpty()) {
+            List<DegradeRule> collect = localDegradeRuleList.stream().map(e -> {
+                DegradeRule degradeRule = new DegradeRule();
+                BeanUtils.copyProperties(e, degradeRule);
+                return degradeRule;
+            }).collect(Collectors.toList());
+            DegradeRuleManager.loadRules(collect);
             this.pushRules(nacosConfigManager, localDegradeRuleList);
             return;
         }
         //本地规则 合并 远程规则策略
         this.proess(localDegradeRuleList, remoteDegradeRuleList);
         //推送本地规则，到nacos ---->改成推送远程的规则，以远程的为准，没有的加进去
+        List<DegradeRule> collect = remoteDegradeRuleList.stream().map(e -> {
+            DegradeRule degradeRule = new DegradeRule();
+            BeanUtils.copyProperties(e, degradeRule);
+            return degradeRule;
+        }).collect(Collectors.toList());
+        DegradeRuleManager.loadRules(collect);
         this.pushRules(nacosConfigManager, remoteDegradeRuleList);
     }
 
@@ -281,13 +287,13 @@ public class FeignSentinelSupportConfig implements ApplicationRunner, Environmen
                 // Max allowed response time  RT 慢调用标准值 接口响应时长超过2秒则被判定为慢调用
         rule.setCount(2000);
                 // Retry timeout (in second)   窗口期  熔断时长
-        rule.setTimeWindow(30);
+        rule.setTimeWindow(60);
                 // Circuit breaker opens when slow request ratio > 80%  慢调用比例   判定是否熔断的条件之一
         rule.setSlowRatioThreshold(0.8);
                 // 单位时长最小请求数   判定是否熔断的条件之一
-        rule.setMinRequestAmount(30);
+        rule.setMinRequestAmount(1);
                 // 统计时长也叫单位时长
-        rule.setStatIntervalMs(60000);
+        rule.setStatIntervalMs(1000);
         return rule;
     }
 

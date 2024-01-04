@@ -7,9 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot-base" />
+        <module name="cloud-base" />
+        <module name="common-utils" />
+        <module name="data-base" />
         <module name="ftm-api" />
+        <module name="ftm-boot" />
         <module name="ftm-file" />
         <module name="ftm-gateway" />
+        <module name="ftm-im" />
         <module name="ftm-monitor" />
         <module name="ftm-oauth2" />
         <module name="ftm-search" />
@@ -96,15 +102,25 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="base" target="1.8" />
+      <module name="boot-base" target="1.8" />
+      <module name="cloud-base" target="1.8" />
+      <module name="cloud-sentinel" target="1.8" />
+      <module name="cloud-support" target="1.8" />
+      <module name="common-utils" target="1.8" />
+      <module name="data-base" target="1.8" />
       <module name="ftm" target="1.8" />
       <module name="ftm-api" target="1.8" />
+      <module name="ftm-boot" target="1.8" />
       <module name="ftm-file" target="1.8" />
       <module name="ftm-gateway" target="1.8" />
+      <module name="ftm-im" target="1.8" />
       <module name="ftm-monitor" target="1.8" />
       <module name="ftm-oauth2" target="1.8" />
       <module name="ftm-search" target="1.8" />
       <module name="ftm-system" target="1.8" />
       <module name="ftm-utils" target="1.8" />
+      <module name="sentinel" target="1.8" />
       <module name="sentinel-adapter" target="1.5" />
       <module name="sentinel-annotation-aspectj" target="1.5" />
       <module name="sentinel-annotation-cdi-interceptor" target="1.5" />

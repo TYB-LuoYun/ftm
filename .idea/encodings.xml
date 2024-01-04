@@ -2,9 +2,16 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/boot-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/cloud-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/common-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/data-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftm-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ftm-boot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftm-file" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftm-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ftm-im" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftm-monitor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftm-oauth2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftm-search" charset="UTF-8" />
