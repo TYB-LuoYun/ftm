@@ -6,54 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36850090-ecc8-4b34-83c4-83ccb9a747be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/FtmFileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/FtmFileApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/BuyTicket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/FileController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/LockDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/TestTicket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/testKp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisKey.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisPoolConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/redis/RedisService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/semaphore/Org.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/semaphore/Parent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/semaphore/TestSemaphore02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/semaphore/res/Resource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/semaphore/res/SemaphoreDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/semaphore/res/SemaphoreWithResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/semaphore/res/WorkerThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/service/FileService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/service/impl/FileServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Logs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/system/system/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/thread/ExecutorServiceL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/thread/LockCond.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/thread/TaskRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-file/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/config/XdclassBlockExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/config/CustomBlockExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/FeignSentinelSupportConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/FeignSentinelSupportConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SentinelInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/sentinel/SentinelInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-oauth2/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/java/top/anets/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftm-system/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-system/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ftm-monitor/target/" />
     <ignored path="$PROJECT_DIR$/ftm-file/target/" />
@@ -209,14 +162,14 @@
           <entry key="factories" value="6" />
           <entry key="html" value="14" />
           <entry key="iml" value="4" />
-          <entry key="java" value="773" />
+          <entry key="java" value="774" />
           <entry key="log" value="2" />
           <entry key="md" value="4" />
           <entry key="pom" value="9" />
           <entry key="txt" value="1" />
           <entry key="xml" value="133" />
           <entry key="xsd" value="1" />
-          <entry key="yml" value="56" />
+          <entry key="yml" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -225,12 +178,12 @@
           <entry key="CSS" value="1" />
           <entry key="HTML" value="14" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="773" />
+          <entry key="JAVA" value="774" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="UML" value="2" />
           <entry key="XML" value="143" />
-          <entry key="YAML" value="56" />
+          <entry key="YAML" value="57" />
           <entry key="spring.factories" value="6" />
         </counts>
       </usages-collector>
@@ -239,7 +192,7 @@
           <entry key="dummy" value="94" />
           <entry key="factories" value="2" />
           <entry key="html" value="130" />
-          <entry key="java" value="8009" />
+          <entry key="java" value="8010" />
           <entry key="md" value="94" />
           <entry key="xml" value="365" />
           <entry key="yml" value="590" />
@@ -248,7 +201,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="130" />
-          <entry key="JAVA" value="8009" />
+          <entry key="JAVA" value="8010" />
           <entry key="Markdown" value="94" />
           <entry key="PLAIN_TEXT" value="94" />
           <entry key="XML" value="365" />
@@ -260,20 +213,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinioTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="383" lean-forward="true" selection-start-line="383" selection-end-line="383" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1195#1196#0" expanded="true" />
-                <element signature="e#1243#1244#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileChunkStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -287,7 +226,7 @@
         <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/FileController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
-              <caret line="56" column="88" lean-forward="true" selection-start-line="56" selection-start-column="88" selection-end-line="56" selection-end-column="88" />
+              <caret line="56" column="88" selection-start-line="56" selection-start-column="88" selection-end-line="56" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -317,15 +256,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/AbstractFileChunkStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1933">
@@ -347,11 +277,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileChunkStrategyImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
+            <state relative-caret-position="658">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="130" column="89" selection-start-line="130" selection-start-column="89" selection-end-line="130" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -360,7 +308,7 @@
         <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileChunkStrategyImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="9">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -485,7 +433,6 @@
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/model/OssFile.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/model/MergeInfo.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileContext.java" />
         <option value="$PROJECT_DIR$/lamp-file/lamp-file-biz/src/main/java/top/tangyh/lamp/file/strategy/FileContext.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/properties/FileServerProperties.java" />
@@ -496,6 +443,7 @@
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/FileController.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/ali/AliFileChunkStrategyImpl.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileChunkStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java" />
       </list>
     </option>
   </component>
@@ -531,10 +479,12 @@
     </treeState>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/ftm-file/src/main/resources/web/node_modules" />
     <handled-path value="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/ftm-file/src/main/resources/web/package.json" />
       <path value="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/package.json" />
       <path value="$PROJECT_DIR$/sentinel-dashboard-nacos/target/classes/resources/package.json" />
     </packageJsonPaths>
@@ -597,11 +547,6 @@
             <path>
               <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
               <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -616,274 +561,6 @@
               <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="chunk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-              <item name="enumeration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="ali" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="huawei" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="local" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="minio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="minio" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="minio" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="anets" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
@@ -892,11 +569,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-im" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -915,7 +587,7 @@
     <property name="SearchEverywhereHistoryKey" value="MergeInfo&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/model/MergeInfo.java&#10;FileC&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-file/src/main/java/top/anets/file/controller/FileController.java&#10;File&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-file/src/main/java/top/anets/file/entity/entity/File.java&#10;file&#9;PSI&#9;JAVA://top.anets.file.entity.entity.File&#10;SentinelFeignAutoConfiguration&#9;FILE&#9;jar://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.7.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.7.RELEASE.jar!/com/alibaba/cloud/sentinel/feign/SentinelFeignAutoConfiguration.class&#10;ServiceEx&#9;PSI&#9;JAVA://top.anets.utils.exception.ServiceException&#10;SentinelFeign&#9;FILE&#9;jar://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.7.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.7.RELEASE.jar!/com/alibaba/cloud/sentinel/feign/SentinelFeign.class&#10;User&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java&#10;wR&#9;PSI&#9;JAVA://top.anets.base.WrapperQuery&#10;.AuthorizationEndpoint&#9;FILE&#9;uml://JAVA/org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint&#10;authorizationRequest&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2AuthorizationCodeGrantRequestEntityConverter.class&#10;authorizationRequestConverter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.client.endpoint.OAuth2AuthorizationCodeGrantRequestEntityConverter&#10; Authorization Endpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationEndpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationCodeTokenGranter&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/code/AuthorizationCodeTokenGranter.class&#10;Htt&#9;PSI&#9;JAVA://top.anets.utils.base.HttpUtils&#10;customLogoutSuccessHandler&#9;PSI&#9;JAVA://top.antes.oauth2.handle.CustomLogoutSuccessHandler&#10;customAuthenticationFailureHandler&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1704356348402" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1704431570904" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sentinel-dashboard-nacos" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1093,18 +765,17 @@
       <workItem from="1703467655016" duration="29859000" />
       <workItem from="1703837599586" duration="2629000" />
       <workItem from="1704172748042" duration="17987000" />
-      <workItem from="1704339693468" duration="12689000" />
+      <workItem from="1704339693468" duration="17007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420705000" />
+    <option name="totallyTimeSpent" value="425023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22552083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22552083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1115,14 +786,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32979852" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2757158" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28207847" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39554614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.31707317" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" visible="true" weight="0.16648993" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" weight="0.16648993" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -1387,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ftm-boot/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1502,13 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="120" column="17" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1626,7 +1283,7 @@
     <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinioTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
-          <caret line="383" lean-forward="true" selection-start-line="383" selection-end-line="383" />
+          <caret line="383" selection-start-line="383" selection-end-line="383" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1195#1196#0" expanded="true" />
@@ -1673,14 +1330,14 @@
     <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileChunkStrategyImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
-          <caret line="56" column="88" lean-forward="true" selection-start-line="56" selection-start-column="88" selection-end-line="56" selection-end-column="88" />
+          <caret line="56" column="88" selection-start-line="56" selection-start-column="88" selection-end-line="56" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1696,8 +1353,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileChunkStrategyImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="75" column="2" selection-start-line="75" selection-start-column="2" selection-end-line="75" selection-end-column="2" />
+        <state relative-caret-position="658">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="130" column="89" selection-start-line="130" selection-start-column="89" selection-end-line="130" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
     </entry>
