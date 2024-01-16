@@ -1,0 +1,35 @@
+databaseChangeLog:
+  - changeSet:
+      id: T1001-2023-12-22-001
+      author: tyb
+      failOnError: false
+      changes:
+      - sql: CREATE TABLE `c_file` (
+              `fid` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'ID',
+              `fname` varchar(255) DEFAULT NULL COMMENT '文件名',
+              `biz_type` varchar(255) NOT NULL DEFAULT '' COMMENT '业务类型',
+              `file_type` varchar(255) DEFAULT NULL COMMENT '文件类型',
+              `storage_type` varchar(255) DEFAULT NULL COMMENT '存储类型\nLOCAL FAST_DFS MIN_IO ALI \n',
+              `bucket` varchar(255) DEFAULT '' COMMENT '桶',
+              `path` varchar(255) DEFAULT '' COMMENT '文件相对地址',
+              `url` varchar(255) DEFAULT NULL COMMENT '文件访问地址',
+              `unique_file_name` varchar(255) DEFAULT '' COMMENT '唯一文件名',
+              `file_md5` varchar(255) DEFAULT NULL COMMENT '文件md5',
+              `original_file_name` varchar(255) DEFAULT '' COMMENT '原始文件名',
+              `content_type` varchar(255) DEFAULT '' COMMENT '文件类型',
+              `suffix` varchar(255) DEFAULT '' COMMENT '后缀',
+              `size` bigint(20) DEFAULT '0' COMMENT '大小',
+              `fid_uid` varchar(200) DEFAULT NULL COMMENT '用户id',
+              `fid_cid` int(11) DEFAULT NULL COMMENT '分类',
+              `parent_id` bigint(20) DEFAULT NULL COMMENT '父文件',
+              `is_dir` int(255) DEFAULT '0' COMMENT '是否是文件夹',
+              `is_public` int(255) DEFAULT '1' COMMENT '是否公开',
+              `is_share` int(255) DEFAULT '0' COMMENT '是否分享',
+              `share_password` varchar(255) DEFAULT NULL COMMENT '分享密码',
+              `share_address` varchar(255) DEFAULT NULL COMMENT '分享地址',
+              `created_time` datetime DEFAULT NULL COMMENT '创建时间',
+              `created_by` bigint(20) DEFAULT NULL COMMENT '创建人',
+              `update_time` datetime DEFAULT NULL COMMENT '最后修改时间',
+              `update_by` bigint(20) DEFAULT NULL COMMENT '最后修改人',
+              PRIMARY KEY (`fid`) USING BTREE
+              ) ENGINE=InnoDB AUTO_INCREMENT=91 DEFAULT CHARSET=utf8mb4 COMMENT='增量文件上传日志';

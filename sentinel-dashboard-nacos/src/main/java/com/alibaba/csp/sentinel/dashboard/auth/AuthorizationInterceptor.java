@@ -28,7 +28,7 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 
 /**
- * The web interceptor for privilege-based authorization.
+ * The static interceptor for privilege-based authorization.
  *
  * @author lkxiaolou
  * @since 1.7.1

@@ -6,7 +6,242 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36850090-ecc8-4b34-83c4-83ccb9a747be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-support/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-boot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-boot/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/dao/FileMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/dao/FileMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/chunk/FileChunkCheckDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/chunk/FileChunkCheckDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/chunk/FileChunksMergeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/chunk/FileChunksMergeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/chunk/FileUploadDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/chunk/FileUploadDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/common/ShortUrlUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/common/ShortUrlUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/common/StrPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/common/StrPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/domain/FileDeleteBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/domain/FileDeleteBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/domain/FileGetUrlBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/domain/FileGetUrlBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/entity/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/model/entity/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/enumeration/FileStorageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/enumeration/FileStorageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/enumeration/FileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/enumeration/FileType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/FileChunkUploadRq.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/vo/FileChunkUploadRq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/FileUploadRq.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/vo/FileUploadRq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/param/FileParamVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/vo/param/FileParamVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/param/FileUploadVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/vo/param/FileUploadVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/result/FileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/vo/result/FileInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/result/FileResultVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/vo/result/FileResultVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/properties/FileServerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/properties/FileServerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/storage/FileAutoConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/storage/FileAutoConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileChunkStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/FileChunkStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/FileContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/FileLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/FileStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/AbstractFileChunkStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/AbstractFileChunkStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/AbstractFileStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/AbstractFileStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/ali/AliFileChunkStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/ali/AliFileChunkStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/ali/AliFileStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/ali/AliFileStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileChunkStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileChunkStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/huawei/HuaweiFileStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/huawei/HuaweiFileStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/local/LocalFileStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileChunkStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileChunkStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinioTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/MinioTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/client/ContentType.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/client/ContentType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/client/FragResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/client/FragResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/model/OssFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/model/OssFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/qiniu/QiNiuFileStrategyImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/qiniu/QiNiuFileStrategyImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/ArgumentAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/ArgumentAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/ArgumentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/ArgumentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/BaseEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/BaseEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/BaseExceptionCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/BaseExceptionCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/BaseUncheckedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/BaseUncheckedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/BeanPlusUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/BizException.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/BizException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/CollHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/CollHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/ContextUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/ContextUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/ExceptionCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/ExceptionCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/FileTypeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/FileTypeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/ZipUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/ZipUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/.postcssrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/.postcssrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/build/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/build/check-versions.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/build/check-versions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/build/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/build/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/build/vue-loader.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/build/vue-loader.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/build/webpack.prod.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/build/webpack.prod.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/config/dev.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/config/dev.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/config/prod.env.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/config/prod.env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/api/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/api/file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/Access.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/Access.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/Home/Files.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/Home/Files.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/Home/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/Home/Navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/Home/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/Home/User.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/Home/fontAnimate/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/Home/fontAnimate/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/Home/fontAnimate/font.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/Home/fontAnimate/font.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/Home/fontAnimate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/Home/fontAnimate/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/Home/fontAnimate/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/Home/fontAnimate/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/Home/fontAnimate/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/Home/fontAnimate/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/tool/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/tool/Dialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/tool/Share.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/tool/Share.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/tool/upDir.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/tool/upDir.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/components/tool/upFiles.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/components/tool/upFiles.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/fontAnimate/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/fontAnimate/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/fontAnimate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/fontAnimate/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/fontAnimate/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/fontAnimate/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/fontAnimate/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/fontAnimate/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/image/364.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/image/364.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/image/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/image/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/image/cat.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/image/cat.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/json/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/json/user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/css/modules/code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/css/modules/layer/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/font/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/font/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/font/iconfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/12.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/13.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/14.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/15.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/16.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/17.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/18.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/18.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/19.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/20.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/21.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/22.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/23.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/24.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/25.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/25.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/26.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/26.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/27.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/27.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/28.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/29.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/30.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/31.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/32.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/33.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/33.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/34.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/35.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/36.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/36.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/37.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/37.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/38.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/38.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/39.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/39.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/40.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/40.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/41.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/41.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/42.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/42.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/43.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/44.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/44.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/45.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/45.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/46.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/46.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/47.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/47.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/48.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/48.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/49.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/49.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/50.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/51.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/51.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/52.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/52.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/53.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/53.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/54.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/54.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/55.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/55.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/56.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/56.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/57.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/57.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/58.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/58.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/59.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/59.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/60.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/60.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/61.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/61.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/62.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/62.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/63.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/63.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/64.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/65.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/65.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/66.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/66.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/67.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/67.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/68.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/68.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/69.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/70.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/70.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/71.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/8.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/images/face/9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/images/face/9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/transfer.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/transfer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/lay/modules/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/src/main/resources/web/static/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/src/main/resources/static/static/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-file/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-file/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AccessTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AccessTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/IgnoreUrlsRemoveJwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-gateway/src/main/java/top/anets/top/anets/gateway/filter/IgnoreUrlsRemoveJwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-nacos/conf/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-nacos/conf/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/customOauth/Oauth2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/anets/oauth2/customOauth/Oauth2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomLogoutSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomLogoutSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lamp-file/lamp-file-api/src/main/java/top/tangyh/lamp/file/api/fallback/AttachmentApiFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/lamp-file/lamp-file-api/src/main/java/top/tangyh/lamp/file/api/fallback/AttachmentApiFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lamp-file/lamp-file-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lamp-file/lamp-file-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/java/com/alibaba/csp/sentinel/dashboard/auth/AuthorizationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/java/com/alibaba/csp/sentinel/dashboard/auth/AuthorizationInterceptor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ftm-monitor/target/" />
     <ignored path="$PROJECT_DIR$/ftm-file/target/" />
@@ -119,6 +354,7 @@
     <ignored path="$PROJECT_DIR$/cloud-support/common-utils/target/" />
     <ignored path="$PROJECT_DIR$/cloud-support/data-base/target/" />
     <ignored path="$PROJECT_DIR$/ftm-boot/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-support/file/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,24 +370,27 @@
     <session id="-1786584545">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -159,54 +398,58 @@
           <entry key="AuthorizationEndpoint" value="2" />
           <entry key="class" value="92" />
           <entry key="css" value="1" />
-          <entry key="factories" value="6" />
-          <entry key="html" value="14" />
+          <entry key="factories" value="9" />
+          <entry key="html" value="16" />
           <entry key="iml" value="4" />
-          <entry key="java" value="774" />
+          <entry key="java" value="895" />
           <entry key="log" value="2" />
           <entry key="md" value="4" />
           <entry key="pom" value="9" />
+          <entry key="sql" value="1" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="133" />
+          <entry key="xml" value="152" />
           <entry key="xsd" value="1" />
-          <entry key="yml" value="57" />
+          <entry key="yaml" value="2" />
+          <entry key="yml" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="92" />
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="14" />
+          <entry key="HTML" value="16" />
           <entry key="IDEA_MODULE" value="4" />
-          <entry key="JAVA" value="774" />
+          <entry key="JAVA" value="895" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SQL" value="1" />
           <entry key="UML" value="2" />
-          <entry key="XML" value="143" />
-          <entry key="YAML" value="57" />
-          <entry key="spring.factories" value="6" />
+          <entry key="XML" value="162" />
+          <entry key="YAML" value="68" />
+          <entry key="spring.factories" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="94" />
-          <entry key="factories" value="2" />
-          <entry key="html" value="130" />
-          <entry key="java" value="8010" />
+          <entry key="dummy" value="102" />
+          <entry key="factories" value="6" />
+          <entry key="html" value="131" />
+          <entry key="java" value="9920" />
           <entry key="md" value="94" />
-          <entry key="xml" value="365" />
-          <entry key="yml" value="590" />
+          <entry key="xml" value="426" />
+          <entry key="yaml" value="11" />
+          <entry key="yml" value="630" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="130" />
-          <entry key="JAVA" value="8010" />
+          <entry key="HTML" value="131" />
+          <entry key="JAVA" value="9920" />
           <entry key="Markdown" value="94" />
-          <entry key="PLAIN_TEXT" value="94" />
-          <entry key="XML" value="365" />
-          <entry key="YAML" value="590" />
-          <entry key="spring.factories" value="2" />
+          <entry key="PLAIN_TEXT" value="102" />
+          <entry key="XML" value="426" />
+          <entry key="YAML" value="641" />
+          <entry key="spring.factories" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -214,19 +457,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileChunkStrategy.java">
+        <entry file="file://$PROJECT_DIR$/ftm-file/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="45" column="63" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
+            <state relative-caret-position="-1045">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/FileController.java">
+        <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="56" column="88" selection-start-line="56" selection-start-column="88" selection-end-line="56" selection-end-column="88" />
+            <state relative-caret-position="476">
+              <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -235,19 +478,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/AbstractFileStrategy.java">
+        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/dao/FileMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -256,59 +490,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/AbstractFileChunkStrategy.java">
+        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/impl/FileServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1933">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-              <folding>
-                <element signature="e#5807#5808#0" expanded="true" />
-                <element signature="e#5859#5860#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/ali/AliFileChunkStrategyImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="926">
-              <caret line="173" selection-start-line="173" selection-end-line="173" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileChunkStrategyImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="130" column="89" selection-start-line="130" selection-start-column="89" selection-end-line="130" selection-end-column="89" />
+            <state relative-caret-position="17">
+              <caret line="34" selection-start-line="34" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/cloud-support/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="612">
+              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileChunkStrategyImpl.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="3570">
+              <caret line="210" selection-start-line="26" selection-start-column="4" selection-end-line="210" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-support/boot-base/src/main/java/top/anets/common/base/support/advice/JsonResponseBodyAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/FtmFileApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/model/entity/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -328,10 +570,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>FeignException</find>
-      <find>swagger</find>
-      <find>swagger2</find>
-      <find>hutool</find>
       <find>fastdfs-client</find>
       <find>(Throwable)supplier.get()</find>
       <find>(Throwable)errorSupplier.get()</find>
@@ -341,7 +579,6 @@
       <find>filer.getId()</find>
       <find>Integer userId</find>
       <find>File::getId</find>
-      <find>.action</find>
       <find>base-package</find>
       <find>@RestControllerAdvice</find>
       <find>getOriginalFileName</find>
@@ -358,6 +595,11 @@
       <find>FileContext</find>
       <find>list</find>
       <find>listOb</find>
+      <find>你的硬盘总大小</find>
+      <find>.action</find>
+      <find>uploadFile</find>
+      <find>getDateFolder</find>
+      <find>@TableField</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -374,6 +616,7 @@
       <replace>String userId</replace>
       <replace>File::getFid</replace>
       <replace>getFname</replace>
+      <replace>//@TableField</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\ifeign\system</dir>
@@ -393,57 +636,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/BaseUncheckedException.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/ExceptionCode.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/ContextUtil.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/DateUtils.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/LampJacksonModule.java" />
-        <option value="$PROJECT_DIR$/ftm-file/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-support/data-base/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-support/data-base/pom.xml" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinioUtils.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/client/FragResult.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/client/ContentType.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/client/MinioUtils.java" />
+        <option value="$PROJECT_DIR$/ftm-boot/src/main/java/top/anets/boot/module/webservice/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileChunkStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinioTemplate.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/param/FileUploadVO.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileContext.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileStrategy.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/AbstractFileStrategy.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/result/FileInfo.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/ali/AliFileStrategyImpl.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileStrategyImpl.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/huawei/HuaweiFileStrategyImpl.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/qiniu/QiNiuFileStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/param/FileUploadVO.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/domain/FileDeleteBO.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/FileUploadRq.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/common/ShortUrlUtil.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/AbstractFileChunkStrategy.java" />
-        <option value="$PROJECT_DIR$/cloud-support/boot-base/src/main/java/top/anets/common/base/annotation/Response.java" />
-        <option value="$PROJECT_DIR$/cloud-support/boot-base/src/main/java/top/anets/common/base/starter/AutoConfiguration.java" />
-        <option value="$PROJECT_DIR$/cloud-support/boot-base/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/cloud-support/boot-base/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-support/boot-base/src/main/java/top/anets/common/base/starter/BaseStarter.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-support/boot-base/src/main/java/top/anets/common/base/support/advice/JsonResponseBodyAdvice.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/entity/File.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/FileService.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/impl/FileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/FileChunkUploadRq.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/model/OssFile.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/model/MergeInfo.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileContext.java" />
-        <option value="$PROJECT_DIR$/lamp-file/lamp-file-biz/src/main/java/top/tangyh/lamp/file/strategy/FileContext.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/properties/FileServerProperties.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl2.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinioTemplate.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileChunkStrategy.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileChunkStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/qiniu/QiNiuFileStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/FileUploadRq.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/FileService.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/FileUtils.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/impl/FileServiceImpl.java" />
         <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/ali/AliFileChunkStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileChunkStrategyImpl.java" />
-        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/resources/static/dist/index.html" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/resources/db.changelog/db.changelog-master.yaml" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/starter/BaseStarter.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/starter/FileStarter.java" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/ftm-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/dao/FileMapper.java" />
+        <option value="$PROJECT_DIR$/ftm-boot/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/starter/FileAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/FileChunkStrategy.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/starter/FileAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/FileContext.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/AbstractFileChunkStrategy.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/ali/AliFileChunkStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/ali/AliFileStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/AbstractFileStrategy.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileChunkStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/huawei/HuaweiFileStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/local/LocalFileStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileChunkStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/MinioTemplate.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/qiniu/QiNiuFileStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/ftm-file/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/entity/File.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/BaseEnum.java" />
+        <option value="$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/BeanPlusUtil.java" />
+        <option value="$PROJECT_DIR$/cloud-support/pom.xml" />
       </list>
     </option>
   </component>
@@ -467,11 +710,20 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="boot-base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-support" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="boot-base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-support" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ftm-file" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ftm-file" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -479,17 +731,17 @@
     </treeState>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/ftm-file/src/main/resources/web/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ftm-file/src/main/resources/static/node_modules" />
     <handled-path value="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/ftm-file/src/main/resources/web/package.json" />
+      <path value="$PROJECT_DIR$/ftm-file/src/main/resources/static/package.json" />
       <path value="$PROJECT_DIR$/sentinel-dashboard-nacos/src/main/webapp/resources/package.json" />
       <path value="$PROJECT_DIR$/sentinel-dashboard-nacos/target/classes/resources/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-6" />
     <option name="y" value="1" />
     <option name="width" value="1932" />
@@ -536,7 +788,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -547,34 +799,26 @@
             <path>
               <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-support" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
               <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-support" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ftm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ftm" type="462c0819:PsiDirectoryNode" />
-              <item name="ftm-file" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -584,10 +828,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="MergeInfo&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/model/MergeInfo.java&#10;FileC&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-file/src/main/java/top/anets/file/controller/FileController.java&#10;File&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-file/src/main/java/top/anets/file/entity/entity/File.java&#10;file&#9;PSI&#9;JAVA://top.anets.file.entity.entity.File&#10;SentinelFeignAutoConfiguration&#9;FILE&#9;jar://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.7.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.7.RELEASE.jar!/com/alibaba/cloud/sentinel/feign/SentinelFeignAutoConfiguration.class&#10;ServiceEx&#9;PSI&#9;JAVA://top.anets.utils.exception.ServiceException&#10;SentinelFeign&#9;FILE&#9;jar://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.7.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.7.RELEASE.jar!/com/alibaba/cloud/sentinel/feign/SentinelFeign.class&#10;User&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java&#10;wR&#9;PSI&#9;JAVA://top.anets.base.WrapperQuery&#10;.AuthorizationEndpoint&#9;FILE&#9;uml://JAVA/org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint&#10;authorizationRequest&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2AuthorizationCodeGrantRequestEntityConverter.class&#10;authorizationRequestConverter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.client.endpoint.OAuth2AuthorizationCodeGrantRequestEntityConverter&#10; Authorization Endpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationEndpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationCodeTokenGranter&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/code/AuthorizationCodeTokenGranter.class&#10;Htt&#9;PSI&#9;JAVA://top.anets.utils.base.HttpUtils&#10;customLogoutSuccessHandler&#9;PSI&#9;JAVA://top.antes.oauth2.handle.CustomLogoutSuccessHandler&#10;customAuthenticationFailureHandler&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" />
+    <property name="SearchEverywhereHistoryKey" value="FileMa&#9;PSI&#9;JAVA://top.anets.file.dao.FileMapper&#10;MergeInfo&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/model/MergeInfo.java&#10;FileC&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-file/src/main/java/top/anets/file/controller/FileController.java&#10;File&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-file/src/main/java/top/anets/file/entity/entity/File.java&#10;file&#9;PSI&#9;JAVA://top.anets.file.entity.entity.File&#10;SentinelFeignAutoConfiguration&#9;FILE&#9;jar://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.7.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.7.RELEASE.jar!/com/alibaba/cloud/sentinel/feign/SentinelFeignAutoConfiguration.class&#10;ServiceEx&#9;PSI&#9;JAVA://top.anets.utils.exception.ServiceException&#10;SentinelFeign&#9;FILE&#9;jar://D:/develop-env/repository/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2.2.7.RELEASE/spring-cloud-starter-alibaba-sentinel-2.2.7.RELEASE.jar!/com/alibaba/cloud/sentinel/feign/SentinelFeign.class&#10;User&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/anets/oauth2/service/UserDetailsServiceImpl.java&#10;wR&#9;PSI&#9;JAVA://top.anets.base.WrapperQuery&#10;.AuthorizationEndpoint&#9;FILE&#9;uml://JAVA/org.springframework.security.oauth2.provider.endpoint.AuthorizationEndpoint&#10;authorizationRequest&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/spring-security-oauth2-client/5.3.3.RELEASE/spring-security-oauth2-client-5.3.3.RELEASE.jar!/org/springframework/security/oauth2/client/endpoint/OAuth2AuthorizationCodeGrantRequestEntityConverter.class&#10;authorizationRequestConverter&#9;PSI&#9;JAVA://org.springframework.security.oauth2.client.endpoint.OAuth2AuthorizationCodeGrantRequestEntityConverter&#10; Authorization Endpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationEndpoint&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/endpoint/AuthorizationEndpoint.class&#10;AuthorizationCodeTokenGranter&#9;FILE&#9;jar://D:/develop-env/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/provider/code/AuthorizationCodeTokenGranter.class&#10;Htt&#9;PSI&#9;JAVA://top.anets.utils.base.HttpUtils&#10;customLogoutSuccessHandler&#9;PSI&#9;JAVA://top.antes.oauth2.handle.CustomLogoutSuccessHandler&#10;customAuthenticationFailureHandler&#9;FILE&#9;file://D:/work/project/self/ftm/ftm-oauth2/src/main/java/top/antes/oauth2/handle/CustomAuthenticationFailureHandler.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1704431570904" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1705392780797" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sentinel-dashboard-nacos" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -597,23 +841,24 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\project\self\ftm\cloud-support\boot-base\src\main\resources" />
-      <recent name="D:\work\project\self\ftm\cloud-support\boot-base\src\main\java\top\anets\common\base" />
-      <recent name="D:\work\project\self\ftm\ftm-boot\src\main\resources" />
-      <recent name="D:\work\project\self\ftm\cloud-support\data-base\src\main\java\top\anets\database\starter" />
-      <recent name="D:\work\project\self\ftm\cloud-support\data-base\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\project\self\ftm\cloud-support\file\src\main\resources" />
+      <recent name="D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\old" />
+      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\resources\static" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.anets.file.model.entity" />
       <recent name="top.anets.file.strategy.impl.minio" />
       <recent name="top.anets.common.base.support.advice" />
       <recent name="top.anets.boot.config" />
       <recent name="top.anets.cloud.base.feign.config" />
-      <recent name="top.anets.bootbase.enums" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\old" />
-      <recent name="D:\work\project\self\ftm\ftm-oauth2\src\main\resources\static" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\project\self\ftm\ftm-file\src\main\resources" />
+      <recent name="D:\work\project\self\ftm\ftm-file\src\main\java\top\anets\file" />
+      <recent name="D:\work\project\self\ftm\ftm-boot\src\main\resources" />
+      <recent name="D:\work\project\self\ftm\cloud-support\boot-base\src\main\resources" />
+      <recent name="D:\work\project\self\ftm\cloud-support\boot-base\src\main\java\top\anets\common\base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -629,6 +874,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.FtmFileApplication">
+    <configuration name="PublishWebService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.anets.boot.module.webservice.publish.PublishWebService" />
+      <module name="ftm-boot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.anets.boot.module.webservice.publish.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ftm-oauth2" />
       <extension name="coverage">
@@ -690,36 +948,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemApllication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ftm-system" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.anets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.anets.SystemApllication" />
-      <option name="VM_PARAMETERS" value="-javaagent:D:/tyb/soft/skywalking-agent/skywalking-agent.jar -Dskywalking.agent.service_name=system -Dskywalking.collector.backend_service=192.168.10.11:11800" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.GatewayServerApplication" />
       <item itemvalue="Spring Boot.AuthServerApplication" />
-      <item itemvalue="Spring Boot.SystemApllication" />
       <item itemvalue="Spring Boot.ImApplication" />
       <item itemvalue="Spring Boot.FtmFileApplication" />
       <item itemvalue="Spring Boot.BootApplication" />
+      <item itemvalue="Application.PublishWebService" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.FtmFileApplication" />
         <item itemvalue="Spring Boot.BootApplication" />
+        <item itemvalue="Application.PublishWebService" />
         <item itemvalue="Spring Boot.ImApplication" />
         <item itemvalue="Spring Boot.AuthServerApplication" />
-        <item itemvalue="Spring Boot.SystemApllication" />
       </list>
     </recent_temporary>
   </component>
@@ -765,17 +1008,23 @@
       <workItem from="1703467655016" duration="29859000" />
       <workItem from="1703837599586" duration="2629000" />
       <workItem from="1704172748042" duration="17987000" />
-      <workItem from="1704339693468" duration="17007000" />
+      <workItem from="1704339693468" duration="23143000" />
+      <workItem from="1704765125242" duration="12125000" />
+      <workItem from="1704851553659" duration="16969000" />
+      <workItem from="1704937237216" duration="1245000" />
+      <workItem from="1705025403357" duration="16832000" />
+      <workItem from="1705281658057" duration="18201000" />
+      <workItem from="1705382977088" duration="6405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425023000" />
+    <option name="totallyTimeSpent" value="502936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22552083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28333333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -785,15 +1034,15 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32979852" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2757158" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39554614" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23117709" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34464476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.31707317" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" weight="0.16648993" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" weight="0.32555673" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -802,12 +1051,46 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.18541667" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.19479166" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21979167" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32979852" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21527041" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30222693" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005208" side_tool="true" weight="0.31707317" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49947917" weight="0.32555673" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.18489583" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -915,12 +1198,6 @@
           <option name="timeStamp" value="143" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileContext.java</url>
-          <line>221</line>
-          <properties />
-          <option name="timeStamp" value="145" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/lamp-file/lamp-file-biz/src/main/java/top/tangyh/lamp/file/strategy/FileContext.java</url>
           <line>51</line>
           <properties />
@@ -931,6 +1208,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>getPath(file.getBizType(), uniqueFileName)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>file.getSize()</expression-string>
         <language-id>JAVA</language-id>
@@ -973,402 +1255,423 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>cause.getCause().getMessage()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/data-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/enumeration/FileType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/enumeration/FileStorageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/chunk/FileUploadDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ftm-boot/src/main/java/top/anets/boot/BootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-support/common-utils/src/main/java/top/anets/common/utils/base/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="112" column="66" lean-forward="true" selection-start-line="112" selection-start-column="66" selection-end-line="112" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-support/common-utils/src/main/java/top/anets/common/utils/base/HttpClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-support/common-utils/src/main/java/top/anets/common/utils/exception/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-support/boot-base/src/main/java/top/anets/common/base/annotation/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-support/boot-base/src/main/java/top/anets/common/base/starter/BaseAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-support/common-utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="21" selection-start-line="15" selection-start-column="7" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-support/boot-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-support/boot-base/src/main/java/top/anets/common/base/starter/BaseStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-support/boot-base/src/main/resources/META-INF/spring.factories">
+    <entry file="file://$PROJECT_DIR$/ftm-boot/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        <state relative-caret-position="335">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-support/data-base/src/main/java/top/anets/database/mybatisplus/DefaultMybatisPlusConfig.java">
+    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/resources/db/changelog/db.changelog-master.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="427">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ftm-boot/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/develop-env/repository/org/springframework/spring-webmvc/5.2.15.RELEASE/spring-webmvc-5.2.15.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ResponseBodyAdvice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/repository/org/springframework/spring-context/5.2.15.RELEASE/spring-context-5.2.15.RELEASE.jar!/org/springframework/stereotype/Controller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-support/boot-base/src/main/java/top/anets/common/base/support/advice/JsonResponseBodyAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/entity/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lamp-file/lamp-file-server/src/main/java/top/tangyh/lamp/file/config/ExceptionConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/FtmFileApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/client/MinioUtils.java" />
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/FileUploadRq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/qiniu/QiNiuFileStrategyImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="105" column="53" selection-start-line="105" selection-start-column="53" selection-end-line="105" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/model/OssFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/chunk/FileChunksMergeDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/result/FileInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/develop-env/jdk1.8.0_191/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="1295" lean-forward="true" selection-start-line="1295" selection-end-line="1295" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/vo/FileChunkUploadRq.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/common/ShortUrlUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/utils/ArgumentAssert.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/chunk/FileChunkCheckDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="204">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileStrategyImpl.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="451">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lamp-file/lamp-file-biz/src/main/java/top/tangyh/lamp/file/strategy/FileContext.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/properties/FileServerProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="212" column="28" lean-forward="true" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="28" />
+        <state relative-caret-position="950">
+          <caret line="175" column="39" lean-forward="true" selection-start-line="175" selection-start-column="39" selection-end-line="175" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/properties/FileServerProperties.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/ali/AliFileStrategyImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileChunkStrategyImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="60" column="34" lean-forward="true" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileStrategyImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="31" column="73" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/local/LocalFileStrategyImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="47" column="56" lean-forward="true" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/client/ContentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/client/FragResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/model/OssFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileChunkStrategyImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-549">
+          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
           <folding>
-            <element signature="e#5434#5435#0" expanded="true" />
-            <element signature="e#5473#5474#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/huawei/HuaweiFileStrategyImpl.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+          <folding>
+            <element signature="e#0#3036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/minio/MinioTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5343">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/qiniu/QiNiuFileStrategyImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/AbstractFileStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="111" column="7" lean-forward="true" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/FileChunkStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/FileContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/FileStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/FileLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="41" column="6" selection-start-line="40" selection-start-column="4" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/starter/FileAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/starter/FileStarter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/storage/FileAutoConfigure.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/resources/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/FileService.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/storage/FileAutoConfigure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
+        <state relative-caret-position="-178">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/impl/FileServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/model/entity/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="110" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="425">
+          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileLock.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/AbstractFileChunkStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="-161">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileStrategy.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/huawei/HuaweiFileStrategyImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/entity/enumeration/FileStorageType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/model/MergeInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="272">
+          <caret line="36" selection-start-line="36" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl2.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/ali/AliFileChunkStrategyImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinioTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="383" selection-start-line="383" selection-end-line="383" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1243#1244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/FileChunkStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="45" column="63" selection-start-line="45" selection-start-column="63" selection-end-line="45" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileStrategyImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+        <state relative-caret-position="17">
+          <caret line="66" selection-start-line="66" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/AbstractFileStrategy.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/BeanPlusUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/AbstractFileChunkStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1933">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="748">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
-            <element signature="e#5807#5808#0" expanded="true" />
-            <element signature="e#5859#5860#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/minio/MinIoFileChunkStrategyImpl.java">
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/utils/BaseEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="323">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/controller/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="56" column="88" selection-start-line="56" selection-start-column="88" selection-end-line="56" selection-end-column="88" />
+        <state relative-caret-position="3264">
+          <caret line="225" selection-start-line="225" selection-end-line="226" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/ali/AliFileChunkStrategyImpl.java">
+    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/dao/FileMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="926">
-          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/fastdfs/FastDfsFileChunkStrategyImpl.java">
+    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/service/impl/FileServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="17">
+          <caret line="34" selection-start-line="34" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java">
+    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/FtmFileApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="130" column="89" selection-start-line="130" selection-start-column="89" selection-end-line="130" selection-end-column="89" />
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-file/src/main/java/top/anets/file/model/entity/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ftm-file/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1045">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ftm-file/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="289">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/file/src/main/java/top/anets/file/strategy/impl/local/LocalFileChunkStrategyImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="115" column="49" selection-start-line="115" selection-start-column="49" selection-end-line="115" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/boot-base/src/main/java/top/anets/common/base/support/advice/JsonResponseBodyAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="210" selection-start-line="26" selection-start-column="4" selection-end-line="210" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-support/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
         </state>
       </provider>
     </entry>

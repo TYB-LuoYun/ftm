@@ -1,8 +1,8 @@
 package top.anets.file.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.springframework.stereotype.Repository;
-import top.anets.file.entity.entity.File;
+import org.apache.ibatis.annotations.Mapper;
+import top.anets.file.model.entity.File;
 
 /**
  * <p>
@@ -14,7 +14,7 @@ import top.anets.file.entity.entity.File;
  * @date 2021-06-30
  * @create [2021-06-30] [tangyh] [初始创建]
  */
-@Repository
+@Mapper
 public interface FileMapper extends BaseMapper<File> {
 
 }

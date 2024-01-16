@@ -1,16 +1,12 @@
 package top.anets.file.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.springframework.web.multipart.MultipartFile;
-import top.anets.file.entity.entity.File;
-import top.anets.file.entity.vo.param.FileUploadVO;
-import top.anets.file.entity.vo.result.FileInfo;
-import top.anets.file.entity.vo.result.FileResultVO;
+import top.anets.file.model.entity.File;
+import top.anets.file.model.vo.param.FileUploadVO;
+import top.anets.file.model.vo.result.FileInfo;
+import top.anets.file.model.vo.result.FileResultVO;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.util.List;
-import java.util.Map;
 
 /**
  * <p>
@@ -54,4 +50,6 @@ public interface FileService  extends IService<File> {
     public void updateShare(Long fid, String address, String password);
 
     public File getFileByAddress(String address);
+
+    long mkdirs(Long parentId,String userId, String path);
 }

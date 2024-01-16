@@ -1,6 +1,5 @@
 package top.anets.file.service.impl;
 
-import cn.hutool.core.collection.CollUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -8,27 +7,18 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.multipart.MultipartFile;
 import top.anets.file.dao.FileMapper;
-import top.anets.file.entity.entity.File;
-import top.anets.file.entity.vo.param.FileUploadVO;
-import top.anets.file.entity.vo.result.FileInfo;
-import top.anets.file.entity.vo.result.FileResultVO;
+import top.anets.file.model.entity.File;
+import top.anets.file.model.vo.param.FileUploadVO;
+import top.anets.file.model.vo.result.FileInfo;
+import top.anets.file.model.vo.result.FileResultVO;
 import top.anets.file.service.FileService;
 import top.anets.file.strategy.FileContext;
-import top.anets.file.utils.ArgumentAssert;
-import top.anets.file.utils.BeanPlusUtil;
 
-import javax.annotation.Resource;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
-import java.util.Collection;
 import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 /**
  * <p>
@@ -160,6 +150,36 @@ public class FileServiceImpl extends ServiceImpl<FileMapper,File> implements Fil
         }
         return file;
     }
+
+    @Override
+    public long mkdirs(Long parentId,String userId, String path) {
+        String nextpath=path;
+        /**
+         * 排除 /开头
+         */
+        if(nextpath.indexOf("/") == 0){
+            nextpath =nextpath.substring(1);
+        }
+        //解析路径
+        while(nextpath.indexOf("/")!=-1){
+            String dir =nextpath.substring(0, nextpath.indexOf("/"));
+
+//		    	Check if  it is repeated
+            List<File> repeatedDirs = this.getRepeatDirFname(parentId, userId,dir);
+            if(repeatedDirs!=null&&repeatedDirs.size()>0){
+                parentId=repeatedDirs.get(0).getFid();
+            }else{
+                //		    	create directory
+                parentId = this.saveDir(parentId, userId, dir);
+            }
+            nextpath= nextpath.substring(nextpath.indexOf("/")+1);
+        }
+
+        return parentId;
+
+//        String filename = nextpath;
+    }
+
     @Override
     public Long upLoadFileAndReturnFid(FileInfo fileInfo,String filename, long parentId,
                                        String userId) {

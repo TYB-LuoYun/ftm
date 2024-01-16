@@ -6,7 +6,7 @@
 //import org.springframework.security.core.Authentication;
 //import org.springframework.security.oauth2.common.OAuth2AccessToken;
 //import org.springframework.security.oauth2.provider.token.TokenStore;
-//import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
+//import org.springframework.security.static.authentication.logout.LogoutSuccessHandler;
 //import org.springframework.stereotype.Component;
 //import top.anets.utils.base.Result;
 //

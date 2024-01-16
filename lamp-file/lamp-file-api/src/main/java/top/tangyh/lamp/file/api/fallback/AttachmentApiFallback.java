@@ -4,7 +4,7 @@
 //import top.tangyh.lamp.file.api.AttachmentApi;
 //import top.tangyh.lamp.file.dto.AttachmentDTO;
 //import org.springframework.stereotype.Component;
-//import org.springframework.web.multipart.MultipartFile;
+//import org.springframework.static.multipart.MultipartFile;
 //
 ///**
 // * 熔断

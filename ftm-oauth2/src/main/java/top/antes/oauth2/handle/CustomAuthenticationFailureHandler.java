@@ -4,7 +4,7 @@
 //import lombok.extern.slf4j.Slf4j;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.security.core.AuthenticationException;
-//import org.springframework.security.web.authentication.AuthenticationFailureHandler;
+//import org.springframework.security.static.authentication.AuthenticationFailureHandler;
 //import top.anets.utils.base.Result;
 //
 //import javax.servlet.ServletException;

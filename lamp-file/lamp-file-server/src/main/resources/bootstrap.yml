@@ -45,7 +45,7 @@ spring:
         server-addr: ${lamp.nacos.ip}:${lamp.nacos.port}
         namespace: ${lamp.nacos.namespace}
         metadata: # 元数据，用于权限服务实时获取各个服务的所有接口
-          management.context-path: ${server.servlet.context-path:}${spring.mvc.servlet.path:}${management.endpoints.web.base-path:}
+          management.context-path: ${server.servlet.context-path:}${spring.mvc.servlet.path:}${management.endpoints.static.base-path:}
           gray_version: zuihou
 
 # 只能配置在bootstrap.yml ，否则会生成 log.path_IS_UNDEFINED 文件夹

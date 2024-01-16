@@ -11,7 +11,7 @@
 //import org.springframework.security.oauth2.common.OAuth2AccessToken;
 //import org.springframework.security.oauth2.provider.*;
 //import org.springframework.security.oauth2.provider.token.AuthorizationServerTokenServices;
-//import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+//import org.springframework.security.static.authentication.AuthenticationSuccessHandler;
 //import org.springframework.stereotype.Component;
 //import top.anets.utils.base.RequestUtil;
 //import top.anets.utils.base.Result;

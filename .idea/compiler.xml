@@ -11,6 +11,7 @@
         <module name="cloud-base" />
         <module name="common-utils" />
         <module name="data-base" />
+        <module name="file" />
         <module name="ftm-api" />
         <module name="ftm-boot" />
         <module name="ftm-file" />
@@ -109,6 +110,7 @@
       <module name="cloud-support" target="1.8" />
       <module name="common-utils" target="1.8" />
       <module name="data-base" target="1.8" />
+      <module name="file" target="1.8" />
       <module name="ftm" target="1.8" />
       <module name="ftm-api" target="1.8" />
       <module name="ftm-boot" target="1.8" />
