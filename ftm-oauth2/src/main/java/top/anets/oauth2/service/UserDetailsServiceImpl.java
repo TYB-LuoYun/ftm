@@ -28,6 +28,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     private IFeignSystem iFeignSystem;
 
 
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         // 1. 判断用户名是否为空

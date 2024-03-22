@@ -15,6 +15,7 @@ D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\SysRoleMe
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\GlobalFeignFallback.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\Department.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\base\WrapperQuery.java
+D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\ifeign\system\IFeignSystemStandard.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\OrgDeptRole.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\config\feign\old\GeneralFallbackFactory.java
 D:\work\project\self\ftm\ftm-api\src\main\java\top\anets\system\entity\UserOrgDept.java

@@ -22,4 +22,7 @@ public interface IFeignSystem {
 
     @RequestMapping("/feign/sysUser/findByPhone")
     SysUser findByPhone(@RequestParam("mobile")String mobile);
+
+
+
 }
