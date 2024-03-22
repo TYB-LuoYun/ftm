@@ -5,6 +5,7 @@ import cn.hutool.core.io.IORuntimeException;
 import cn.hutool.core.util.StrUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 import top.anets.file.model.chunk.FileChunksMergeDTO;
 import top.anets.file.model.common.StrPool;
@@ -27,6 +28,7 @@ import java.util.UUID;
  */
 @Slf4j
 @Primary
+@Component("LOCAL_CHUNK")
 public class LocalFileChunkStrategyImpl extends AbstractFileChunkStrategy {
     public LocalFileChunkStrategyImpl(  FileServerProperties fileProperties) {
         super( fileProperties);
@@ -126,8 +128,5 @@ public class LocalFileChunkStrategyImpl extends AbstractFileChunkStrategy {
         }
     }
 
-    @Override
-    public void uploadChunk(MultipartFile file, Integer chunkNumber, String identifier) {
 
-    }
 }

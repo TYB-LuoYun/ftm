@@ -31,7 +31,6 @@ import java.util.Map;
  * @date 2020/11/22 5:00 下午
  */
 @Slf4j
-
 @Component("LOCAL")
 public class LocalFileStrategyImpl extends AbstractFileStrategy {
     public LocalFileStrategyImpl(FileServerProperties fileProperties ) {

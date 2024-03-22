@@ -7,99 +7,99 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="boot-base" />
-        <module name="cloud-base" />
-        <module name="common-utils" />
-        <module name="data-base" />
-        <module name="file" />
-        <module name="ftm-api" />
-        <module name="ftm-boot" />
-        <module name="ftm-file" />
-        <module name="ftm-gateway" />
-        <module name="ftm-im" />
-        <module name="ftm-monitor" />
-        <module name="ftm-oauth2" />
-        <module name="ftm-search" />
-        <module name="ftm-system" />
-        <module name="ftm-utils" />
-        <module name="sentinel-annotation-aspectj" />
-        <module name="sentinel-annotation-cdi-interceptor" />
-        <module name="sentinel-annotation-quarkus-adapter" />
-        <module name="sentinel-annotation-quarkus-adapter-deployment" />
-        <module name="sentinel-apache-dubbo-adapter" />
-        <module name="sentinel-apache-dubbo3-adapter" />
-        <module name="sentinel-apache-httpclient-adapter" />
-        <module name="sentinel-api-gateway-adapter-common" />
-        <module name="sentinel-benchmark" />
-        <module name="sentinel-cluster-client-default" />
-        <module name="sentinel-cluster-common-default" />
-        <module name="sentinel-cluster-server-default" />
-        <module name="sentinel-cluster-server-envoy-rls" />
-        <module name="sentinel-core" />
-        <module name="sentinel-dashboard" />
-        <module name="sentinel-datasource-apollo" />
-        <module name="sentinel-datasource-consul" />
-        <module name="sentinel-datasource-etcd" />
-        <module name="sentinel-datasource-eureka" />
-        <module name="sentinel-datasource-extension" />
-        <module name="sentinel-datasource-nacos" />
-        <module name="sentinel-datasource-redis" />
-        <module name="sentinel-datasource-spring-cloud-config" />
-        <module name="sentinel-datasource-zookeeper" />
-        <module name="sentinel-demo-annotation-cdi-interceptor" />
-        <module name="sentinel-demo-annotation-spring-aop" />
-        <module name="sentinel-demo-apache-dubbo" />
-        <module name="sentinel-demo-apache-httpclient" />
-        <module name="sentinel-demo-apollo-datasource" />
-        <module name="sentinel-demo-basic" />
-        <module name="sentinel-demo-cluster-embedded" />
-        <module name="sentinel-demo-cluster-server-alone" />
-        <module name="sentinel-demo-command-handler" />
-        <module name="sentinel-demo-dubbo" />
-        <module name="sentinel-demo-dynamic-file-rule" />
-        <module name="sentinel-demo-etcd-datasource" />
-        <module name="sentinel-demo-jax-rs" />
-        <module name="sentinel-demo-log-logback" />
-        <module name="sentinel-demo-motan" />
-        <module name="sentinel-demo-nacos-datasource" />
-        <module name="sentinel-demo-okhttp" />
-        <module name="sentinel-demo-parameter-flow-control" />
-        <module name="sentinel-demo-quarkus" />
         <module name="sentinel-demo-rocketmq" />
-        <module name="sentinel-demo-slot-spi" />
-        <module name="sentinel-demo-slotchain-spi" />
-        <module name="sentinel-demo-sofa-rpc" />
-        <module name="sentinel-demo-spring-cloud-gateway" />
-        <module name="sentinel-demo-spring-webflux" />
-        <module name="sentinel-demo-spring-webmvc" />
-        <module name="sentinel-demo-transport-spring-mvc" />
-        <module name="sentinel-demo-zookeeper-datasource" />
-        <module name="sentinel-demo-zuul-gateway" />
-        <module name="sentinel-demo-zuul2-gateway" />
-        <module name="sentinel-dubbo-adapter" />
-        <module name="sentinel-grpc-adapter" />
-        <module name="sentinel-jax-rs-adapter" />
-        <module name="sentinel-jax-rs-quarkus-adapter" />
-        <module name="sentinel-jax-rs-quarkus-adapter-deployment" />
-        <module name="sentinel-logging-slf4j" />
-        <module name="sentinel-metric-exporter" />
-        <module name="sentinel-motan-adapter" />
-        <module name="sentinel-native-image-quarkus-adapter" />
-        <module name="sentinel-native-image-quarkus-adapter-deployment" />
-        <module name="sentinel-okhttp-adapter" />
-        <module name="sentinel-parameter-flow-control" />
+        <module name="cloud-base" />
         <module name="sentinel-reactor-adapter" />
-        <module name="sentinel-sofa-rpc-adapter" />
-        <module name="sentinel-spring-cloud-gateway-adapter" />
-        <module name="sentinel-spring-webflux-adapter" />
-        <module name="sentinel-spring-webmvc-adapter" />
-        <module name="sentinel-transport-common" />
+        <module name="sentinel-jax-rs-quarkus-adapter" />
+        <module name="ftm-utils" />
         <module name="sentinel-transport-netty-http" />
-        <module name="sentinel-transport-simple-http" />
+        <module name="sentinel-demo-apache-httpclient" />
+        <module name="sentinel-jax-rs-adapter" />
+        <module name="common-utils" />
+        <module name="boot-base" />
+        <module name="ftm-gateway" />
+        <module name="sentinel-apache-dubbo3-adapter" />
+        <module name="sentinel-annotation-aspectj" />
+        <module name="sentinel-okhttp-adapter" />
+        <module name="ftm-boot" />
+        <module name="sentinel-cluster-server-default" />
+        <module name="sentinel-demo-parameter-flow-control" />
+        <module name="sentinel-apache-dubbo-adapter" />
         <module name="sentinel-transport-spring-mvc" />
-        <module name="sentinel-web-servlet" />
+        <module name="sentinel-parameter-flow-control" />
+        <module name="data-base" />
+        <module name="sentinel-demo-transport-spring-mvc" />
+        <module name="sentinel-demo-basic" />
+        <module name="sentinel-motan-adapter" />
         <module name="sentinel-zuul-adapter" />
+        <module name="ftm-file" />
+        <module name="ftm-monitor" />
+        <module name="sentinel-datasource-eureka" />
+        <module name="sentinel-demo-etcd-datasource" />
+        <module name="sentinel-datasource-nacos" />
+        <module name="sentinel-web-servlet" />
+        <module name="sentinel-demo-spring-webmvc" />
+        <module name="sentinel-transport-common" />
+        <module name="cloud-sentinel" />
+        <module name="sentinel-benchmark" />
+        <module name="sentinel-datasource-zookeeper" />
+        <module name="sentinel-demo-motan" />
+        <module name="sentinel-demo-quarkus" />
+        <module name="sentinel-core" />
+        <module name="sentinel-native-image-quarkus-adapter-deployment" />
+        <module name="sentinel-spring-webflux-adapter" />
+        <module name="sentinel-cluster-client-default" />
+        <module name="sentinel-datasource-extension" />
+        <module name="sentinel-demo-slotchain-spi" />
+        <module name="sentinel-datasource-etcd" />
+        <module name="sentinel-demo-log-logback" />
+        <module name="ftm-oauth2" />
+        <module name="sentinel-demo-zuul2-gateway" />
+        <module name="sentinel-demo-annotation-spring-aop" />
+        <module name="sentinel-demo-jax-rs" />
+        <module name="sentinel-sofa-rpc-adapter" />
+        <module name="sentinel-datasource-spring-cloud-config" />
+        <module name="sentinel-demo-apollo-datasource" />
+        <module name="sentinel-demo-apache-dubbo" />
+        <module name="sentinel-demo-command-handler" />
+        <module name="sentinel-demo-dynamic-file-rule" />
+        <module name="sentinel-jax-rs-quarkus-adapter-deployment" />
+        <module name="sentinel-annotation-cdi-interceptor" />
+        <module name="sentinel-datasource-apollo" />
+        <module name="ftm-search" />
+        <module name="sentinel-transport-simple-http" />
+        <module name="sentinel-demo-nacos-datasource" />
+        <module name="sentinel-annotation-quarkus-adapter-deployment" />
+        <module name="sentinel-demo-zookeeper-datasource" />
+        <module name="sentinel-spring-webmvc-adapter" />
+        <module name="sentinel-spring-cloud-gateway-adapter" />
+        <module name="sentinel-demo-okhttp" />
+        <module name="sentinel-demo-slot-spi" />
+        <module name="sentinel-datasource-consul" />
+        <module name="sentinel-dubbo-adapter" />
+        <module name="sentinel-dashboard" />
+        <module name="sentinel-apache-httpclient-adapter" />
+        <module name="sentinel-demo-annotation-cdi-interceptor" />
         <module name="sentinel-zuul2-adapter" />
+        <module name="sentinel-demo-sofa-rpc" />
+        <module name="sentinel-annotation-quarkus-adapter" />
+        <module name="sentinel-cluster-server-envoy-rls" />
+        <module name="sentinel-api-gateway-adapter-common" />
+        <module name="ftm-system" />
+        <module name="sentinel-demo-spring-cloud-gateway" />
+        <module name="sentinel-grpc-adapter" />
+        <module name="sentinel-metric-exporter" />
+        <module name="sentinel-cluster-common-default" />
+        <module name="sentinel-demo-dubbo" />
+        <module name="sentinel-demo-cluster-embedded" />
+        <module name="sentinel-demo-spring-webflux" />
+        <module name="sentinel-native-image-quarkus-adapter" />
+        <module name="ftm-api" />
+        <module name="sentinel-datasource-redis" />
+        <module name="ftm-im" />
+        <module name="sentinel-demo-cluster-server-alone" />
+        <module name="sentinel-demo-zuul-gateway" />
+        <module name="sentinel-logging-slf4j" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -122,6 +122,7 @@
       <module name="ftm-search" target="1.8" />
       <module name="ftm-system" target="1.8" />
       <module name="ftm-utils" target="1.8" />
+      <module name="oss-common" target="1.8" />
       <module name="sentinel" target="1.8" />
       <module name="sentinel-adapter" target="1.5" />
       <module name="sentinel-annotation-aspectj" target="1.5" />
@@ -211,5 +212,28 @@
       <module name="sentinel-zuul-adapter" target="1.5" />
       <module name="sentinel-zuul2-adapter" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot-base" options="-parameters" />
+      <module name="cloud-base" options="-parameters" />
+      <module name="cloud-sentinel" options="-parameters" />
+      <module name="cloud-support" options="" />
+      <module name="common-utils" options="-parameters" />
+      <module name="data-base" options="-parameters" />
+      <module name="file" options="" />
+      <module name="ftm" options="-parameters" />
+      <module name="ftm-api" options="-parameters" />
+      <module name="ftm-boot" options="-parameters" />
+      <module name="ftm-file" options="-parameters" />
+      <module name="ftm-gateway" options="-parameters" />
+      <module name="ftm-im" options="-parameters" />
+      <module name="ftm-monitor" options="-parameters" />
+      <module name="ftm-oauth2" options="-parameters" />
+      <module name="ftm-search" options="-parameters" />
+      <module name="ftm-system" options="-parameters" />
+      <module name="ftm-utils" options="-parameters" />
+      <module name="oss-common" options="-parameters" />
+    </option>
   </component>
 </project>

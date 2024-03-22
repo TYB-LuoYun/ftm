@@ -107,6 +107,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.say.common</groupId>
+            <artifactId>oss-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
 
     </dependencies>
 

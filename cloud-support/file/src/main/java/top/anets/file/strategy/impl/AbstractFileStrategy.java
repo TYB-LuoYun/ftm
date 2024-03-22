@@ -1,6 +1,7 @@
 package top.anets.file.strategy.impl;
 
 import cn.hutool.core.util.StrUtil;
+import com.amazonaws.services.s3.model.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FilenameUtils;
@@ -73,6 +74,9 @@ public abstract class AbstractFileStrategy implements FileStrategy {
         }
     }
 
+
+
+
     public void download(HttpServletResponse response, String bucket, String path){
         try {
             response.setHeader("Content-Disposition", "attachment;filename=" +
@@ -89,6 +93,10 @@ public abstract class AbstractFileStrategy implements FileStrategy {
     }
 
     protected abstract void fetch(HttpServletResponse response, String bucket, String path) ;
+
+
+
+
 
     /**
      * 具体类型执行上传操作

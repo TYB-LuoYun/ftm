@@ -40,7 +40,9 @@ import org.springframework.core.annotation.Order;
  * 熔断半开：半开状态，会放行一次请求尝试，如果请求成功且符合规则认为当前服务恢复正常，关闭熔断，恢复链路。
  *
  *
-
+ * 熔断相关技术：
+ *     Hystrix（维护状态，不推荐使用）
+ *     Sentienl（推荐使用）
  *
  * Hystrix会监控微服务间调用的状况，当失败的调用达到一定阈值，缺省是5秒内20次调用失败，就会启动熔断机制
  * 当满足一定的阀值的时候 (默认10秒内超过20个请求次数)
@@ -50,7 +52,7 @@ import org.springframework.core.annotation.Order;
  * 一段时间之后(默认是5秒) ，这个时候断路器是半开状态，会让其中一个请求进行转发如果成功，断路器会关闭，若失败，继续开启。
  *
  *
- *
+
  *
  *
  * 熔断规则：
@@ -61,7 +63,7 @@ public class FeignConfiguration {
     @Bean
     @Scope("prototype")
     @ConditionalOnClass({SphU.class,Feign.class})
-    @ConditionalOnProperty(name ="feign.sentinel.enabled")
+//    @ConditionalOnProperty(name ="feign.sentinel.enabled")
     @ConditionalOnMissingBean
     @Primary
     public Feign.Builder feignSentinelBuilder() {

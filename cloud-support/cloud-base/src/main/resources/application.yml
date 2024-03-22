@@ -1,3 +1,13 @@
 spring:
   autoconfigure:
     exclude: com.alibaba.cloud.sentinel.feign.SentinelFeignAutoConfiguration
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000

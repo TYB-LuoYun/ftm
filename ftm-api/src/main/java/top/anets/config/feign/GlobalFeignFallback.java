@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cglib.proxy.MethodInterceptor;
 import org.springframework.cglib.proxy.MethodProxy;
-import top.anets.utils.exception.ServiceException;
+import top.anets.common.utils.exception.ServiceException;
 
 import java.lang.reflect.Method;
 import java.net.ConnectException;
@@ -37,7 +37,7 @@ public  class GlobalFeignFallback<T> implements MethodInterceptor {
 //FeignException exception = (FeignException) cause:
 //此处只是示例，具体可以返回带有业务错误数据的对象
 
-        if(cause instanceof ServiceException ){
+        if(cause instanceof ServiceException){
             throw new ServiceException(errorMessage);
         }else if(cause instanceof DegradeException){
             throw new ServiceException("已熔断或降级，请稍后再试!");

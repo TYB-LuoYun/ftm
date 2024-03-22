@@ -40,3 +40,12 @@ mybatis-plus:
   type-aliases-package: top.anets.file.**.entity
   # xxxMapper.xml 路径
   mapper-locations: classpath*:top/anets/modules/**/mapper/**/*.xml
+
+
+file:
+  oss:
+    enable: true
+    endpoint: http://192.168.10.11:9006 # 对象存储服务的URL
+    bucketName: oss # 因为url本身代表了存储桶，这里空着不用配置
+    accessKey: root # 账户ak
+    secretKey: IjudisjIUJId498eNINxx # 账户sk

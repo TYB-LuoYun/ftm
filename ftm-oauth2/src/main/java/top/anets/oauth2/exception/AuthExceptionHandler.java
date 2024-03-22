@@ -3,7 +3,7 @@ package top.anets.oauth2.exception;
 import org.springframework.security.oauth2.common.exceptions.InvalidGrantException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import top.anets.utils.base.Result;
+import top.anets.common.utils.base.Result;
 
 /**
  * @author ftm

@@ -19,4 +19,7 @@ public interface IFeignSystem {
 
     @RequestMapping("/feign/sysMenu/findByUserId")
     List<SysMenu> findByUserId(@RequestParam("userId") String userId);
+
+    @RequestMapping("/feign/sysUser/findByPhone")
+    SysUser findByPhone(@RequestParam("mobile")String mobile);
 }

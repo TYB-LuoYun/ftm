@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.*;
 
 import top.anets.base.PageQuery;
 import top.anets.base.WrapperQuery;
+import top.anets.common.utils.base.Result;
 import top.anets.system.entity.Dict;
 import top.anets.system.service.DictService;
-import top.anets.utils.base.Result;
 import top.anets.system.vo.DictVo;
 
 import java.util.Arrays;

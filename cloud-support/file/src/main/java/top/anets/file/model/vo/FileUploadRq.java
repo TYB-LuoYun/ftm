@@ -1,7 +1,9 @@
 package top.anets.file.model.vo;
 
 import io.swagger.annotations.ApiModelProperty;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import top.anets.file.model.enumeration.FileStorageType;
 
 import javax.validation.constraints.NotBlank;
@@ -11,6 +13,8 @@ import javax.validation.constraints.NotBlank;
  * @date 2023-12-26 16:31
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class FileUploadRq {
     private String bizType = "ipfs";
 

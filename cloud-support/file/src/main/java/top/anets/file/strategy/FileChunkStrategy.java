@@ -2,7 +2,7 @@ package top.anets.file.strategy;
 
 
 import org.springframework.web.multipart.MultipartFile;
-import top.anets.file.model.chunk.FileChunksMergeDTO;
+import top.anets.file.model.chunk.*;
 import top.anets.file.model.entity.File;
 import top.anets.file.utils.R;
 
@@ -15,37 +15,50 @@ import top.anets.file.utils.R;
 public interface FileChunkStrategy {
 
     /**
-     * 根据md5检测文件
+     * 初始化上传
+     * 1.MD5校验，如果已经上传则秒传
      *
-     * @param md5    md5
-     * @param userId 用户id
      * @return 附件
      */
-    File md5Check(String md5, Long userId);
+    FileChunkInitDTO initUploadChunk(FileChunkInitRq fileChunkInitRq);
+
 
     /**
-     * 合并文件
-     *
-     * @param merge 合并参数
-     * @return 附件
-     */
-    R<File> chunksMerge(FileChunksMergeDTO merge);
-
-
-//=============================================================================================================
-
-    /**
-     *
+     * 上传分片
      * @param file
      * @param chunkSize  分片大小
-     * @param chunkNumber  第几片
-     * @param path 路径
-     * @param identifier 唯一标识(md5)
-     * @param filename 原文件名
+     * @param chunkPosition 第几片
+     * @param uploadId 唯一id
+     * @param bucketName
+     * @param objectName
      */
-    void uploadChunk(MultipartFile file,  Integer chunkNumber ,String identifier );
+    FileChunkUploadRes uploadPart(MultipartFile file, Long chunkSize, Integer totalChunks, Integer  chunkPosition, String uploadId, String bucketName, String objectName);
 
 
 
+//    /**
+//     * 合并文件
+//     *
+//     * @param merge 合并参数
+//     * @return 附件
+//     */
+//    R<File> chunksMerge(FileChunksMergeDTO merge);
+//
+//
+////=============================================================================================================
+//
+//    /**
+//     *
+//     * @param file
+//     * @param chunkSize  分片大小
+//     * @param chunkNumber  第几片
+//     * @param path 路径
+//     * @param identifier 唯一标识(md5)
+//     * @param filename 原文件名
+//     */
+//    void uploadChunk(MultipartFile file,  Integer chunkNumber ,String identifier );
+//
+//
+//    File md5Check(String md5, Long userId);
 }
 

@@ -32,7 +32,6 @@ import java.util.Set;
  * @date 2020/11/22 5:00 下午
  */
 @Slf4j
-
 @Component("HUAWEI_OSS")
 public class HuaweiFileStrategyImpl extends AbstractFileStrategy {
     public HuaweiFileStrategyImpl(FileServerProperties fileProperties ) {

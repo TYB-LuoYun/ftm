@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.*;
 
 import top.anets.base.PageQuery;
 import top.anets.base.WrapperQuery;
+import top.anets.common.utils.base.Result;
 import top.anets.system.entity.SysMenu;
 import top.anets.system.service.SysMenuService;
 import top.anets.system.vo.SysMenuVo;
-import top.anets.utils.base.Result;
 
 import java.util.Arrays;
 import java.util.List;

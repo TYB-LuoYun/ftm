@@ -19,6 +19,7 @@ import top.anets.top.anets.gateway.authorization.AuthorizationManager;
 import top.anets.top.anets.gateway.component.RestAuthenticationEntryPoint;
 import top.anets.top.anets.gateway.component.RestfulAccessDeniedHandler;
 //import top.anets.top.anets.gateway.filter.IgnoreUrlsRemoveJwtFilter;
+import top.anets.top.anets.gateway.filter.IgnoreUrlsRemoveJwtFilter;
 import top.anets.utils.common.AuthConstant;
 
 /**
@@ -32,7 +33,7 @@ public class ResourceServerConfig {
     private final IgnoreUrlsConfig ignoreUrlsConfig;
     private final RestfulAccessDeniedHandler restfulAccessDeniedHandler;
     private final RestAuthenticationEntryPoint restAuthenticationEntryPoint;
-//    private final IgnoreUrlsRemoveJwtFilter ignoreUrlsRemoveJwtFilter;
+    private final IgnoreUrlsRemoveJwtFilter ignoreUrlsRemoveJwtFilter;
 
     @Bean
     public SecurityWebFilterChain springSecurityFilterChain(ServerHttpSecurity http) {
@@ -41,7 +42,7 @@ public class ResourceServerConfig {
         //自定义处理JWT请求头过期或签名错误的结果
         http.oauth2ResourceServer().authenticationEntryPoint(restAuthenticationEntryPoint);
 //        //对白名单路径，直接移除JWT请求头
-//        http.addFilterBefore(ignoreUrlsRemoveJwtFilter, SecurityWebFiltersOrder.AUTHENTICATION);
+        http.addFilterBefore(ignoreUrlsRemoveJwtFilter, SecurityWebFiltersOrder.AUTHENTICATION);
         http.authorizeExchange()
 //               白名单url不需要鉴权
                 .pathMatchers(ArrayUtil.toArray(ignoreUrlsConfig.getUrls(),String.class)).permitAll()//白名单配置

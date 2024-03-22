@@ -171,8 +171,4 @@ public class AliFileChunkStrategyImpl extends AbstractFileChunkStrategy {
     }
 
 
-    @Override
-    public void uploadChunk(MultipartFile file, Integer chunkNumber, String identifier) {
-
-    }
 }

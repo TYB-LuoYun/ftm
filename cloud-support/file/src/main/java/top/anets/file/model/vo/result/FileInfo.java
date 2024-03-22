@@ -1,7 +1,9 @@
 package top.anets.file.model.vo.result;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import top.anets.file.model.enumeration.FileStorageType;
 import top.anets.file.model.enumeration.FileType;
 
@@ -11,6 +13,8 @@ import top.anets.file.model.enumeration.FileType;
  */
 @Data
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class FileInfo {
     /**
      * 业务类型

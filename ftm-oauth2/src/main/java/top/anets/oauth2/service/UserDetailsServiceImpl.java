@@ -36,12 +36,15 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         }
         log.info("参数username："+username);
         // 2. 通过用户名查询数据库中的用户信息
-        List<DegradeRule> rules = DegradeRuleManager.getRules();
         SysUser sysUser = iFeignSystem.findByUsername(username);
-        log.info(sysUser.toString());
         if(sysUser == null) {
-            throw new BadCredentialsException("用户名或密码错误");
+            throw new BadCredentialsException("用户名不存在");
         }
+        return getJwtUser(sysUser);
+    }
+
+    private UserDetails getJwtUser(SysUser sysUser) {
+
 
         // 3. 通过用户id去查询数据库的拥有的权限信息
         log.info("通过用户id去查询数据库的拥有的权限信息:"+sysUser.getId());
@@ -67,11 +70,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         JwtUser jwtUser = new JwtUser();
         BeanUtils.copyProperties(sysUser, jwtUser);
         jwtUser.setCompany(sysUser.getCompany());
-
-
         // 5. 构建UserDetails接口的实现类JwtUser对象
         jwtUser.setAuthorities(authorities);
-
 //        JwtUser jwtUser = new JwtUser( sysUser.getId(), sysUser.getUsername(), sysUser.getPassword(),
 //                sysUser.getNickName(), sysUser.getImageUrl(), sysUser.getMobile(), sysUser.getEmail(),
 //                sysUser.getIsAccountNonExpired(), sysUser.getIsAccountNonLocked(),
@@ -83,14 +83,10 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     public UserDetails loadUserByMobile(String mobile) {
         log.info("手机号模式查询用户信息");
-        SysUser sysUser = new SysUser( );
-        if (sysUser == null) {
-            throw new UsernameNotFoundException("not found mobile user:" + mobile);
+        SysUser sysUser = iFeignSystem.findByPhone(mobile);
+        if(sysUser == null) {
+            throw new BadCredentialsException("用户不存在");
         }
-        JwtUser userDetail = new JwtUser();
-        BeanUtils.copyProperties(sysUser, userDetail);
-        BeanUtils.copyProperties(sysUser,userDetail);
-        userDetail.setAuthorities(new ArrayList<>());
-        return userDetail;
+        return getJwtUser(sysUser);
     }
 }

@@ -12,11 +12,16 @@
     <artifactId>ftm-oauth2</artifactId>
 
     <dependencies>
+
         <dependency>
             <groupId>top.anets</groupId>
             <artifactId>ftm-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+
+
+
 
         <!-- Spring Security、OAuth2 和JWT等 -->
         <dependency>
@@ -85,6 +90,9 @@
             <artifactId>logstash-logback-encoder</artifactId>
             <version>5.0</version>
         </dependency>
+
+
+
 
 
 

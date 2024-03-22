@@ -32,6 +32,13 @@ public class FileUtils {
                 .add(UUID.randomUUID().toString().replace("-", ""))
                 .add(file.getSuffix()).toString();
     }
+
+    public static String getUniqueFileName(String fileName) {
+        String suffix = fileName.substring(fileName.lastIndexOf(".")+1);
+        return new StringJoiner(StrPool.DOT)
+                .add(UUID.randomUUID().toString().replace("-", ""))
+                .add(suffix).toString();
+    }
     /**
      * 获取年月日 2020/09/01
      *

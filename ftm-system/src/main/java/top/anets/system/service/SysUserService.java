@@ -26,4 +26,6 @@ public interface SysUserService extends IService<SysUser> {
     void saveOrUpdateHandle(SysUser user);
 
     void querysDetail(SysUserCondition condition, SysUser userInfo);
+
+    SysUser findByPhone(String mobile);
 }

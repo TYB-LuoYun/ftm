@@ -127,3 +127,4 @@ secure:
     - "/system/sys-user/login"
     - "/monitor/**"
     - "/design/**"
+    - "/auth/open/**"

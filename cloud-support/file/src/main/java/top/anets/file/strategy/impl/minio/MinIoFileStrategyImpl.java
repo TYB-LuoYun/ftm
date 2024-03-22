@@ -2,11 +2,13 @@ package top.anets.file.strategy.impl.minio;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.StrUtil;
+import com.say.common.oss.core.FileTemplate;
 import io.minio.*;
 import io.minio.http.Method;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 import top.anets.file.model.common.StrPool;
@@ -36,6 +38,10 @@ import java.util.Set;
 @Component("MIN_IO")
 public class MinIoFileStrategyImpl extends AbstractFileStrategy {
     private final MinioClient minioClient;
+
+
+    @Autowired
+    private FileTemplate template;
     /**
      * 桶占位符
      */
@@ -73,13 +79,14 @@ public class MinIoFileStrategyImpl extends AbstractFileStrategy {
             minioClient.makeBucket(MakeBucketArgs.builder().bucket(bucket).build());
 //            minioClient.setBucketPolicy(SetBucketPolicyArgs.builder().bucket(bucket).config(READ_WRITE.replace(BUCKET_PARAM, bucket)).build());
         }
-
-        minioClient.putObject(PutObjectArgs.builder()
-                .stream(multipartFile.getInputStream(), multipartFile.getSize(), PutObjectArgs.MIN_MULTIPART_SIZE)
-                .object(path)
-                .contentType(multipartFile.getContentType())
-                .bucket(bucket)
-                .build());
+        template.uploadMultipartFileByPart(multipartFile,bucket,path,50*1000*1000);
+//        template.putObject(bucket,path,multipartFile.getInputStream(),multipartFile.getSize(),multipartFile.getContentType());
+//        minioClient.putObject(PutObjectArgs.builder()
+//                .stream(multipartFile.getInputStream(), multipartFile.getSize(), PutObjectArgs.MIN_MULTIPART_SIZE)
+//                .object(path)
+//                .contentType(multipartFile.getContentType())
+//                .bucket(bucket)
+//                .build());
 
         file.setBucket(bucket);
         file.setPath(path);

@@ -1,4 +1,4 @@
-package top.anets.oauth2.sentinel;
+package top.cloud.sentinel.sentinel;
 
 /**
  * @author ftm

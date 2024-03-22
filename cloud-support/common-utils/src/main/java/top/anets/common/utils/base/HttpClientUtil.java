@@ -24,7 +24,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-@Component
 public class HttpClientUtil {
 
 	private static final Log logeer = LogFactory.getLog(HttpClientUtil.class);

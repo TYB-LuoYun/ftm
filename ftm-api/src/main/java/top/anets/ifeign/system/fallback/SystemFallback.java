@@ -26,4 +26,9 @@ public class SystemFallback implements IFeignSystem {
         log.info("服务降级了");
         return null;
     }
+
+    @Override
+    public SysUser findByPhone(String mobile) {
+        return null;
+    }
 }

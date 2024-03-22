@@ -11,9 +11,8 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.SpringSecurityMessageSource;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import top.anets.common.utils.redis.RedisConstant;
 import top.anets.oauth2.service.UserDetailsServiceImpl;
-import top.anets.utils.redis.RedisConstant;
-
 /**
  * 手机模式认证提供者，手机验证码模式认证工作通过该类完成
  * @author: yaohw

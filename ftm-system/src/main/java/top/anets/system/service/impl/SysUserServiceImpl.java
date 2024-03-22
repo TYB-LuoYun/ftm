@@ -7,13 +7,13 @@ import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
+import top.anets.base.Fields;
 import top.anets.system.entity.Company;
 import top.anets.system.entity.SysUser;
 import top.anets.system.mapper.*;
 import top.anets.system.service.SysUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import top.anets.system.vo.SysUserCondition;
-import top.anets.utils.exception.ServiceException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -112,6 +112,13 @@ public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> impl
 
 //        根据用户id，还有用户id所在的公司id去查公司详情，部门详情
 
+    }
+
+    @Override
+    public SysUser findByPhone(String mobile) {
+        QueryWrapper<SysUser> wrapper = new QueryWrapper<>();
+        wrapper.eq(Fields.getFieldName(SysUser::getMobile), mobile);
+        return baseMapper.selectOne(wrapper);
     }
 
 

@@ -15,6 +15,7 @@
         <module>common-utils</module>
         <module>data-base</module>
         <module>file</module>
+        <module>cloud-sentinel</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

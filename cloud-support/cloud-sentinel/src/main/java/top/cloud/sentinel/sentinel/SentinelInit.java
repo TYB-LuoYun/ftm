@@ -1,4 +1,4 @@
-package top.anets.oauth2.sentinel;
+package top.cloud.sentinel.sentinel;
 
 import com.alibaba.csp.sentinel.slots.block.RuleConstant;
 import com.alibaba.csp.sentinel.slots.block.degrade.DegradeRule;

@@ -40,13 +40,11 @@ import org.springframework.web.servlet.View;
 import org.springframework.web.servlet.view.RedirectView;
 import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
+import top.anets.common.utils.base.RequestUtil;
+import top.anets.common.utils.base.Result;
 import top.anets.oauth2.config.AuthUtil;
 import top.anets.oauth2.service.AuthService;
 import top.anets.oauth2.service.customClient.ClientDetailsServiceImpl;
-import top.anets.utils.base.HttpClientUtil;
-import top.anets.utils.base.RequestUtil;
-import top.anets.utils.base.Result;
-import top.anets.utils.base.ServletUtil;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
@@ -94,13 +92,6 @@ public class AuthController  extends AbstractEndpoint {
 
     @Autowired
     private AuthService authService;
-
-
-
-
-
-
-
 
     @GetMapping("/user/refreshToken") // localhost:7001/auth/user/refreshToken?refreshToken=xxxx
     public Result refreshToken(HttpServletRequest request) {
@@ -153,6 +144,7 @@ public class AuthController  extends AbstractEndpoint {
 
     @PostMapping("/oauth/token")
     public Result postAccessToken(Principal principal, @RequestParam Map<String, String> parameters) throws HttpRequestMethodNotSupportedException {
+        logger.debug("进入到重写的授权登录方法");
         return custom(tokenEndpoint.postAccessToken(principal, parameters).getBody());
     }
 

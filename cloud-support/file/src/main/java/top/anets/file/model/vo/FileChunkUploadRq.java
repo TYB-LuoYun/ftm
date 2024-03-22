@@ -8,8 +8,6 @@ import lombok.Data;
  */
 @Data
 public class FileChunkUploadRq extends FileUploadRq{
-//    String filename;
-
     /**
      * 第几片
      */
@@ -18,19 +16,12 @@ public class FileChunkUploadRq extends FileUploadRq{
      * 每片大小
      */
     Long chunkSize;
-    /**
-     * 分片总数量
-     */
+
+    String uploadId;
+
+    String bucketName;
+
+    String objectName;
+
     Integer totalChunks;
-
-    /**
-     * 总大小
-     */
-    String totalSize;
-    /**
-     *
-     */
-    String identifier;
-
-    String filename;
 }

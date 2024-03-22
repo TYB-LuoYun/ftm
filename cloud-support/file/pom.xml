@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>file</artifactId>
-
+    <packaging>pom</packaging>
 
 
 
@@ -88,6 +88,12 @@
             <groupId>io.minio</groupId>
             <artifactId>minio</artifactId>
             <version>8.2.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.say.common</groupId>
+            <artifactId>oss-common</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
     </dependencies>

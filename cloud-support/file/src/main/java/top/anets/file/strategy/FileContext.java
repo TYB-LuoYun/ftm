@@ -237,33 +237,33 @@ public class FileContext {
 
     public FileChunkStrategy getFileChunkStrategy(FileStorageType storageType) {
         storageType = storageType == null ? fileServerProperties.getStorageType() : storageType;
-        FileChunkStrategy fileStrategy = contextChunkStrategyMap.get(storageType.name());
+        FileChunkStrategy fileStrategy = contextChunkStrategyMap.get(storageType.name()+"_CHUNK");
         ArgumentAssert.notNull(fileStrategy, "请配置正确的文件存储类型");
         return fileStrategy;
     }
 
-    /**
-     * 根据md5检测文件
-     *
-     * @param md5    md5
-     * @param userId 用户id
-     * @return 附件
-     */
-    public File md5Check(String md5, Long userId) {
-        FileChunkStrategy fileChunkStrategy = getFileChunkStrategy(fileServerProperties.getStorageType());
-        return fileChunkStrategy.md5Check(md5, userId);
-    }
+//    /**
+//     * 根据md5检测文件
+//     *
+//     * @param md5    md5
+//     * @param userId 用户id
+//     * @return 附件
+//     */
+//    public File md5Check(String md5, Long userId) {
+//        FileChunkStrategy fileChunkStrategy = getFileChunkStrategy(fileServerProperties.getStorageType());
+//        return fileChunkStrategy.md5Check(md5, userId);
+//    }
 
-    /**
-     * 合并文件
-     *
-     * @param merge 合并参数
-     * @return 附件
-     */
-    public R<File> chunksMerge(FileChunksMergeDTO merge) {
-        FileChunkStrategy fileChunkStrategy = getFileChunkStrategy(fileServerProperties.getStorageType());
-        return fileChunkStrategy.chunksMerge(merge);
-    }
+//    /**
+//     * 合并文件
+//     *
+//     * @param merge 合并参数
+//     * @return 附件
+//     */
+//    public R<File> chunksMerge(FileChunksMergeDTO merge) {
+//        FileChunkStrategy fileChunkStrategy = getFileChunkStrategy(fileServerProperties.getStorageType());
+//        return fileChunkStrategy.chunksMerge(merge);
+//    }
 
 
 }

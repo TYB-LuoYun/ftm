@@ -73,20 +73,5 @@ public class MinIoFileChunkStrategyImpl extends AbstractFileChunkStrategy {
         }
     }
 
-    @Override
-    public void uploadChunk(MultipartFile file,  Integer chunkNumber , String identifier ) {
-        // 上传过程中出现异常
-        Assert.notNull(file, "文件上传异常=>文件不能为空!");
-        // 创建临时文件桶
-        String bucket = identifier;
-        minioTemplate.makeBucket(bucket);
-        String objectName = String.valueOf(chunkNumber);
-        // 上传文件
-        try {
-            minioTemplate.putChunkObject(file.getInputStream(), bucket, objectName);
-        } catch (IOException e) {
-            throw new RuntimeException(e.getMessage());
-        }
 
-    }
 }

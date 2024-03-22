@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
-import top.anets.utils.exception.ServiceException;
+import top.anets.common.utils.exception.ServiceException;
 
 import java.nio.charset.StandardCharsets;
 

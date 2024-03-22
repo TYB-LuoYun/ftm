@@ -7,7 +7,6 @@ import top.anets.system.entity.SysMenu;
 import top.anets.system.entity.SysUser;
 import top.anets.system.service.CompanyService;
 import top.anets.system.service.SysUserService;
-import top.anets.utils.exception.ServiceException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,9 +25,6 @@ public class SystemFeignController implements  IFeignSystem{
     public SysUser findByUsername(String username) {
 
         SysUser byUsername = sysUserService.findByUsername(username);
-
-
-
         return byUsername;
     }
 
@@ -36,6 +32,11 @@ public class SystemFeignController implements  IFeignSystem{
     public List<SysMenu> findByUserId(String userId) {
         log.info("接收到用户信息id"+userId);
         return this.mockAuthority();
+    }
+
+    @Override
+    public SysUser findByPhone(String mobile) {
+        return sysUserService.findByPhone(mobile);
     }
 
 

@@ -1,4 +1,4 @@
-package top.anets.oauth2.sentinel.config;
+package top.cloud.sentinel.sentinel.config;
 
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.BlockExceptionHandler;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
@@ -9,7 +9,7 @@ import com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowException;
 import com.alibaba.csp.sentinel.slots.system.SystemBlockException;
 import com.alibaba.fastjson.JSON;
 import org.springframework.stereotype.Component;
-import top.anets.utils.exception.ServiceException;
+import top.anets.common.utils.exception.ServiceException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

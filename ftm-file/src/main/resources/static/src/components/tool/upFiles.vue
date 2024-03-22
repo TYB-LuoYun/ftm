@@ -122,42 +122,68 @@
         },
         async uploadFile(form,config,i){
           // console.log("测试分片上传");
-          // let pieceSize =15
-          // let file = form.get("file") 
-          // const chunkSize = pieceSize * 1024 * 1024 // 5MB一片
-          // const chunkCount = Math.ceil(file.size / chunkSize) // 总片数
-          // console.log("chunkSize",chunkSize);
-          // console.log("chunkCount",chunkCount);
-          // let md5String= ( "new"+new Date().getTime())//当前文件唯一标
-          // for(var currentChunk = 0;currentChunk<chunkCount;currentChunk++ ){
-          //     console.log("currentChunk",currentChunk);
-          //     this.uploadChunk(file, currentChunk, chunkSize,chunkCount,md5String)
-          // }
-          return new Promise(async (resolve) => {
-            await axios.post(`file/upload`,
-                 form, config).then((res) => {
-                 this.$set(this.progrees,i,"100%");
-
-                 if(res.status==200&&res.data.code=="200"){
-                   this.$set(this.success,i,true);
-                   console.log("=======================================ok");
-                   this.file.done=i+1;
-                 }else{
-                   if(res.data.msg==""){
-                     this.$set(this.success,i,"服务器错误");
+          let pieceSize =50
+          let file = form.get("file") 
+          if(file.size > 100*1000*1000){
+            console.log("分片上传")
+            const chunkSize = pieceSize * 1000 * 1000 // 5MB一片
+            const chunkCount = Math.ceil(file.size / chunkSize) // 总片数
+            console.log("chunkSize",chunkSize);
+            console.log("chunkCount",chunkCount);
+            let md5String= ( "new"+new Date().getTime())//当前文件唯一标
+            // console.log(file)
+            console.log("Content-Type",file.type)
+            console.log(1/0)
+            axios.request(
+                   {
+                       method:"get",
+                       url:"/file/initUploadChunk?fileName="+file.name+"&size="+file.size+"&contentType="+file.type+"&parentId="+form.get("parentId")
+                   }
+               ).then((res)=>{
+                   if(res.status==200){
+                      let result = res.data;
+                      console.log(result); 
+                      for(var currentChunk = 0;currentChunk<chunkCount;currentChunk++ ){
+                          console.log("currentChunk",currentChunk);
+                          this.uploadChunk(file, currentChunk, chunkSize,chunkCount,md5String,result.data.uploadId,result.data.bucketName,result.data.objectName,i)
+                      } 
+                      
                    }else{
-                     this.$set(this.success,i,res.data.msg);
-                   } 
-                   // this.$set(this.msgs,i,res.data.msg);
-                   console.log("=======================================error");
-                 }
-
-                 console.log(res);
+                       console.log("网络异常")
+                   }
+               }).catch(res=>{
+                   console.log("请求异常，异常片："+i)
+                   console.log(res) 
                });
-            resolve(1);
-          }); 
+           
+          }else{
+             return new Promise(async (resolve) => {
+                await axios.post(`file/upload`,
+                    form, config).then((res) => {
+                    this.$set(this.progrees,i,"100%");
+
+                    if(res.status==200&&res.data.code=="200"){
+                      this.$set(this.success,i,true);
+                      console.log("=======================================ok");
+                      this.file.done=i+1;
+                    }else{
+                      if(res.data.msg==""){
+                        this.$set(this.success,i,"服务器错误");
+                      }else{
+                        this.$set(this.success,i,res.data.msg);
+                      } 
+                      // this.$set(this.msgs,i,res.data.msg);
+                      console.log("=======================================error");
+                    }
+
+                    console.log(res);
+                  });
+                resolve(1);
+              }); 
+          }
+         
         },
-        uploadChunk(file, currentChunk, chunkSize,chunkCount,md5String){
+        uploadChunk(file, currentChunk, chunkSize,chunkCount,md5String, uploadId, bucketName, objectName,i){
           
             // let md5String=md5(file.name+new Date().getTime())//当前文件唯一标识  文件名称+时间 MD5加密的唯一标识
              let start = currentChunk * chunkSize
@@ -173,9 +199,13 @@
              fetchForm.append('filename', file.name)//原文件名称
              fetchForm.append('chunkNumber', currentChunk + 1)//当前分片 注文件时从0开始的  所以这里+1
              fetchForm.append('totalChunks',chunkCount) //分片总数
-             fetchForm.append("chunkSize",chunkSize)//分片大小
+             fetchForm.append("chunkSize",chunkSize)//分片大小 
              fetchForm.append("currentChunkSize", chunk.size)//当前分片文件的大小
+             fetchForm.append("uploadId",uploadId)//当前分片文件的大小
+             fetchForm.append("bucketName", bucketName)//当前分片文件的大小
+             fetchForm.append("objectName", objectName)//当前分片文件的大小
              console.log("fetchForm",fetchForm);
+             
              axios.request(
                    {
                        method:"post",
@@ -187,19 +217,13 @@
                    }
                ).then((res)=>{
                    if(res.status==200){
-                      let result = res.data;
+                      let result = res.data.data;
                       console.log(result);
-                       if(i < chunkCount-1){
-                        //   i++
-                        //   readChunkMD5()
-                        //   //实时返回进度    这个code码是自己定义的 可修改 不要和后端的返回码中途
-                        //   let progress = ((currentChunk + 1) /  chunkCount) * 100 + "%"; //百分比进度
-                        // success({process:progress})
-                       }else{
-                           console.log("结束");
-                          //上传完成
-                          // success({process:"100%"})
-                        }
+                      let complete  = (result.successChunkSize/result.totalChunks * 100 | 0) + "%"
+                      this.$set(this.progrees,i,complete);
+                      if(result.successChunkSize == result.totalChunks){
+                        this.file.done=i+1;
+                      }
                    }else{
                        console.log("网络异常")
                    }

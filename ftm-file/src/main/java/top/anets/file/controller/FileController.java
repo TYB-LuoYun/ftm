@@ -1,5 +1,9 @@
 package top.anets.file.controller;
 
+import com.say.common.oss.core.FileTemplate;
+import com.sun.org.apache.xpath.internal.operations.Or;
+import io.swagger.v3.oas.annotations.parameters.RequestBody;
+import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,6 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import top.anets.common.utils.exception.ServiceException;
+import top.anets.file.model.chunk.FileChunkInitDTO;
+import top.anets.file.model.chunk.FileChunkInitRq;
+import top.anets.file.model.chunk.FileChunkUploadRes;
 import top.anets.file.model.common.ShortUrlUtils;
 import top.anets.file.model.domain.FileDeleteBO;
 import top.anets.file.model.entity.File;
@@ -18,11 +25,13 @@ import top.anets.file.model.vo.result.FileInfo;
 import top.anets.file.service.FileService;
 import top.anets.file.strategy.FileChunkStrategy;
 import top.anets.file.strategy.FileContext;
+import top.anets.file.utils.FileTypeUtil;
 import top.anets.file.utils.FileUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.validation.constraints.NotBlank;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.io.UnsupportedEncodingException;
@@ -43,6 +52,8 @@ public class FileController {
 
     @Autowired
     private FileContext fileContext;
+
+
 
 
     @RequestMapping("/file/upload")
@@ -113,8 +124,6 @@ public class FileController {
     public void fileUploadDir(MultipartFile file, HttpServletRequest request, FileUploadRq upload){
         try {
             String  originalFilename= file.getOriginalFilename();
-
-
             long parentId = upload.getParentId();
             String userId = upload.getUserId();
             String path = upload.getWebkitRelativePath();
@@ -177,18 +186,78 @@ public class FileController {
         }
     }
 
+    /**
+     * 初始化分片上传
+     */
+    @RequestMapping("/file/initUploadChunk")
+    public FileChunkInitDTO initUploadChunk( FileChunkInitRq fileChunkInitRq,FileUploadRq uploadRq){
+        FileChunkStrategy fileChunkStrategy = fileContext.getFileChunkStrategy(FileStorageType.LOCAL);
+        FileChunkInitDTO dev =  fileChunkStrategy.initUploadChunk(fileChunkInitRq);
+        /**
+         * 存库
+         */
+        uploadFileDb(uploadRq,dev);
+        return dev;
+    }
+
+    FileInfo uploadFileDb(FileUploadRq upload,FileChunkInitDTO dev ){
+        String OriginalFilename = dev.getFileName();
+        /**
+         * 说明是外部直接传的，需要建目录
+         */
+        if(upload.getParentId() == null && StringUtils.isBlank(upload.getPath())){
+            String path = FileUtils.getPath(null,  OriginalFilename);
+            upload.setPath(path);
+            upload.setParentId(0l);
+            long mkdirs = fileService.mkdirs(upload.getParentId(), upload.getUserId(), upload.getPath());
+            upload.setParentId(mkdirs);
+        }
+
+        /**
+         * 查看文件是否重复
+         */
+        //check if it is repeated
+        List<File> list = fileService.getRepeatFileByFname(upload.getParentId(), upload.getUserId(),  OriginalFilename );
 
 
+        FileInfo info = FileInfo.builder()
+                .originalFileName( OriginalFilename )
+//                .contentType(multipartFile.getContentType())
+                .size(dev.getSize())
+                .bizType(upload.getBizType())
+                .suffix(FilenameUtils.getExtension( OriginalFilename))
+                .fileType(FileTypeUtil.getFileType(dev.getContentType()))
+                .bucket(upload.getBucket())
+                .uniqueFileName(dev.getUniqueFileName())
+                .path(dev.getObjectName())
+                .build();
 
+        if(list!=null&&list.size()>0){
+            for (File filer : list) {
+                FileDeleteBO deleteBO = new FileDeleteBO();
+                BeanUtils.copyProperties(filer,deleteBO );
+                fileContext.delete(deleteBO);
+                //delete data in database
+                fileService.deleteFile(filer.getFid());
+            }
+            //replace
+            fileService.upLoadFile(info  ,OriginalFilename,upload.getParentId(), upload.getUserId());
+            return info;
+        }else {
+            fileService.upLoadFile(info , OriginalFilename ,upload.getParentId(), upload.getUserId());
+            return info;
+        }
+    }
 
     /**
      * 分片上传
      */
     @RequestMapping("/file/fileChunkUpload")
-    public void  fileChunkUpload(FileChunkUploadRq rq, MultipartFile file){
+    public FileChunkUploadRes fileChunkUpload(FileChunkUploadRq rq, MultipartFile file){
 //      this.uploadFileByRandomAccessFile("D:\\work\\project\\检查互认\\a"+rq.getFilename(), rq.getChunkSize(), rq.getChunkNumber(), file);
-        FileChunkStrategy fileChunkStrategy = fileContext.getFileChunkStrategy(FileStorageType.MIN_IO);
-        fileChunkStrategy.uploadChunk(file, rq.getChunkNumber() ,   rq.getIdentifier() );
+        FileChunkStrategy fileChunkStrategy = fileContext.getFileChunkStrategy(FileStorageType.LOCAL);
+//        fileChunkStrategy.uploadChunk(file, rq.getChunkNumber() ,   rq.getIdentifier() );
+        return fileChunkStrategy.uploadPart(file,rq.getChunkSize(),rq.getTotalChunks(),rq.getChunkNumber(),rq.getUploadId(),rq.getBucketName(),rq.getObjectName());
     }
 
 
