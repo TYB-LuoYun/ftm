@@ -14,7 +14,6 @@ import top.anets.system.vo.SysUserCondition;
  * @author ftm
  * @since 2021-07-26
  */
-@RestController
 public interface SysUserService extends IService<SysUser> {
     /**
      * 通过用户名查询用户信息

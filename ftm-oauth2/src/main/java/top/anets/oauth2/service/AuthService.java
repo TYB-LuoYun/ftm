@@ -12,8 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.stereotype.Service;
-import top.anets.common.utils.base.Result;
-import top.anets.common.utils.enums.ResultEnum;
+import top.anets.boot.model.Result;
+import top.anets.boot.enums.ResultEnum;
 
 import java.util.HashMap;
 import java.util.Map;

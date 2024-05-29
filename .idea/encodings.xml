@@ -2,23 +2,21 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-sentinel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-support" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-support/boot-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/boot-base-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/boot-base-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-support/boot-base/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-support/cloud-base" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-support/cloud-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/cloud-base-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/cloud-base-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/cloud-sentinel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-support/cloud-sentinel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-support/common-utils" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-support/common-utils/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-support/data-base" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-support/data-base/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-support/file" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-support/file/oss-common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-support/file/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-support/file/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-support/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-support/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/data-base-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/data-base-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/file-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/file-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-support/file-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftm-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftm-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftm-boot" charset="UTF-8" />
@@ -39,9 +37,6 @@
     <file url="file://$PROJECT_DIR$/ftm-system/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftm-utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ftm-utils/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/oss-common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

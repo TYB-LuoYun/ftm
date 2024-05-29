@@ -15,14 +15,15 @@
     <dependencies>
         <dependency>
             <groupId>top.anets</groupId>
-            <artifactId>common-utils</artifactId>
+            <artifactId>cloud-base-starter</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <!-- feign 调用服务接口 -->
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
+            <groupId>top.anets</groupId>
+            <artifactId>data-base-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
+
 
         <!-- hystrix 已经停止更新维护，版本跟不上 -->
         <!--<dependency>-->
@@ -31,11 +32,6 @@
             <!--<version>1.4.7.RELEASE</version>-->
         <!--</dependency>-->
 
-        <!--sentinel启动器-->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
-        </dependency>
 
 <!--        &lt;!&ndash;  sentinel 的数据持久化  &ndash;&gt;-->
 <!--        <dependency>-->
@@ -44,35 +40,9 @@
 <!--        </dependency>-->
 
 
-        <!-- nacos 客户端 -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
 
 
-        <!--mybatis-plus启动器-->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.5.1</version>
-        </dependency>
 
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus</artifactId>
-            <version>3.5.1</version>
-        </dependency>
-        <!--Druid连接池-->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
-        </dependency>
         <!--分页工具-->
         <dependency>
             <groupId>com.github.pagehelper</groupId>

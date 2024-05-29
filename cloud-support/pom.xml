@@ -10,12 +10,12 @@
     <artifactId>cloud-support</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>cloud-base</module>
-        <module>boot-base</module>
+        <module>cloud-base-starter</module>
         <module>common-utils</module>
-        <module>data-base</module>
-        <module>file</module>
+        <module>data-base-starter</module>
+        <module>file-starter</module>
         <module>cloud-sentinel</module>
+        <module>boot-base-starter</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

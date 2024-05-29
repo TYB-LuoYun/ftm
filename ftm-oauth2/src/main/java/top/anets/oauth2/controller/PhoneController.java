@@ -1,11 +1,10 @@
 package top.anets.oauth2.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import top.anets.common.utils.redis.RedisConstant;
+import top.anets.boot.redis.RedisConstant;
 
 /**
  * @author ftm

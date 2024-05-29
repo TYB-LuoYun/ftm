@@ -1,11 +1,11 @@
 package top.anets.system.controller;
 
 import org.springframework.web.bind.annotation.*;
+import top.anets.database.base.PageQuery;
+import top.anets.database.base.WrapperQuery;
 import top.anets.system.service.IOrgDeptRoleService;
 import top.anets.system.entity.OrgDeptRole;
 import top.anets.system.vo.OrgDeptRoleVo;
-import top.anets.base.WrapperQuery;
-import top.anets.base.PageQuery;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;

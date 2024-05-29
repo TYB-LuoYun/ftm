@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavadocGenerationManager">
-    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../../../下载文件" />
+    <option name="OUTPUT_DIRECTORY" value="D:/下载文件" />
     <option name="OTHER_OPTIONS" value="-encoding utf-8 -charset utf-8" />
   </component>
   <component name="MavenProjectsManager">
@@ -15,6 +15,7 @@
       <set>
         <option value="$PROJECT_DIR$/base/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-sentinel/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-support/boot-base/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-support/file/oss-common/pom.xml" />
         <option value="$PROJECT_DIR$/oss-common/pom.xml" />
         <option value="$PROJECT_DIR$/support-cloud/cloud-sentinel/pom.xml" />

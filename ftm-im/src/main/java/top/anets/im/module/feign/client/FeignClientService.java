@@ -1,9 +1,8 @@
 package top.anets.im.module.feign.client;
 
-import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import top.anets.common.utils.exception.ServiceException;
+import top.anets.boot.exception.ServiceException;
 
 /**
  * @author ftm

@@ -14,27 +14,24 @@ import java.util.List;
 
 @Slf4j
 @RestController
-public class SystemFeignController implements  IFeignSystem{
+public class SystemFeignController implements IFeignSystem{
     @Autowired
     private SysUserService sysUserService;
 
 
     @Autowired
     private CompanyService companyService;
-    @Override
     public SysUser findByUsername(String username) {
 
         SysUser byUsername = sysUserService.findByUsername(username);
         return byUsername;
     }
 
-    @Override
     public List<SysMenu> findByUserId(String userId) {
         log.info("接收到用户信息id"+userId);
         return this.mockAuthority();
     }
 
-    @Override
     public SysUser findByPhone(String mobile) {
         return sysUserService.findByPhone(mobile);
     }

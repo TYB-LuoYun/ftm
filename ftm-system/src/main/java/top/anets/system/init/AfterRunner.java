@@ -8,7 +8,7 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.core.annotation.Order;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
-import top.anets.common.utils.redis.RedisConstant;
+import top.anets.boot.redis.RedisConstant;
 import top.anets.system.model.ResourceRoles;
 import top.anets.system.service.SysRoleMenuService;
 

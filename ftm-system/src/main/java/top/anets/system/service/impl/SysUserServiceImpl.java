@@ -7,7 +7,7 @@ import com.github.pagehelper.PageInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
-import top.anets.base.Fields;
+import top.anets.database.base.Fields;
 import top.anets.system.entity.Company;
 import top.anets.system.entity.SysUser;
 import top.anets.system.mapper.*;

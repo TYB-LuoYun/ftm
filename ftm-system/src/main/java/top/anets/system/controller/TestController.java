@@ -4,7 +4,7 @@ package top.anets.system.controller;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import top.anets.common.utils.base.Result;
+import top.anets.boot.model.Result;
 
 @RestController
 @RequestMapping("/test")

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
-import top.anets.common.utils.base.Result;
+import top.anets.boot.model.Result;
 import top.anets.system.entity.Department;
 import top.anets.system.service.DepartmentService;
 

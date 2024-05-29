@@ -6,9 +6,9 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import top.anets.base.PageQuery;
-import top.anets.base.WrapperQuery;
-import top.anets.common.utils.base.Result;
+import top.anets.boot.model.Result;
+import top.anets.database.base.PageQuery;
+import top.anets.database.base.WrapperQuery;
 import top.anets.system.entity.SysMenu;
 import top.anets.system.service.SysMenuService;
 import top.anets.system.vo.SysMenuVo;

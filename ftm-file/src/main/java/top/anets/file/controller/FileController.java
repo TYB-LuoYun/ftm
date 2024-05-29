@@ -1,8 +1,5 @@
 package top.anets.file.controller;
 
-import com.say.common.oss.core.FileTemplate;
-import com.sun.org.apache.xpath.internal.operations.Or;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
@@ -10,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import top.anets.common.utils.exception.ServiceException;
+import top.anets.boot.exception.ServiceException;
 import top.anets.file.model.chunk.FileChunkInitDTO;
 import top.anets.file.model.chunk.FileChunkInitRq;
 import top.anets.file.model.chunk.FileChunkUploadRes;
@@ -31,7 +28,6 @@ import top.anets.file.utils.FileUtils;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import javax.validation.constraints.NotBlank;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.io.UnsupportedEncodingException;

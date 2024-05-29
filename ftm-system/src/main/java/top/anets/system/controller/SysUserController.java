@@ -16,11 +16,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-import top.anets.common.utils.base.Result;
-import top.anets.common.utils.exception.ServiceException;
+import top.anets.boot.model.Result;
+import top.anets.boot.exception.ServiceException;
 import top.anets.system.entity.SysUser;
 import top.anets.system.config.AuthUtil;
-import top.anets.ifeign.system.IFeignSystem;
 import top.anets.system.service.SysUserService;
 import top.anets.system.vo.SysUserCondition;
 
@@ -38,8 +37,7 @@ import java.util.Collections;
 @RestController
 @RequestMapping("/sys-user")
 public class SysUserController {
-    @Autowired
-    private IFeignSystem iFeignSystem;
+
 
 
     @Autowired
